@@ -7,22 +7,43 @@ guid: http://code-tax.rhcloud.com/?page_id=8
 ssb_post_sites:
   - 'a:6:{s:2:"fb";i:1;s:5:"gplus";N;s:7:"twitter";N;s:8:"linkedin";N;s:9:"pineterst";N;s:6:"reddit";N;}'
 ---
-<div style="width: 210px" class="wp-caption aligncenter">
+
   <img alt="" src="http://en.gravatar.com/userimage/24637430/bd861150ece04c59dff2ca785562b354?size=200" width="200" height="200" />
-  
-  <p class="wp-caption-text">
-    Me
-  </p>
-</div>
 
-Me? I am Rizky Ariestiyansyah student of College School of Indonesian Taxation ^_^ .
+Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Front End Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
-My friend said I am young and energic, also PROBLEM MAKER. Everyday awake at 4.30 AM and sleep at 12.00 PM.
+I love to explore my brain, by day I am active as student and researcher and by night move like a Ninja. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
-I hate the law but like the rules, currently I just accept Freelance work.
+I'm active as open source warrior, volunteering in non-profit organization like Mozilla, Fedora Project, IlmuBerbagi, IGOS Nusantara, XFCE, and ID-CERT. Highly motivated to become part of global movement, love to investing and all about buiness and finance.
 
-Some Organization i contributed and support are @IlmuBerbagi , Indonesian Computer Emergency Response Team, Mozilla, Clean Master, XFCE, Fedora Indonesia and Webmaker project by Mozilla.
+I was worked at several company as full-time employeer and freelancer like
+ 
+- [Ministry of Public Work Indonesia](http://litbang.pu.go.id/)
+- [PT. Polatic Informatika Indonesia](http://polatic.co.id)
+- [Evolusi Network Studio](http://evonestudio.com)
 
-If you want to hire me for freelance just contact me <img src="https://oonlab.com/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> 
+Some of my happy clients are :
 
-Thanks
+- [Kwarcab Pramuka Tangerang Selatan](pramukatangsel.or.id)
+- [PT. Valua Lidi Impresario](http://valuatraining.com) 
+- [PT. Andalan Global Sarana](http://www.properti1001.com)
+- [Pulsagame](http://pulsagame.com)
+- [Brili Agung the Inspiratormaker](http://briliagung.com)
+- [PT. Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name) 
+- Email me for more...
+
+I had been a speaker at this university :
+
+- [Gunadarma University ](http://gunadarma.ac.id) 
+- [Trunojoyo University](http://trunojoyo.ac.id) 
+- [National Institute of Science and Technology](http://www.istn.ac.id/) 
+- [Budi Luhur University](budiluhur.ac.id) 
+- [LP3I](http://lp3i.ac.id) 
+- [STMIK NUSA MANDIRI](nusamandiri.ac.id) 
+- [STMI ( Ministry of Industry )](http://stmi.ac.id) 
+- [STMIK Masa Depan](http://masadepan.ac.id/) 
+- [Satya State University of Indonesia](http://usni.ac.id) 
+
+## Ping me!
+
+If you have any questions, comments, or would just like to __PING ME__, please don't hesitate to  [send me an email](mailto:ariestiyansyah.rizky@gmail.com). 
