@@ -20,7 +20,7 @@ Ok back to the topic, cloudkilat is not support for custom apex domain, it just 
 
 - Create two A record with hostname "@" and add address 192.30.252.154 and 192.30.252.153
 - Create CNAME record and point the address to "yourusername.github.io"
-- Create CNAME file on root directory of your github repo or web and add the address your domain address, for example "oonlab.com"
+- Create CNAME file on root directory of your github repo or web and add your domain address, for example "oonlab.com"
 
 Done,
 
