@@ -7,15 +7,7 @@ guid: https://oonlab.com/?page_id=126
 authorsure_include_css:
   - 
 ---
-<address>
-  <div id="attachment_241" style="width: 610px" class="wp-caption aligncenter">
     <a href="http://oonlab.com/wp-content/uploads/2013/12/contactme_logo_c_1600.png"><img class="size-large wp-image-241" alt="Contact" src="http://oonlab.com/wp-content/uploads/2013/12/contactme_logo_c_1600-600x187.png" width="600" height="187" /></a>
-    
-    <p class="wp-caption-text">
-      Contact
-    </p>
-  </div>
-</address>
 
 <address>
    
