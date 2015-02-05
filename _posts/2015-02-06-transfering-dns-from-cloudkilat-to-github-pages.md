@@ -10,7 +10,7 @@ tags:
   - Cloudkilat
   - DNS
 ---
-Well, today I am totally move my hosting from CloudKilat to Github pages (Jekyll), when I am using cloudkilat as my hosting provide the cms I used is wordpress. After do research I choose to use github pages. I'll share my research now maybe next time.
+Well, today I am totally move my hosting from CloudKilat to Github pages (Jekyll), when I use cloudkilat as my hosting provider the cms I used is wordpress. After do research I choose to use github pages. I'll not share my research now maybe next time bro.
 
 If you want to know how to migrate from wordpress to jekyll there are good tutorial on google :P hahahaha, I am following [this step](http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) from girliemac, simple and fast and hope you are cozy with her tutorial.
 
