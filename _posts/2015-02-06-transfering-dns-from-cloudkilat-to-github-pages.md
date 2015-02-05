@@ -16,7 +16,7 @@ If you want to know how to migrate from wordpress to jekyll there are good tutor
 
 Ok back to the topic, cloudkilat is not support for custom apex domain, it just support by adding subdomain in our DNS setting, the trick is simple... let me show you dude :P
 
-![Cloudkilat domain](http://oonlab.com/wp-content/images/cloudkilat-domain.png) 
+![Cloudkilat domain](http://oonlab.com/wp-content/uploads/images/cloudkilat-domain.png) 
 
 - Create two A record with hostname "@" and add address 192.30.252.154 and 192.30.252.153
 - Create CNAME record and point the address to "yourusername.github.io"
