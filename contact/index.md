@@ -7,19 +7,10 @@ guid: https://oonlab.com/?page_id=126
 authorsure_include_css:
   - 
 ---
-    <a href="http://oonlab.com/wp-content/uploads/2013/12/contactme_logo_c_1600.png"><img class="size-large wp-image-241" alt="Contact" src="http://oonlab.com/wp-content/uploads/2013/12/contactme_logo_c_1600-600x187.png" width="600" height="187" /></a>
 
-<address>
-   
-</address>
 
-<address>
-  Want to contact me for chat or project ?
-</address>
+![Contact](http://oonlab.com/wp-content/uploads/2013/12/contactme_logo_c_1600.png  "Contact")
 
-<address>
-   
-</address>
 
 <address>
   <span style="text-decoration: underline;"><strong>Email</strong></span> : <span style="color: #0000ff;"><a href="mailto:ariestiyansyah.rizky@gmail.com" target="_blank"><span style="color: #0000ff;">ariestiyansyah.rizky@gmail.com</span></a></span> / <span style="color: #0000ff;"><a href="mailto:onto@evonestudio.com" target="_blank"><span style="color: #0000ff;">onto@evonestudio.com</span></a></span>
@@ -30,7 +21,7 @@ authorsure_include_css:
 </address>
 
 <address>
-  <span style="text-decoration: underline;"><strong>Skype</strong></span> : <span style="color: #0000ff;">rizky.ariestiyansyah</span>
+  <span style="text-decoration: underline;"><strong>Skype</strong></span> : <span style="color: #0000ff;">ariestiyansyah</span>
 </address>
 
 <address>
