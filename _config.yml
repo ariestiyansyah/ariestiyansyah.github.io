@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               oonlab
+tagline:             'Lab of ariestiyansyah'
+description:         'oonlab is crafted with <3 by ariestiyansyah, life is not about code.'
+url:                 http://ariestiyansyah.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Rizky Ariestiyansyah
+  url:               https://twitter.com/ariestiyansyah
+  email:             ariestiyansyah.rizky@gmail.com
+
+# Custom vars
+version:             1.0.0
