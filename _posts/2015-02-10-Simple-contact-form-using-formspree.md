@@ -46,14 +46,14 @@ Kita akan mulai membuat form sederhana menggunakan HTML
     <input type="email" for="_replyto" class="form-control" required>
     </div>
 
-    <div class="form-group>
-    <label for="subject">Subject</label>
-    <input type="text" name="subject" class="form-control" required>
+    <div class="form-group">
+    <label for="_subject">Subject</label>
+    <input type="text" name="_subject" class="form-control" required>
     </div>
 
     <div class="form-group">
     <label for="kategori">Kategori</label>
-    <select name="kategori" class="form-control"
+    <select name="kategori" class="form-control">
       <option value="">Pilih Kategori</option>
       <option>ExploreCrew</option>
       <option>Kategori Coder</option>
@@ -91,3 +91,5 @@ Selanjutnya upload form kita lalu isi form tersebut untuk pertama kali dan submi
 
 >Source Code : https://github.com/ariestiyansyah/Simple-form
 >Live : http://ariestiyansyah.github.io/Simple-form/
+
+
