@@ -50,7 +50,7 @@ If you have any questions, comments, or would just like to __PING ME__, please d
 
 ## GPG KEY
 
-{% highlight code %}
+{% highlight  %}
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
 
