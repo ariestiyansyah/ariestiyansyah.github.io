@@ -9,10 +9,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
+name:                oonlab
 title:               oonlab
 tagline:             'Lab of ariestiyansyah'
 description:         'oonlab is crafted with <3 by ariestiyansyah, life is not about code.'
-url:                 http://ariestiyansyah.github.io
+url:                 http://oonlab.com
 baseurl:             /
 paginate:            5
 
@@ -23,4 +24,4 @@ author:
   email:             ariestiyansyah.rizky@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             1.0.1
