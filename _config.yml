@@ -9,7 +9,6 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-name:                oonlab
 title:               oonlab
 tagline:             'Lab of ariestiyansyah'
 description:         'oonlab is crafted with <3 by ariestiyansyah, life is not about code.'
