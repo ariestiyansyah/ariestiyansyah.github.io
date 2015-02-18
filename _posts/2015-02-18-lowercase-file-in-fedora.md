@@ -11,6 +11,7 @@ categories:
     - Fedora
     - Code
 permalink: /lowercase-file-in-fedora.onto
+layout: post
 ---
 
 This is the simple code using bash to change uppercase to lowercase easily in

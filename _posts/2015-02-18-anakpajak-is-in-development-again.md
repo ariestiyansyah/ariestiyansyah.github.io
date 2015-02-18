@@ -8,6 +8,7 @@ tags:
 categories:
 	- code
 	- tax
+layout: post
 description:	anakpajak  development comeback after pending
 ---
 
