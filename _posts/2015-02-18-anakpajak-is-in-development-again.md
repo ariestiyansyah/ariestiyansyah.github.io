@@ -1,6 +1,7 @@
 ---
-title:	anakapajak is in development (again)
+title:	anakapajak is back to development
 author:	ariestiyansyah
+layout: post
 permalink: /anakpajak-is-in-development-again.onto
 tags:
 	- anakpajak
@@ -8,7 +9,6 @@ tags:
 categories:
 	- code
 	- tax
-layout: post
 description:	anakpajak  development comeback after pending
 ---
 
