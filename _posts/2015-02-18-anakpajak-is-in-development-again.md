@@ -25,4 +25,3 @@ We are opening position for core volunteer like :
 if you are interest become part of anakpajak development team please send me an [email](mailto:ariestiyansyah.rizky@gmail.com) or mention me at [twitter](http://twitter.com/ariestiyansyah) .
 
 That's all thanks, 
-February 18th, 2015
