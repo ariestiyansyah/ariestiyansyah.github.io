@@ -1,15 +1,15 @@
 ---
-title:	anakapajak is back to development
+title:	anakpajak back to development
 author:	ariestiyansyah
 layout: post
-permalink: /anakpajak-is-in-development-again.onto
+permalink: /anakpajak-back-to-development.onto
 tags:
 	- anakpajak
 	- mobile app
 categories:
 	- code
 	- tax
-description:	anakpajak  development comeback after pending
+description: anakpajak  development comeback after pending
 ---
 
 After pending the development of [anakpajak](anakpajak.com) last year, now I want to activate the development again. Now we are getting support for server, SSL, github private repository and more.
@@ -25,3 +25,4 @@ We are opening position for core volunteer like :
 if you are interest become part of anakpajak development team please send me an [email](mailto:ariestiyansyah.rizky@gmail.com) or mention me at [twitter](http://twitter.com/ariestiyansyah) .
 
 That's all thanks, 
+
