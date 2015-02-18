@@ -1,5 +1,5 @@
 ---
-title:	Anakapajak is in development (again)
+title:	anakapajak is in development (again)
 author:	ariestiyansyah
 permalink: /anakpajak-is-in-development-again.onto
 tags:
