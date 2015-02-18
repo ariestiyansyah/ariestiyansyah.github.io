@@ -4,11 +4,11 @@ author:	ariestiyansyah
 layout: post
 permalink: /anakpajak-back-to-development.onto
 tags:
-	- anakpajak
-	- mobile app
+ - anakpajak
+ - mobile app
 categories:
-	- code
-	- tax
+ - code
+ - tax
 description: anakpajak  development comeback after pending
 ---
 
