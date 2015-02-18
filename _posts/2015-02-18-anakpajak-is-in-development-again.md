@@ -12,7 +12,7 @@ layout: post
 description:	anakpajak  development comeback after pending
 ---
 
-After pending the development of [anakpajak](anakpajak.com) last year now  want to activate the development again. Now we are getting support for server, SSL, github private repository and more.
+After pending the development of [anakpajak](anakpajak.com) last year, now I want to activate the development again. Now we are getting support for server, SSL, github private repository and more.
 
 However this project need to be finish in 2015 because we are out of target ;( . in 2014 we have good roadmap by finished 3rd position in StartUp Asia Jakarta 2014 event.
 
