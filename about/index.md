@@ -14,9 +14,9 @@ Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Front End Developer & Bu
 
 I love to explore my brain, by day I am active as student and researcher and by night move like a Ninja. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
-I'm active as open source warrior, volunteering in non-profit organization like Mozilla, Fedora Project, IlmuBerbagi, IGOS Nusantara, XFCE, and ID-CERT. Highly motivated to become part of global movement, love to investing and all about buiness and finance.
+I'm active as open source warrior, volunteering in non-profit organization like [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing and all about buiness and finance.
 
-I was worked at several company as full-time employeer and freelancer like
+I was worked at several company as full-time employeer and __freelancer__ like
  
 - [Ministry of Public Work Indonesia](http://litbang.pu.go.id/)
 - [PT. Polatic Informatika Indonesia](http://polatic.co.id)
@@ -24,7 +24,7 @@ I was worked at several company as full-time employeer and freelancer like
 
 Some of my happy clients are :
 
-- [Kwarcab Pramuka Tangerang Selatan](pramukatangsel.or.id)
+- [Kwarcab Pramuka Tangerang Selatan](http://pramukatangsel.or.id)
 - [PT. Valua Lidi Impresario](http://valuatraining.com) 
 - [PT. Andalan Global Sarana](http://www.properti1001.com)
 - [Pulsagame](http://pulsagame.com)
@@ -37,9 +37,9 @@ I had been a speaker at this university :
 - [Gunadarma University ](http://gunadarma.ac.id) 
 - [Trunojoyo University](http://trunojoyo.ac.id) 
 - [National Institute of Science and Technology](http://www.istn.ac.id/) 
-- [Budi Luhur University](budiluhur.ac.id) 
+- [Budi Luhur University](http://budiluhur.ac.id) 
 - [LP3I](http://lp3i.ac.id) 
-- [STMIK NUSA MANDIRI](nusamandiri.ac.id) 
+- [STMIK NUSA MANDIRI](http://nusamandiri.ac.id) 
 - [STMI ( Ministry of Industry )](http://stmi.ac.id) 
 - [STMIK Masa Depan](http://masadepan.ac.id/) 
 - [Satya State University of Indonesia](http://usni.ac.id) 
