@@ -18,7 +18,10 @@ Today I do some research about atom in Fedora 32-bit, as we know the atom editor
 for linux is only available in 64-bit architecture, but the atom editor team provide step how to compile
 the atom  editor in github (yeah sounds good).
 
-Here is what i've done when tried to create RPM for atom editor.
+- [Atom build instructions in linux](https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md)
+- [Another Way to install atom](https://gist.github.com/mojavelinux/225d01e621f467db1c75)
+
+And Here is my and what i've done when tried to create RPM for atom editor.
 
 # Install Development tools, Fedora Packager and compiler requirement for
 development
