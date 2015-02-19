@@ -26,7 +26,7 @@ Modul random ini di python punya banyak fungsi (red:function) seperti randint, s
 
 It works! oke soal belajar randint belajar sendiri saja ya dirumah <img src="https://oonlab.com/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" /> ini modul paling gampang koq di python, langsung saja ke quiz social media kita, di header seperti biasa kita import modul python kita,
 
-{% hightlight python %}
+{% highlight python %}
 import sys
 from random import randint
 {% endhighlight %}
