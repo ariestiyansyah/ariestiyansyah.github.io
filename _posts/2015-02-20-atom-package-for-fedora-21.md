@@ -23,8 +23,7 @@ the atom  editor in github (yeah sounds good).
 
 And Here is my and what i've done when tried to create RPM for atom editor.
 
-# Install Development tools, Fedora Packager and compiler requirement for
-development
+# Install Development tools, Fedora Packager and compiler requirement for development
 
 Run this command
 <pre>
