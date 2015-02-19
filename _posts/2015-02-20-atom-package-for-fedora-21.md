@@ -21,7 +21,7 @@ the atom  editor in github (yeah sounds good).
 - [Atom build instructions in linux](https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md)
 - [Another Way to install atom](https://gist.github.com/mojavelinux/225d01e621f467db1c75)
 
-And Here is my and what i've done when tried to create RPM for atom editor.
+And Here is my way and what I've done when tried to create RPM for atom editor.
 
 # Install Development tools, Fedora Packager and compiler requirement for development
 
