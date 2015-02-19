@@ -53,9 +53,9 @@ upper() {
     newname="${dirname}/${nf}"
     if [[ "$nf" != "$filename" ]]; then
       mv "$file" "$newname"
-      echo "lowercase: $file --> $newname"
+      echo "uppercase: $file --> $newname"
     else
-      echo "lowercase: $file not changed."
+      echo "uppercase: $file not changed."
     fi
   done
 }
