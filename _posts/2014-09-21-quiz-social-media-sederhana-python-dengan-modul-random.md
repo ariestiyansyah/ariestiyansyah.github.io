@@ -69,7 +69,7 @@ count = 0
 
 Setelah itu tentuka jawaban benar dan salah, dalam hal ini jawabannya sesuai dengan taa urutan pada list kita, dari &#8220;Soal&#8221;, &#8220;Jawab&#8221;, &#8220;link&#8221; ok codenya seperti ini
 
-{% hightlight python %}
+{% highlight python %}
 i = randint(0, 7)
 answer = raw_input("Pertanyaan 1 : " + Soal[i])
 if answer.lower() == Jawab[i]: #jawaban dengan huruf kecil
