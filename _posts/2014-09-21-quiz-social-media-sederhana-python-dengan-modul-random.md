@@ -19,8 +19,8 @@ Hai hai, kebetulan lagi colak colek planpin &#8220;Planet Python di Indonesia&#8
 Modul random ini di python punya banyak fungsi (red:function) seperti randint, shuffle, randrange, random. Lalu apa? hmm kita buat quiz sederhana yuk! sebut saja namanya Quiz Social Media, kita cukup menggunaan randint saja yah, first cobain randint dulu dong pakai console
 
 {% highlight python %}
-&gt;&gt;&gt; import random
-&gt;&gt;&gt; print random.randint(0,9)
+>>> import random
+>>> print random.randint(0,9)
 5
 {% endhighlight %}
 
