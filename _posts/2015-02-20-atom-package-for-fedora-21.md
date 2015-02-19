@@ -1,5 +1,5 @@
 ---
-title: Atom Package for Fedora 32bit
+title: Atom Package for Fedora 32-bit
 author: ariestiyansyah
 description: This simple step to create atom package for fedora 32bit
 layout: post
@@ -14,9 +14,9 @@ tags:
  - code
 ---
 
-Today I do some research about atom in Fedora 32bit, as we know the atom editor
-is only available in 64bit but the atom editor team provide step how to compile
-the atom  editor in github.
+Today I do some research about atom in Fedora 32-bit, as we know the atom editor
+for linux is only available in 64-bit architecture, but the atom editor team provide step how to compile
+the atom  editor in github (yeah sounds good).
 
 Here is what i've done when tried to create RPM for atom editor.
 
@@ -32,7 +32,7 @@ $ sudo yum -y install make gcc gcc-c++ glibc-devel libgnome-keyring-devel
 
 don't forget to add current user to group `mock` by running usermod command
 <pre>
-$ sudo usermod -a -G mock <youruser>
+$ sudo usermod -a -G mock yourusername
 </pre>
 
 # Install Node and Node Package Manager (NPM)
