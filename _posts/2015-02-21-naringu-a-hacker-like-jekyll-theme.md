@@ -23,13 +23,13 @@ Hey there, last night i've created a jekyll theme based on [Poole](http://getpoo
 
 ### Changelog `version 1.0`
 
-<input type="checkbox" disabled checked>Functional HTML Form
-<input type="checkbox" disabled checked>Reverse layout
-<input type="checkbox" disabled checked>Static footer
-<input type="checkbox" disabled>Typing screen header
-<input type="checkbox" disabled>Chat
-<input type="checkbox" disabled>Geolocation
-<input type="checkbox" disabled>Green 1337 theme
+- <input type="checkbox" disabled checked>Functional HTML Form
+- <input type="checkbox" disabled checked>Reverse layout
+- <input type="checkbox" disabled checked>Static footer
+- <input type="checkbox" disabled>Typing screen header
+- <input type="checkbox" disabled>Chat
+- <input type="checkbox" disabled>Geolocation
+- <input type="checkbox" disabled>Green 1337 theme
 
 
 ### Development
