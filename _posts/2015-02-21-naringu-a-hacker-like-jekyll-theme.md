@@ -13,8 +13,6 @@ tags:
 - jekyllthemes
 ---
 
-### Naringu `Version 1.0 Release`.
-
 Hey there, last night i've created a jekyll theme based on [Poole](http://getpoole.com), I call the theme `naringu`. This theme contain built in feature like 404 pages, RSS feed, mobile friend and support syntax highlighting, also `naringu` come with reversed sidebar so you can choose the sidebar location to left or right.
 
 `Naringu` also support contact form using formspree service. Below is the screenshot of `naringu`.
@@ -25,13 +23,13 @@ Hey there, last night i've created a jekyll theme based on [Poole](http://getpoo
 
 ### Changelog `version 1.0`
 
-[x] - Functional HTML Form
-[x] - Reverse layout
-[ ] - Typing screen header
-[ ] - Chat
-[ ] - Geolocation
-[ ] - Theme Selector 
-[ ] - Green 1337 theme
+- [x] - Functional HTML Form
+- [x] - Reverse layout
+- [ ] - Typing screen header
+- [ ] - Chat
+- [ ] - Geolocation
+- [ ] - Theme Selector 
+- [ ] - Green 1337 theme
 
 ### Development
 
