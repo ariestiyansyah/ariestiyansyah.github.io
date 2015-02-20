@@ -17,9 +17,9 @@ Hey there, last night i've created a jekyll theme based on [Poole](http://getpoo
 
 `Naringu` also support contact form using formspree service. Below is the screenshot of `naringu`.
 
-![ ](/home/onto/github/ariestiyansyah.github.io/images/screenshot-1.png  "2")
-![](/home/onto/github/ariestiyansyah.github.io/images/screenshot-2.png) 
-![](/home/onto/github/ariestiyansyah.github.io/images/screenshot-4.png) 
+![ ]({{site.baseurl}}images/screenshot-1.png  "2")
+![]({{site.baseurl}}images/screenshot-2.png) 
+![]({{site.baseurl}}images/screenshot-4.png) 
 
 ### Changelog `version 1.0`
 
