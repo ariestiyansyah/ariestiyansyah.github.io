@@ -29,6 +29,7 @@ Hey there, last night i've created a jekyll theme based on [Poole](http://getpoo
 - <input type="checkbox" disabled>Typing screen header
 - <input type="checkbox" disabled>Chat
 - <input type="checkbox" disabled>Geolocation
+- <input type="checkbox" disabled>Social Media share
 - <input type="checkbox" disabled>Green 1337 theme
 
 
