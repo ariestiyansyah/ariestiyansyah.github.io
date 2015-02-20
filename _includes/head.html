@@ -13,6 +13,9 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if site.author.name %}<meta name="author content="{{ site.author.name }}">{% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/naringu.css">
