@@ -3,12 +3,10 @@
 
   {% include head.html %}
   {% include analytics.html %}
-  <body class="theme-base-08">
+  <body class="theme-6dd">
 
     {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
@@ -43,5 +41,9 @@
         }, false);
       })(document);
     </script>
+    <div align="center" class="footer">
+<a href="/" title="oonlab">{{ site.title }}</a>  is crafted by {{ site.author.name }}<br>
+Copyright © 2013 - {{ site.time | date: '%Y' }} <br>
+</div>
   </body>
 </html>
