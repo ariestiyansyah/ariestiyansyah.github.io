@@ -10,7 +10,7 @@ tags:
 categories:
     - Fedora
     - Code
-permalink: /lowercase-or-uppercase-file-in-fedora.onto
+permalink: /lowercase-or-uppercase-file-in-fedora
 layout: post
 ---
 

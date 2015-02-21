@@ -2,10 +2,13 @@
 title: February Task Application Curation Board 
 author: ariestiyansyah
 layout: post
-permalink: /february-task-application-curation-board.onto
+permalink: /february-task-application-curation-board
 categories:
   - Mozilla
-
+tags:
+- mozilla
+- marketplace firefox
+description: Task for Application Curation Board Firefox Marketplace
 ---
 
 Here is the update for application curation board of Firefox Marketplace in February :

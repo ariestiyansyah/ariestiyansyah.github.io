@@ -3,7 +3,7 @@ title: Atom Package for Fedora 32-bit
 author: ariestiyansyah
 description: This simple step to create atom package for fedora 32bit
 layout: post
-permalink: /atom-package-for-fedora-32-bit.onto
+permalink: /atom-package-for-fedora-32-bit
 categories:
  - fedora
  - code

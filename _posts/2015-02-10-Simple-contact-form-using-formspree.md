@@ -2,7 +2,7 @@
 title: Create simple form using formspree.io 
 author: ariestiyansyah
 layout: post
-permalink: /create-simple-form-using-formspree.onto
+permalink: /create-simple-form-using-formspree
 categories:
   - Code
 tags:

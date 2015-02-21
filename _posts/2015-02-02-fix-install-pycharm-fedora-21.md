@@ -4,7 +4,7 @@ title: Fix Install PyCharm on Fedora 21
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=442
-permalink: /fix-install-pycharm-fedora-21.onto
+permalink: /fix-install-pycharm-fedora-21
 categories:
   - Code
   - Python

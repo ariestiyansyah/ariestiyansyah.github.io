@@ -1,6 +1,6 @@
 ---
 title: Naringu - A Hacker like jekyll theme
-permalink: /naringu-a-hacker-like-jekyll-theme.onto
+permalink: /naringu-a-hacker-like-jekyll-theme
 layout: post
 description: Naringu is dark jekyll theme using #6DD color schema
 categories:

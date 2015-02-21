@@ -3,10 +3,14 @@ id: 442
 title: Create RPM Package for Nitrogen
 author: ariestiyansyah
 layout: post
-permalink: /create-rpm-package-for-nitrogen.onto
+permalink: /create-rpm-package-for-nitrogen
 categories:
   - Code
   - Fedora
+tags:
+- nitrogen
+- rpms
+description: Creae RPM Package for Nitrogen
 ---
 
 

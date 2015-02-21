@@ -2,13 +2,14 @@
 title: Transfering DNS from CloudKilat to Github Pages
 author: ariestiyansyah
 layout: post
-permalink: /transfering-dns-from-cloudkilat-to-github-pages.onto
+permalink: /transfering-dns-from-cloudkilat-to-github-pages
 categories:
   - Code
   - Idea
 tags:
   - Cloudkilat
   - DNS
+description: Transer DNS from Cloudkilat to Github Pages
 ---
 Well, today I am totally move my hosting from CloudKilat to Github pages (Jekyll), when I use cloudkilat as my hosting provider the cms I used is wordpress. After do research I choose to use github pages. I'll not share my research now maybe next time bro.
 

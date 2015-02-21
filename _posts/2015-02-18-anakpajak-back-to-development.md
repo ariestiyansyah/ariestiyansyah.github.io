@@ -2,7 +2,7 @@
 title:	anakpajak back to development
 author:	ariestiyansyah
 layout: post
-permalink: /anakpajak-back-to-development.onto
+permalink: /anakpajak-back-to-development
 tags:
  - anakpajak
  - mobile app
