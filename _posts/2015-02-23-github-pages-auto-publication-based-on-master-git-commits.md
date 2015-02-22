@@ -1,7 +1,6 @@
 ---
 title: 	Github Pages Auto Publication Based on Master Git Commits
-description: 	config file to make github-pages auto publish based on the master
-commits
+description: 	config file to make github-pages auto publish based on the master commits
 author: 	ariestiyansyah
 permalink:  /github-pages-auto-publication-based-on-master-git-commits
 categories:
