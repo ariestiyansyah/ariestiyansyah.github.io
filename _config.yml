@@ -29,5 +29,7 @@ version:             2.0
 github:				http://github.com/ariestiyansyah
 twitter:			http://twitter.com/ariestiyansyah
 
-
+# Gems on github Pages
+gems:
+   - jekyll-sitemap
 
