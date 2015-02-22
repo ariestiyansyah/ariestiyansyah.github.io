@@ -16,7 +16,7 @@ A simple configuration to auto publish the git commits on master to
 gh-pages,just add few line code (git command) in `.git/config` file. Here is
 the code to mirrored the master branch to gh-pages branch..
 
-{{ highlight masrkdown }}
+{{ highlight markdown }}
 [remote "origin"]
     url = git@github.com:ariestiyansyah/naringu.git
     fetch = +refs/heads/*:refs/remotes/origin/*
