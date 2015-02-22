@@ -11,6 +11,7 @@ tags:
 - jekyll
 - code
 - jekyllthemes
+author: ariestiyansyah
 ---
 
 Hey there, last night i've created a jekyll theme based on [Poole](http://getpoole.com), I call the theme `naringu`. This theme contain built in feature like 404 pages, RSS feed, mobile friend and support syntax highlighting, also `naringu` come with reversed sidebar so you can choose the sidebar location to left or right.
