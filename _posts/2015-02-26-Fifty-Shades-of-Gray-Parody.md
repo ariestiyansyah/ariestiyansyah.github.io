@@ -14,7 +14,7 @@ permalink: /fifty-shades-of-grey-parody
 
 Do you know about the fifty shades of grey movie? hmm based on wikipedia Fifty Shades of Grey is a 2011 erotic romance novel by British author E. L. James. It is the first installment in the Fifty Shades trilogy that traces the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving bondage/discipline, dominance/submission, and sadism/masochism (BDSM). Originally self-published as an ebook and a print-on-demand.
 
-Ah forget about that cause I want to share the parody of this movie :D, before
+The novel now live on movie and it's trending now. Arrrh forget about that because I want to share the parody of this movie :D, before
 that please take a look at Dakota Johnson picture below, she's really sexy.
 
 
