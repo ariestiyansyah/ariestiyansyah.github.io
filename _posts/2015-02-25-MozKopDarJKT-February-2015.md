@@ -12,7 +12,7 @@ tags:
 author: ariestiyansyah
 ---
 <center>
-![MozKopDarJKT](images/mozposter.png) </center>
+![MozKopDarJKT](http://oonlab.com/images/mozposter.png) </center>
 
 
 Mozilla Indonesia akan kembali mengadakan MozKopdar Jakarta pada bulan Februari 2015 ini.
