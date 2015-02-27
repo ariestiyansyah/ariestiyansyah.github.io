@@ -1,5 +1,5 @@
 ---
-title: #MozKopDarJKT February 2015 Photo
+title: MozKopDarJKT February 2015 Photo
 description: Mozilla Kopi Darat Jakarta February 2015 Photo
 layout: post
 permalink: /mozkopdarjkt-february-photo
