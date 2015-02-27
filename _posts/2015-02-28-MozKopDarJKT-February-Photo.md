@@ -13,6 +13,7 @@ author: ariestiyansyah
 ---
 
 Gallery of #MozKopDarJKT
+
 Credit : Photo by Krisna from XNA Photography
 
 <center>
