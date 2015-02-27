@@ -89,7 +89,7 @@ Penjelasan dari kode diatas adalah pada action kita menggunakan layanan formspre
 
 Selanjutnya upload form kita lalu isi form tersebut untuk pertama kali dan submit, cek email Anda dan klik verify pada email yang Anda terima. Kontak form Anda sudah ready dan siap digunakan
 
-** Source Code : https://github.com/ariestiyansyah/Simple-form/
-** Live : http://ariestiyansyah.github.io/Simple-form/
+* Source Code : https://github.com/ariestiyansyah/Simple-form/
+* Live : http://ariestiyansyah.github.io/Simple-form/
 
 
