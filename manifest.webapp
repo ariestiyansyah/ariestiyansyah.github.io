@@ -1,0 +1,20 @@
+{
+  "name": "oonlab",
+  "version": "2.0",
+  "description": "Lab of Ariestiyansyah",
+  "launch_path": "/",
+  "icons": {
+    "256": "/images/256.png",
+    "128": "/images/128.png",
+    "120": "/images/120.png",
+    "90": "/images/90.png",
+    "60": "/images/60.png",
+    "32": "/images/32.png"
+  },
+  "developer": {
+    "name": "Rizky Ariestiyansyah",
+     "url": "http://oonlab.com"
+  },
+  "orientation": ["portrait"],
+  "default_locale": "en"
+}
