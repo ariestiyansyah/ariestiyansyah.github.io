@@ -11,7 +11,7 @@ tags:
 description: Task for Application Curation Board Firefox Marketplace
 ---
 
-Here is the update for application curation board of Firefox Marketplace in March :
+Below is the update for application curation board of Firefox Marketplace in March, fyi this curation will be available in marketplace by April :
 
 - Retro Games. Think: classic arcade-style gaming. Marketplace has a bunch of really strong content that fits this theme.
 - Ninja Games. Marketplace also has a ton of fun ninja gaming content. 
