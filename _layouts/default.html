@@ -13,12 +13,11 @@
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
-          </h3>
+        </h3><div style="align:right">{% include search.html %}</div>
         </div>
       </div>
 
       <div class="container content">
-          <center> {% include search.html %}</center>
           {{ content }}
       </div>
     </div>
