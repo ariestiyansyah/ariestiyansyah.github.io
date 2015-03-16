@@ -690,7 +690,8 @@ a.pagination-item:hover {
 
 .share-page {
     text-align: center;
-    background: #609CDC;
+    /*background: #609CDC;*/
+    border: 1px solid #66DDDD;
     color: #fff;
     padding: 8px 15px;
     border-radius: 5px;
