@@ -684,3 +684,31 @@ a.pagination-item:hover {
   padding-bottom: 10px; 
   border-top: 1px solid #6DD;
 }
+
+
+/* Share Page */
+
+.share-page {
+    text-align: center;
+    background: #609CDC;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * 2.5 0;
+
+ }
+
+ .share-page a{
+  font-weight:700;
+  color:#fff;
+  margin-left:10px
+}
+
+.share-page a:hover{
+  border-bottom:1px dashed #fff
+  color: #fff;
+}
+
+.muted {
+  color: #848484;
+}
