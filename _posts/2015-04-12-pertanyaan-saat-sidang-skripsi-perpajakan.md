@@ -11,9 +11,6 @@ tags:
 description: Kumpulan soal sidang skripsi jurusan perpajakan
 ---
 
-
-# KUMPULAN SOAL SIDANG SKRIPSI PERPAJAKAN
-
 Dear pembaca oonlab, akhirnya saya bisa menyempatkan diri  untuk menulis lagi setelah hmpir satu bulan tidak menyentuh laptop dan mengerjakan proyek-proyek fun saya, ah lupakan! karena pada kesempatan ini saya datang membawa beberapa pertanyaan yang biasa ditanyakan dosen penguji pada saat sidang tugas akhir/skripsi.
 
 Sebelum membaca say Haaai dulu sama SNSD ya :D
