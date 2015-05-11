@@ -8,7 +8,7 @@ ssb_post_sites:
   - 'a:6:{s:2:"fb";i:1;s:5:"gplus";N;s:7:"twitter";N;s:8:"linkedin";N;s:9:"pineterst";N;s:6:"reddit";N;}'
 ---
 
-  <img alt="" src="http://en.gravatar.com/userimage/24637430/bd861150ece04c59dff2ca785562b354?size=200" width="200" height="200" />
+  <img alt="" src="https://s.gravatar.com/avatar/19b2ec1f2a46e04e94ce54dadd8946d6?s=200" width="200" height="200" />
 
 Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Front End Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
