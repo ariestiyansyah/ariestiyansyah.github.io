@@ -24,6 +24,8 @@ I was worked at several company as full-time employeer and __freelancer__ like
 
 Some of my happy clients are :
 
+- [Dr. Hasan Rachmany, Ak., MA.](http://stpi-pajak.ac.id)
+- [Sekolah Tinggi Perpajakan Indonesia](http://stpi-pajak.ac.id)
 - [Kwarcab Pramuka Tangerang Selatan](http://pramukatangsel.or.id)
 - [PT. Valua Lidi Impresario](http://valuatraining.com) 
 - [PT. Andalan Global Sarana](http://www.properti1001.com)
@@ -32,8 +34,10 @@ Some of my happy clients are :
 - [PT. Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name) 
 - Email me for more...
 
-I had been a speaker at this university :
+I had been a speaker at this event and university :
 
+- [GNOME ASIA Summit 2015](http://2015.gnome.asia)
+- [University of Indonesia](http://ui.ac.id)
 - [Gunadarma University ](http://gunadarma.ac.id) 
 - [Trunojoyo University](http://trunojoyo.ac.id) 
 - [National Institute of Science and Technology](http://www.istn.ac.id/) 
