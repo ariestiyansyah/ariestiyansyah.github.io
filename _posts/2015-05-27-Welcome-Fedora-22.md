@@ -1,4 +1,5 @@
-uthor: ariestiyansyah
+---
+author: ariestiyansyah
 layout: post
 permalink: /welcome-fedora-22
 categories:
