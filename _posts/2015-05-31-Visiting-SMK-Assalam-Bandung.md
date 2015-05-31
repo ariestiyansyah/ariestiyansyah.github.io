@@ -31,13 +31,13 @@ Fadhil](https://reps.mozilla.org/u/mfadhil/)
 (Mozilla Reps), [Shinta Setiawan](https://reps.mozilla.org/u/setiawan/) (Mozilla Reps), [Eriska Primayasari](https://mozillians.org/en-US/u/eriskatp/) (Mozillians,
 WoMoz), [Budiman Oktavianus](https://mozillians.org/en-US/u/tampubolonbudiman/) (FSA) and me ([Rizky Ariestiyansyah](https://reps.mozilla.org/u/ariestiyansyah/)). 
 
-![]({{site.baseurl}}images/assalam2.JPH)
+![]({{site.baseurl}}images/assalam2.JPG)
 Rara spoke about the Mozilla programs and projects, followed by the
 introduction of Firefox OS by Fauzan. The core of the meeting was to establish
 cooperation between Mozilla and SMK Assalam, in my opinion the headmaster is
 interest with Mozilla and a new program called Mozilla Club.
 
-![]({{site.baseurl}}images/asssalam4)
+![]({{site.baseurl}}images/asssalam4.JPG)
 After much discussion we got chance to travel around the school, we visited the
 lab and room and meet the student. The most pleasant thing is ask student to
 take picture together, cheeers.
