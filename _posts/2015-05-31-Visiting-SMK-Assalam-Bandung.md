@@ -1,4 +1,5 @@
 ---
+title: Visit to SMK Assalam Bandung
 author: ariestiyansyah
 layout: post
 permalink: /visit-to-smk-assalam-bandung
