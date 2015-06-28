@@ -25,6 +25,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 Some of my happy clients are :
 
 - [GRC Mulya Abadi](#)
+- [Kevin Zhang - Cargo Made Simple](http://cargoerp.com)
 - [Dr. Hasan Rachmany, Ak., MA.](http://stpi-pajak.ac.id)
 - [Sekolah Tinggi Perpajakan Indonesia](http://stpi-pajak.ac.id)
 - [Kwarcab Pramuka Tangerang Selatan](http://pramukatangsel.or.id)
