@@ -1,8 +1,8 @@
 ---
-title: Read CSV Using Javascript FileAPI 
+title: Read CSV Using Javascript FileAPI
 author: ariestiyansyah
 layout: post
-permalink: /read-csv-using -javascript-fileapi
+permalink: /read-csv-using-javascript-fileapi/
 categories:
   - Mozilla
   - Code
@@ -21,14 +21,14 @@ This post explain how to use Javascript FileAPI to read .csv file, first create 
     		alert('Browser not supported')
     	}
     }
-    
+
     function getAsText(fileToRead) {
     	var reader = new FileReader();
     	reader.onload = loadHandler;
     	reader.onerror = errorHandler;
     	reader.readAsText(fileToRead);
     }
-    
+
     function loadHandler(event) {
     	var csv = event.target.result;
     	processData(csv);
@@ -54,8 +54,8 @@ create errorHandler() to show an error when file can't be read
     		alert("Can't read file !");
     	}
     }
-    
-To show the result in page create function drawOutpu() which generate .csv table and set getElementByID("result") so we can call using id in HTML 
+
+To show the result in page create function drawOutpu() which generate .csv table and set getElementByID("result") so we can call using id in HTML
 
     function drawOutput(lines){
     	document.getElementById("result").innerHTML = "";
