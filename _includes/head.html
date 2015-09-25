@@ -9,7 +9,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:type" content="{% if page.thumbnail %}article{% else %}website{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ {{baseurl}}/images | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ {{baseurl}}/images/logo.png | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:locale" content="{{ site.locale }}">
@@ -22,6 +22,27 @@
     {% endif %}
   <meta property="fb:admins" content="{{ site.fb_admins }}">
   <meta property="fb:app_id" content="{{ site.fb_appid }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@ariestiyansyah">
+  <meta name="twitter:creator" content="@ariestiyansyah">
+  {% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.thumbnail %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumbnail }}">
+  {% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
+  {% endif %}
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
