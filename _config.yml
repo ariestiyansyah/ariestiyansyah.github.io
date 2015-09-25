@@ -33,6 +33,7 @@ twitter_username:	ariestiyansyah
 
 fb_admins:          http://facebook.com/Liyan.Hdr
 fb_appid:           984598984935671
+sdk:                oonlab
 avatar:             images/logo.png
 # Gems on github Pages
 gems:
