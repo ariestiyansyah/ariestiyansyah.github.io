@@ -15,6 +15,7 @@ description:         'oonlab is crafted with <3 by ariestiyansyah, life is not a
 url:                 http://oonlab.com
 baseurl:             /
 paginate:            7
+locale:         	   en_us
 
 # About/contact
 author:
