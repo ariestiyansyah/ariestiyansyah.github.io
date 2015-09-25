@@ -2,6 +2,7 @@
 title: Get Glassdoor Data from their API using Python
 author: ariestiyansyah
 layout: post
+permalink: /get-glassdoor-data-from-their-api-using-python
 categories:
   - Python
   - Code

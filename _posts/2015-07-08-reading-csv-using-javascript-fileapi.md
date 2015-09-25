@@ -2,6 +2,7 @@
 title: Read CSV Using Javascript FileAPI
 author: ariestiyansyah
 layout: post
+permalink: /reading-csv-using-javascript-fileapi
 categories:
   - Mozilla
   - Code
