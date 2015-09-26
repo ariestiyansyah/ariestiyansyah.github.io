@@ -1,6 +1,7 @@
 ---
 title: Konfigurasi SSL Open Edx
 author: ariestiyansyah
+permalink: /konfigurasi-ssl-open-edx
 layout: post
 categories:
   - Open Edx
