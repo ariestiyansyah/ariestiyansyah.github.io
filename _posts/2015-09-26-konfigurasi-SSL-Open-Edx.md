@@ -2,6 +2,7 @@
 title: Konfigurasi SSL Open Edx
 author: ariestiyansyah
 layout: post
+thumbnail: /images/logo-edx.png
 categories:
   - edX
   - Code
