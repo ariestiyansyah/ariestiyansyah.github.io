@@ -16,6 +16,7 @@ url:                 http://oonlab.com
 baseurl:             /
 paginate:            7
 locale:         	   en_us
+disqus:              oonlab
 
 # About/contact
 author:
