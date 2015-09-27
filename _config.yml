@@ -38,3 +38,4 @@ avatar:             images/logo.png
 # Gems on github Pages
 gems:
    - jekyll-sitemap
+   - jekyll-feed
