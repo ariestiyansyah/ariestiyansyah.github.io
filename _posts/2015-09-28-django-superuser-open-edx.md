@@ -27,11 +27,11 @@ Untuk membuat superuser dengan full-profile bisa menggunakan langkah berikut :
 
 Di python shell gunakan code dibawah ini
 
-from django.contrib.auth.models import User
-me = User.objects.get(username="user")
-me.is_superuser = True
-me.is_staff = True
-me.save()
+    from django.contrib.auth.models import User
+    me = User.objects.get(username="user")
+    me.is_superuser = True
+    me.is_staff = True
+    me.save()
 
 Anda bisa masuk ke localhost/admin dengan django superuser sekarang.
 
