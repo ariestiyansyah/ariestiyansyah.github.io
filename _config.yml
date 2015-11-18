@@ -15,6 +15,8 @@ description:         'oonlab is crafted with <3 by ariestiyansyah, life is not a
 url:                 http://oonlab.com
 baseurl:             /
 paginate:            7
+locale:         	   en_us
+disqus:              oonlab
 
 # About/contact
 author:
@@ -29,7 +31,12 @@ version:             2.0
 github:				http://github.com/ariestiyansyah
 twitter:			http://twitter.com/ariestiyansyah
 twitter_username:	ariestiyansyah
+
+fb_admins:          http://facebook.com/Liyan.Hdr
+fb_appid:           984598984935671
+sdk:                oonlab
+avatar:             images/logo.png
 # Gems on github Pages
 gems:
    - jekyll-sitemap
-
+   - jekyll-feed
