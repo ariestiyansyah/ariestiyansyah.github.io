@@ -10,7 +10,7 @@ ssb_post_sites:
 
   <img alt="" src="https://s.gravatar.com/avatar/19b2ec1f2a46e04e94ce54dadd8946d6?s=200" width="200" height="200" />
 
-Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Front End Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
+Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
 I love to explore my brain, by day I am active as student and researcher and by night move like a Ninja. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
@@ -27,6 +27,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 
 Some of my happy clients are :
 
+- [PT Sampoerna Wirausaha](http://mekar.id)
 - [PT. Education Technology Indonesia](http://indonesiax.co.id)
 - [GRC Mulya Abadi](#)
 - [Kevin Zhang - Cargo Made Simple](http://cargoerp.com)
@@ -42,6 +43,7 @@ Some of my happy clients are :
 
 I had been a speaker at this event and university :
 
+- [Youth Media Festival](http://youthmediafestival.com/)
 - [GNOME ASIA Summit 2015](http://2015.gnome.asia)
 - [University of Indonesia](http://ui.ac.id)
 - [Gunadarma University ](http://gunadarma.ac.id) 
