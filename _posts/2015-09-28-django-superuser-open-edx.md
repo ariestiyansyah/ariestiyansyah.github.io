@@ -35,4 +35,4 @@ Di python shell gunakan code dibawah ini
 
 Anda bisa masuk ke localhost/admin dengan django superuser sekarang.
 
-Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi [Valutac](http://valutac.com)
+Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi [saya](http://oonlab.com/contact)

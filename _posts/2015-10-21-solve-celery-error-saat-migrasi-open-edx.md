@@ -48,4 +48,4 @@ Masuk ke server dan cek kembali log.
 	Oct 21 02:29:09 ip-x [service_variant=lms][celery.redirected][env:sandbox] WARNING [ip-x  1483] [log.py:282] - celery@edx.lms.core.high.ip-xready.
 	
 
-Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi [Valutac](http://valutac.com) atau email saya di [onto@valutac.com](mailto:onto@valutac.com)
+Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi  saya di [sini](mailto:onto@valutac.com)

@@ -52,4 +52,4 @@ Selanjutnya restart nginx.
 
 Sampai disini dulu yah, see you!
 
-Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi [Valutac](http://valutac.com)
+Jika Anda membutuhkan planning, implementation, hosting, theming, support, training, dan custom development untuk Open edX silahkan hubungi saya.
