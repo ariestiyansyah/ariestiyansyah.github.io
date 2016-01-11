@@ -55,8 +55,10 @@ Set  `ENABLE_INSTRUCTOR_EMAIL` to true by add this code below to `lms.env.json`
 
 Open up Django admin then go to course email templates (link: https://yourdomain.com/admin/bulk_email/courseemailtemplate/) and add course email template.
 
-In ciurse email template add string '{{ message_body }}' in html and plain template.
+In course email template add string `message_body`  in html and plain template.
 	
+	Html Template : message_body string
+	Plain Template : message_body string
 	Name: leave blank	
 Save!
 
