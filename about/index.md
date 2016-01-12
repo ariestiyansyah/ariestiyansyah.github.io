@@ -45,6 +45,7 @@ I had been a speaker at this event and university :
 
 - [Youth Media Festival](http://youthmediafestival.com/)
 - [GNOME ASIA Summit 2015](http://2015.gnome.asia)
+- [COSCUP 2015 - Academia SInica](http://coscup.org/2015/zh-tw/program/#/%5B%E6%9C%AC%E8%AD%B0%E7%A8%8B%E8%AC%9B%E8%80%85%E8%87%A8%E6%99%82%E4%B8%8D%E5%85%8B%E5%87%BA%E5%B8%AD%EF%BC%8C%E5%8F%96%E6%B6%88%5D+Web+++Mobile+++Desktop+in+one+using+Firefox+Marketplace)
 - [University of Indonesia](http://ui.ac.id)
 - [Gunadarma University ](http://gunadarma.ac.id) 
 - [Trunojoyo University](http://trunojoyo.ac.id) 
