@@ -3,7 +3,7 @@ $(function() {
     CSV.DETECT_TYPES = false;
 
     var
-        STORAGE_KEY = 'ariestiyansyah/mandrill',
+        STORAGE_KEY = 'akhoury/mandrill-blast',
         STORAGE_TTL = 52 * 7 * 24 * 60 * 60 * 1000, // 1 year
         dispatcher = $('<i/>'),
         editors = {
