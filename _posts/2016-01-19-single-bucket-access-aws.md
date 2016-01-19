@@ -15,7 +15,7 @@ tags:
 description: Policy for single access AWS
 ---
 
-Policy for signle bucket access to AWS S3.
+Single bucket access policy for Amazon Web Services S3
 
     {
         "Version": "2012-10-17",
