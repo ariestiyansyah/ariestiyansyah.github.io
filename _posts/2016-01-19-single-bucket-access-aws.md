@@ -49,3 +49,24 @@ Single bucket access policy for Amazon Web Services S3
         ]
     }
     
+UPDATE:
+
+New Policy:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1454315768000",
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::indonesiax/*"
+            ]
+        }
+    ]
+}
+```
