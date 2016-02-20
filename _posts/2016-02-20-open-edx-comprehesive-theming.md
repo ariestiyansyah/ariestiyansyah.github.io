@@ -1,5 +1,5 @@
 ---
-title: Comprehenisve Theming Open edX
+title: Comprehensive Theming Open edX
 author: ariestiyansyah
 layout: post
 thumbnail: /images/logo-edx.png
