@@ -101,7 +101,7 @@ To use your theme, you need to add a configuration value pointing to your theme 
 
 1. If you usually edit server-vars.yml:
 
-	i. As the vagrant user, edit (or create)  /edx/app/edx_ansible/server-vars.yml to add the ``edxapp_comprehensive_theme_dir`` value:
+	i. As the vagrant user, edit (or create)  /edx/app/edx_ansible/server-vars.yml to add the ``edxapp_comprehensive_theme_dir``  value:
 
             edxapp_comprehensive_theme_dir: '/full/path/to/my-theme'
 
