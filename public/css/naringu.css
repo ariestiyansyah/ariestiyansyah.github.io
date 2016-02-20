@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #25BFBF;
   letter-spacing: -.025rem;
-} 
+}
 
 h1 {
   font-size: 2rem;
@@ -136,9 +136,9 @@ abbr[title] {
   border-bottom: 1px dotted #6DD;
 }
 
-/* 
+/*
  * Code and Highlight
- * 
+ *
  * Code and higlight theme */
 
 code,
@@ -148,8 +148,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #000;
-  background-color: #0CDADA;;
+  color: #fff;
+  background-color: #3C3C3C;
   border-radius: 3px;
 }
 pre {
@@ -177,7 +177,7 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
-  background-color: #6DD;
+  background-color: rgb(25, 33, 35);
 }
 .highlight pre {
   margin-bottom: 0;
@@ -230,8 +230,8 @@ img {
   border-radius: 5px;
 }
 
-/* 
- * Tables 
+/*
+ * Tables
  *
  * Hacker style tables */
 table {
@@ -547,9 +547,9 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
-/* 
- * Related posts 
- * 
+/*
+ * Related posts
+ *
  * Related post in the bottom of post
 */
 .related {
@@ -675,13 +675,13 @@ a.pagination-item:hover {
 
 /*
  * Footer
- * 
+ *
  * Footer configuration class
  */
 
 .footer {
   padding-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   border-top: 1px solid #6DD;
 }
 
