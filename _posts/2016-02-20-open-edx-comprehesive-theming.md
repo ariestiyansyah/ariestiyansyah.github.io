@@ -81,9 +81,7 @@ The variables that can currently be overridden are defined in
 
 **Note:** We are currently in the middle of a re-engineering of the Sass
 variables.  They will change in the future.  If you are interested, you can see
-the new development in the `edX Pattern Library`_.
-
-.. _edX Pattern Library: http://ux.edx.org/
+the new development in the [edX Pattern Library](http://ux.edx.org/)
 
 Then create ``lms/static/sass/lms-main.scss`` to use those overrides, and also
 the rest of the definitions from the original file::
