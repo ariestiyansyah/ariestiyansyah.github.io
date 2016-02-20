@@ -1,5 +1,5 @@
 ---
-title: Comprehesive theming Open edX
+title: Comprehenisve Theming Open edX
 author: ariestiyansyah
 layout: post
 thumbnail: /images/logo-edx.png
@@ -10,7 +10,7 @@ tags:
 - edX
 - code
 - Django
-description: Open edX Comprehesive Theming
+description: Open edX Comprehensive Theming
 ---
 
 Note: This is for my research purpose.
@@ -108,7 +108,7 @@ To use your theme, you need to add a configuration value pointing to your theme 
 	ii. Run the update script
 
          $ sudo /edx/bin/update configuration master
-         $ sudo /edx/bin/update edx-platform HEAD
+         $ sudo /edx/bin/update edx-platform HEADcomprehenisve
 
 
 2. Otherwise, edit the /edx/app/edxapp/lms.env.json file to add the   ``COMPREHENSIVE_THEME_DIR`` value:
