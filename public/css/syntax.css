@@ -7,7 +7,7 @@
 .highlight .cp { color: #099 } /* Comment.Preproc */
 .highlight .c1 { color: #999; } /* Comment.Single */
 .highlight .cs { color: #999; } /* Comment.Special */
-.highlight .gd { background-color: #fcc; border: 1px solid #6DD } /* Generic.Deleted */
+.highlight .gd { background-color: #192123;} /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gr { color: #f00 } /* Generic.Error */
 .highlight .gh { color: #030; } /* Generic.Heading */
