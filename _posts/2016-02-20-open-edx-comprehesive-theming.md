@@ -102,13 +102,13 @@ To use your theme, you need to add a configuration value pointing to your theme 
 1. If you usually edit server-vars.yml:
 
 	i. As the vagrant user, edit (or create)  /edx/app/edx_ansible/server-vars.yml to add the ``edxapp_comprehensive_theme_dir``  value:
-
-            edxapp_comprehensive_theme_dir: '/full/path/to/my-theme'
+	
+        edxapp_comprehensive_theme_dir: '/full/path/to/my-theme'
 
 	ii. Run the update script
 
-            $ sudo /edx/bin/update configuration master
-            $ sudo /edx/bin/update edx-platform HEAD
+         $ sudo /edx/bin/update configuration master
+         $ sudo /edx/bin/update edx-platform HEAD
 
 
 2. Otherwise, edit the /edx/app/edxapp/lms.env.json file to add the   ``COMPREHENSIVE_THEME_DIR`` value:
@@ -140,9 +140,9 @@ Create the following new files in the ``sass`` directory of your theme:
 The contents of each of these files will be very similar. Here's what
 ``lms-main.scss`` should look like::
 
-    $static-path: '../../../..';
-    @import 'lms/static/sass/lms-main';
-    @import '_default';
+     $static-path: '../../../..';
+     @import 'lms/static/sass/lms-main';
+     @import '_default';
 
 Each file should set the ``$static-path`` variable to a relative path that
 points to the ``lms/static`` directory inside of ``edx-platform``. Then,
@@ -184,9 +184,8 @@ In addition, there are some other changes you'll need to make:
         <%namespace name='static' file='../../static_content.html'/>
         <%! from microsite_configuration import microsite %>
         <% style_overrides_file = microsite.get_value('css_overrides_file') %>
-    
         % if style_overrides_file:
-          <link rel="stylesheet" type="text/css" href="${static.url(style_overrides_file)}" />
+        <link rel="stylesheet" type="text/css" href="${static.url(style_overrides_file)}" />
         % endif
 
   If you already have a ``head-extra.html`` template, you can modify it to
