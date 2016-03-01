@@ -85,7 +85,7 @@ To run the LMS on devstack, follow these steps.
 
 3. Open the LMS in your browser at ``http://localhost:8000/``.
 
-       Vagrant forwards port 8000 to the LMS server running in the virtual machine.
+    Vagrant forwards port 8000 to the LMS server running in the virtual machine.
 
 
 ### Run Studio on Devstack
