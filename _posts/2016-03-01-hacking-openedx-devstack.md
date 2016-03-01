@@ -22,6 +22,8 @@ Required tools to run Open edX Devstack:
 
 Preparing:
 
+Download and Install Required tools before.
+
 Create working directory
 
 ```
