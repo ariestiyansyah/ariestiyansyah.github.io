@@ -33,13 +33,11 @@ Download devstack
 
 ```
 curl -L https://raw.github.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile > Vagrantfile
-
 ```
 sets value of OPENEDX_RELEASE environment
 
 ```
 export OPENEDX_RELEASE="named-release/dogwood"
-
 ```
 
 Run instalation
@@ -64,22 +62,22 @@ sudo su edxapp
 ```
 
 
-###Run the LMS on Devstack
+### Run the LMS on Devstack
 
 To run the LMS on devstack, follow these steps.
 
 1. Login to Devstack machine
 
     ```
-vagrant ssh
-sudo su edxapp
-```
+    vagrant ssh
+    sudo su edxapp
+    ```
 
 2. Run the following command
 	
     ```
-	paver devstack lms
-	```
+    paver devstack lms
+    ```
 	
 
 
@@ -87,8 +85,8 @@ sudo su edxapp
    the `fast` option.
    
     ```
-paver devstack lms --fast
-```
+    paver devstack lms --fast
+    ```
 
     The LMS starts.
 
@@ -97,7 +95,7 @@ paver devstack lms --fast
        Vagrant forwards port 8000 to the LMS server running in the virtual machine.
 
 
-###Run Studio on Devstack
+### Run Studio on Devstack
 
 
 To run Studio on devstack, follow these steps.
@@ -105,22 +103,22 @@ To run Studio on devstack, follow these steps.
 1. Login to Devstack machine
 
     ```
-vagrant ssh
-sudo su edxapp
-```
+    vagrant ssh
+    sudo su edxapp
+    ```
 
 2. Run the following command.
 
     ```
-paver devstack studio
-```
+    paver devstack studio
+    ```
 
     Or, to start Studio without updating requirements and compiling assets, use
    the ``fast`` option.
 
     ```
-paver devstack studio --fast
-```
+    paver devstack studio --fast
+    ```
 
     Studio starts.
 
@@ -130,7 +128,7 @@ paver devstack studio --fast
    machine.
 
 
-##View Available Studio Commands
+### View Available Studio Commands
 
 
 To view all available commands for Studio, enter the following command.
@@ -140,7 +138,7 @@ To view all available commands for Studio, enter the following command.
 ```
 
 
-##Run Discussion Forums on Devstack
+### Run Discussion Forums on Devstack
 
 
 To run discussion forums on devstack, follow these steps.
@@ -148,27 +146,27 @@ To run discussion forums on devstack, follow these steps.
 1. Login to Devstack machine
 
     ```
-vagrant ssh
-sudo su edxapp
-```
+    vagrant ssh
+    sudo su edxapp
+    ```
 
 2. Switch to the discussion forum account by entering the following command.
 
     ```
-sudo su forum
-```
+    sudo su forum
+    ```
 
 3. Update Ruby requirements.
 
     ```
-bundle install
-```
+    bundle install
+    ```
 
 4. Start the discussion forums server.
 
     ```
-ruby app.rb -p 18080
-```
+    ruby app.rb -p 18080
+    ```
 
     The discussions forum server starts. You can access the discussion forums API
 at `http://localhost:18080/`.
