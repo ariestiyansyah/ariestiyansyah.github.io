@@ -47,7 +47,7 @@ vagrant up
 ```
 
 
-###Play with Devstack
+### Play with Devstack
 
 Login to devstack:
 
