@@ -68,25 +68,18 @@ To run the LMS on devstack, follow these steps.
 
 1. Login to Devstack machine
 
-    ```
-    vagrant ssh
-    sudo su edxapp
-    ```
+        vagrant ssh
+        sudo su edxapp
 
 2. Run the following command
 	
-    ```
-    paver devstack lms
-    ```
-	
-
+        paver devstack lms
 
     Or, to start the LMS without updating requirements and compiling assets, use
    the `fast` option.
    
-    ```
-    paver devstack lms --fast
-    ```
+        paver devstack lms --fast
+
 
     The LMS starts.
 
@@ -102,23 +95,18 @@ To run Studio on devstack, follow these steps.
 
 1. Login to Devstack machine
 
-    ```
-    vagrant ssh
-    sudo su edxapp
-    ```
+        vagrant ssh
+        sudo su edxapp
 
 2. Run the following command.
 
-    ```
-    paver devstack studio
-    ```
+        paver devstack studio
 
     Or, to start Studio without updating requirements and compiling assets, use
    the ``fast`` option.
 
-    ```
-    paver devstack studio --fast
-    ```
+        paver devstack studio --fast
+
 
     Studio starts.
 
@@ -145,29 +133,25 @@ To run discussion forums on devstack, follow these steps.
 
 1. Login to Devstack machine
 
-    ```
-    vagrant ssh
-    sudo su edxapp
-    ```
+        vagrant ssh
+        sudo su edxapp
+
 
 2. Switch to the discussion forum account by entering the following command.
 
-    ```
-    sudo su forum
-    ```
+        sudo su forum
+
 
 3. Update Ruby requirements.
 
-    ```
-    bundle install
-    ```
+        bundle install
 
 4. Start the discussion forums server.
 
-    ```
-    ruby app.rb -p 18080
-    ```
+        ruby app.rb -p 18080
+
 
     The discussions forum server starts. You can access the discussion forums API
 at `http://localhost:18080/`.
+
 
