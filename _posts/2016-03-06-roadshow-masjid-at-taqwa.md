@@ -33,13 +33,14 @@ description: Masjid At-Taqwa Taman Alamanda Bekasi
 
 Ini adalah masjid pertama untuk perjakan keliling 1001 masjid saya, yeaay semangat!
 
-Photo:
+**Photo:**
 
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampakdepan.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/selesaishalat.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/samping.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampakdepan2.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tempatwudhu.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping2.jpg" width="300px">
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/papaninfo.jpg" width="300px">
+<center>
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampakdepan.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/selesaishalat.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/samping.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampakdepan2.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tempatwudhu.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping2.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/papaninfo.jpg" width="500px"></center>
