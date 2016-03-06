@@ -31,7 +31,7 @@ description: Masjid At-Taqwa Taman Alamanda Bekasi
 | Google Map      | [Open Map](https://www.google.co.id/maps/place/6%C2%B013'17.3%22S+107%C2%B002'38.9%22E/@-6.2214596,107.0435581,202m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0?hl=en) |
 
 
-Ini adalah masjid pertama untuk perjakan keliling 1001 masjid saya, yeaay semangat!
+Sukses atau gagal saya akan tetap melakukan roadshow 1001 masjid ini sebagai nazar saya, program ini bertujuan agar terciptanya sistem informasi masjid yang nantinya akan saya buatkan juga aplikasi untuk mobilenya. Ini adalah masjid pertama untuk perjalan keliling 1001 masjid saya, yeaay semangat!
 
 **Photo:**
 
@@ -44,3 +44,5 @@ Ini adalah masjid pertama untuk perjakan keliling 1001 masjid saya, yeaay semang
 <img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping.jpg" width="500px">
 <img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/tampaksamping2.jpg" width="500px">
 <img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Bekasi/At-taqwa/papaninfo.jpg" width="500px"></center>
+
+Silahkan berikan komentar atau pendapat Anda agar program ini dapat berjalan dengan semestinya.
