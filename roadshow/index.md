@@ -1,11 +1,6 @@
 ---
 title: Roashow 1001 Masjid
 author: ariestiyansyah
-layout: page
+layout: category
 ---
 
-
-{% for post in site.categories.roadshow %}
-  <h1>{{ post.title }}</h1>
-  {{ post.content }}
-{% endfor %}
