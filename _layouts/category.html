@@ -18,7 +18,7 @@ type: archive
         <p>{{ year }}</p>
       {% endunless %}
       <article>
-        <h3>><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+        <h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
       </article>
     {% endfor %}
   </div>
