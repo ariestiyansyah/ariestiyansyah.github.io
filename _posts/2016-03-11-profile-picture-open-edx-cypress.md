@@ -16,7 +16,7 @@ description: Research on Open edX Cypress
 
 Before:
 
-![](http://oonlab.com/images/beforex.png)
+![](http://oonlab.com/images/afterx.png)
 
 So you want to add profile image in navigation with Cypress installation? here's the simple step.
 
@@ -68,7 +68,7 @@ profile_image_url = get_profile_image_urls_for_user(user)['medium']
 
 Result:
 
-![](http://oonlab.com/images/afterx.png)
+![](http://oonlab.com/images/beforex.png)
 
 
 Done.
