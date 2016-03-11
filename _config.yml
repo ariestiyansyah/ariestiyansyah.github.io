@@ -39,3 +39,5 @@ avatar:             images/logo.png
 gems:
    - jekyll-sitemap
    - jekyll-feed
+
+include: ["_pages"]
