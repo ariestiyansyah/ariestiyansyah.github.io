@@ -1,5 +1,5 @@
 ---
-title: Profile picture in navigation of Open edX
+title: Profile image in navigation of Open edX
 author: ariestiyansyah
 layout: post
 thumbnail: /images/logo-edx.png
@@ -14,7 +14,7 @@ tags:
 description: Research on Open edX Cypress
 ---
 
-So you want to add photo profile in navigation with Cypress installation? here's the simple step.
+So you want to add profile image in navigation with Cypress installation? here's the simple step.
 
 Go to `/edx/app/edxapp/edx-platform/lms/templates/`
 
@@ -45,7 +45,7 @@ profile_image_url = get_profile_image_urls_for_user(user)['medium']
 <img style="max-width:35px;border-radius:5px;" src="${profile_image_url}" alt="${_('Profile image for {username}').format(username=username)}">
 ```
 
-If you want to enable link in profile picture that will direct to learners profile page insert this code
+If you want to enable link in profile image that will direct to learners profile page insert this code
 
 ```
 <a style="padding:0px;" href="${reverse('learner_profile', kwargs={'username': user.username})}"></a>
