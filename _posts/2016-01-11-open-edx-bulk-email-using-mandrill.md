@@ -21,7 +21,7 @@ In my previous article, I explained how to [solve celery error in Open edX insta
 Go to https://mandrillapp.com to register mandrill account, then access https://mandrillapp.com/settings/index to get SMTP & API Credential.
 
 <center>
-![SMTP & API Credentials]({{site.baseurl}}images/mandrill.png)</center>
+![SMTP & API Credentials](http://oonlab.com/images/mandrill.png)</center>
 
 We will use the credential from image above
 
