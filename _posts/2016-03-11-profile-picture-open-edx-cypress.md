@@ -14,6 +14,10 @@ tags:
 description: Research on Open edX Cypress
 ---
 
+Before:
+
+![](http://oonlab.com/images/beforex.png)
+
 So you want to add profile image in navigation with Cypress installation? here's the simple step.
 
 Go to `/edx/app/edxapp/edx-platform/lms/templates/`
@@ -61,5 +65,10 @@ profile_image_url = get_profile_image_urls_for_user(user)['medium']
 %>
 <a style="padding:0px;" href="${reverse('learner_profile', kwargs={'username': user.username})}"><img style="max-width:35px;border-radius:5px;" src="${profile_image_url}" alt="${_('Profile image for {username}').format(username=username)}"></a>
 ```
+
+Result:
+
+![](http://oonlab.com/images/afterx.png)
+
 
 Done.
