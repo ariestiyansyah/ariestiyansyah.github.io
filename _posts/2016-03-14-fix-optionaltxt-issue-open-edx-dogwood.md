@@ -31,6 +31,6 @@ To fix this issue is simple by using cherry-pick from git to this commit `https:
 
 Go to `/var/tmp/configuration` and make sure you are working on dogwood.1 branch then run command
 
-	git cherry-pick de9dab63381ae036304bb25c04a65f3a689902eb
+	git cherry-pick de9dab6
 	
 Run your installation again, Done.
