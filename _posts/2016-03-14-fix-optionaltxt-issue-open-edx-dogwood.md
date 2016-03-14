@@ -32,5 +32,14 @@ To fix this issue is simple by using cherry-pick from git to this commit `https:
 Go to `/var/tmp/configuration` and make sure you are working on dogwood.1 branch then run command
 
 	git cherry-pick de9dab6
-	
+
+or if you use automatic installation using sandbox.sh download the file first by using wget and add `git cherry-pick` under `git checkout $CONFIG_VER` line, the code will look like this.
+
+	cd /var/tmp
+	git clone https://github.com/edx/configuration
+	cd configuration
+	git checkout $CONFIG_VER
+	git cherry-pick de9dab6
+
+
 Run your installation again, Done.
