@@ -3,8 +3,9 @@ title: Youth Media Festival - Technology in Education
 author: ariestiyansyah
 layout: post
 categories:
-  - IndonesiaX
+  - Speaker
 tags:
+- indonesiax
 - education
 - technology
 description: Rizky Ariestiyansyah Youth Media Festival presentation
