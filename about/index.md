@@ -44,6 +44,7 @@ Some of my happy clients are :
 
 I had been a speaker at this event and university :
 
+- [Open edX Conference 2016](https://www.google.com/analytics/web/#home/a65869321w102174757p106178675/)
 - [FOSSASIA 2016](http://2016.fossasia.org/#speakers)
 - [Youth Media Festival](http://youthmediafestival.com/)
 - [GNOME ASIA Summit 2015](http://2015.gnome.asia)
