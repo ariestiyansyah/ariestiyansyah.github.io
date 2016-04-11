@@ -31,7 +31,8 @@ To make it easy we can use bash shell scripting, here's the code:
 	while true
 	do
 		case $answer in
-		[yY]* ) echo "Okay Darth edXius, Start generating $idcourse "				sudo -u www-data /edx/bin/python.edxapp ./manage.py lms --settings aws ungenerated_certs -c $idcourse --insecure
+		[yY]* ) echo "Okay Darth edXius, Start generating $idcourse "
+				sudo -u www-data /edx/bin/python.edxapp ./manage.py lms --settings aws ungenerated_certs -c $idcourse --insecure
            		break;;
            	
 
