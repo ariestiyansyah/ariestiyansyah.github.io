@@ -32,13 +32,14 @@ To make it easy we can use bash shell scripting, here's the code:
 	do
 		case $answer in
 		[yY]* ) echo "Okay Darth edXius, Start generating $idcourse "
-           	sudo -u www-data /edx/bin/python.edxapp ./manage.py lms --settings aws ungenerated_certs -c $idcourse --insecure
-           	break;;
+		
+				sudo -u www-data /edx/bin/python.edxapp ./manage.py lms --settings aws ungenerated_certs -c $idcourse --insecure
+           		break;;
            	
 
 		[nN]* ) exit;;
-
-		   * )     echo "edXius, just enter Y or N, please."; break ;;
+		
+		* ) 	echo "edXius, just enter Y or N, please."; break ;;
 	  esac
 	done
 
