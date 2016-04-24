@@ -28,7 +28,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 
 Some of my happy clients are :
 
-- [Makati Capital Partnrs PTE LTS] (http://makaticapital.com)
+- [Makati Capital Partnrs PTE LTS](http://makaticapital.com)
 - [PT Sampoerna Wirausaha](http://mekar.id)
 - [PT. Education Technology Indonesia](http://indonesiax.co.id)
 - [GRC Mulya Abadi](#)
