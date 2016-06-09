@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: edx-indonesiax\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-08-11 20:35+0000\n"
-"PO-Revision-Date: 2016-06-09 19:47+0700\n"
+"PO-Revision-Date: 2016-06-09 20:14+0700\n"
 "Last-Translator: Rizky Ariestiyansyah <ariestiyansyah.rizky@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/indonesiax/edx-indonesiax/"
 "language/id/)\n"
@@ -1374,7 +1374,7 @@ msgstr "Daftar di bawah untuk membuat akun {platform_name} Anda"
 #. authentication service (like Google or LinkedIn).
 #: lms/templates/register.html
 msgid "Sign up with {provider_name}"
-msgstr "Daftar menggunakan {provider_name}"
+msgstr "Daftar dengan {provider_name}"
 
 #: lms/templates/register.html
 msgid "Create your own {platform_name} account below"
