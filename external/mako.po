@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: edx-indonesiax\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-08-11 20:35+0000\n"
-"PO-Revision-Date: 2016-06-09 20:14+0700\n"
+"PO-Revision-Date: 2016-06-09 23:43+0700\n"
 "Last-Translator: Rizky Ariestiyansyah <ariestiyansyah.rizky@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/indonesiax/edx-indonesiax/"
 "language/id/)\n"
@@ -1000,7 +1000,7 @@ msgstr "Ingat saya"
 #. authentication provider (like Google or LinkedIn).
 #: lms/templates/login.html
 msgid "Sign in with {provider_name}"
-msgstr "Masuk dengan {provider_name}"
+msgstr "{provider_name}"
 
 #. Translators:  "External resource" means that this learning module is hosted
 #. on a platform external to the edX LMS
@@ -1374,7 +1374,7 @@ msgstr "Daftar di bawah untuk membuat akun {platform_name} Anda"
 #. authentication service (like Google or LinkedIn).
 #: lms/templates/register.html
 msgid "Sign up with {provider_name}"
-msgstr "Daftar dengan {provider_name}"
+msgstr "{provider_name}"
 
 #: lms/templates/register.html
 msgid "Create your own {platform_name} account below"
