@@ -1,43 +1,33 @@
-# Dependencies of ariestiyansyah
-markdown:            kramdown
-highlighter:         rouge
-
-# Permalinks
+# Welcome to Amplified for Jekyll!
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Setup
-title:               oonlab
-tagline:             'Lab of ariestiyansyah'
-description:         'oonlab is crafted with <3 by ariestiyansyah, life is not about code.'
-url:                 http://oonlab.com
-baseurl:             /
-paginate:            7
-locale:         	   en_us
-disqus:              oonlab
+# Site settings
+title: ariestiyansyah
+email: ariestiyansyah.rizky@gmail.com
+description: >
+  Lab of ariestiyansyah
+logo: "/assets/images/logo.jpg"
+baseurl: "/amplify" # the subpath of your site, e.g. /blog
+url: "http://oonlab.com" # the base hostname & protocol for your site
+paginate:	6 # The number of posts to show per page on your homepage
 
-# About/contact
-author:
-  name:              Rizky Ariestiyansyah
-  url:               https://twitter.com/ariestiyansyah
-  email:             ariestiyansyah.rizky@gmail.com
-  gwebmaster:        t_k6KYgKg1o-jSCcUI-6B4e_MGY7Lv9p7oWkF1JleQk
-# Custom vars
-version:             2.0
+name: 'Rizky Ariestiyansyah'
+bio: >
+  Darth edXius. Full-time researcher Part-time tech speaker.
+  Life is not about code.
+author_image: "/assets/images/author.jpg"
+twitter_username: ariestiyansyah
+github_username:  ariestiyansyah
 
-# Social Media
-github:				http://github.com/ariestiyansyah
-twitter:			http://twitter.com/ariestiyansyah
-twitter_username:	ariestiyansyah
+# Build settings
+markdown: kramdown
 
-fb_admins:          http://facebook.com/Liyan.Hdr
-fb_appid:           984598984935671
-sdk:                oonlab
-avatar:             images/logo.png
-# Gems on github Pages
+kramdown:
+  parse_block_html: true
+
 gems:
-   - jekyll-sitemap
-   - jekyll-feed
-
-include: ["_pages"]
+  - jekyll-paginate
