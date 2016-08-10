@@ -10,7 +10,7 @@ title: ariestiyansyah
 email: ariestiyansyah.rizky@gmail.com
 description: >
   Lab of ariestiyansyah
-logo: "/assets/images/logo.jpg"
+logo: "http://en.gravatar.com/userimage/24637430/e79729c570147af1fb9bccec97bd5c6e.jpg"
 baseurl: "http://oonlab.com" # the subpath of your site, e.g. /blog
 url: "http://oonlab.com" # the base hostname & protocol for your site
 paginate:	6 # The number of posts to show per page on your homepage
@@ -19,7 +19,7 @@ name: 'Rizky Ariestiyansyah'
 bio: >
   Darth edXius. Full-time researcher Part-time tech speaker.
   Life is not about code.
-author_image: "/assets/images/author.jpg"
+author_image: "http://en.gravatar.com/userimage/24637430/e79729c570147af1fb9bccec97bd5c6e.jpg"
 twitter_username: ariestiyansyah
 github_username:  ariestiyansyah
 
