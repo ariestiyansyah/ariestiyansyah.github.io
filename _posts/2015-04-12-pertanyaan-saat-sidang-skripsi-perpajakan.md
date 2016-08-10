@@ -2,7 +2,7 @@
 title: Pertanyaan saat Sidang SKRIPSI Perpajakan
 author: ariestiyansyah
 layout: post
-permalink: /pertanyaan-saat-sidang-skripsi-perpajakan
+permalink: /pertanyaan-saat-sidang-skripsi-perpajakan/
 categories:
   - pajak
 tags:
