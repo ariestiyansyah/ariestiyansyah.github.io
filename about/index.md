@@ -1,11 +1,7 @@
 ---
-id: 8
 title: About
 author: ariestiyansyah
 layout: page
-guid: http://code-tax.rhcloud.com/?page_id=8
-ssb_post_sites:
-  - 'a:6:{s:2:"fb";i:1;s:5:"gplus";N;s:7:"twitter";N;s:8:"linkedin";N;s:9:"pineterst";N;s:6:"reddit";N;}'
 ---
 
   <img alt="" src="https://s.gravatar.com/avatar/19b2ec1f2a46e04e94ce54dadd8946d6?s=200" width="200" height="200" />
@@ -45,6 +41,8 @@ Some of my happy clients are :
 
 I had been a speaker at this event and university :
 
+- [PyCon Malaysia 2016](http://pycon.my)
+- [Pycon Taiwan 2016](http://tw.pycon.org)
 - [Open edX Conference 2016](http://2016openedxconference.sched.org/event/5c24f965a8c1e9ab825df7a5b5b509a3#.VvVUVjh0IGA.facebook)
 - [FOSSASIA 2016](http://2016.fossasia.org/#speakers)
 - [Youth Media Festival](http://youthmediafestival.com/)
