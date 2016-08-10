@@ -31,6 +31,6 @@ Aula Al-Amanah Pusat Pemerintahan Kota Tangerang, ke-4 pembicaranya adalah:
 
 Untuk informasi lebih lengkap bisa lihat di poster dan link berikut:
 
-![Tenomatika](/images/teknomatika.png)
+<amp-img width="768" height="221" layout="responsive" src="/images/teknomatika.png"></amp-img>
 
 [http://www.teknomatika.org/teknotalk/](http://www.teknomatika.org/teknotalk/)
