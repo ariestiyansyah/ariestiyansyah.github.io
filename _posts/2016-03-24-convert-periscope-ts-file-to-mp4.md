@@ -32,4 +32,4 @@ Cheers!
 
 This is the video that I use:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/La6OjHdRgOE" frameborder="0" allowfullscreen></iframe>
+<amp-youtube data-videoid="La6OjHdRgOE" layout="responsive" width="480" height="270"></amp-youtube>
