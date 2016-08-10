@@ -22,6 +22,7 @@ bio: >
 author_image: "/images/profile.jpg"
 twitter_username: ariestiyansyah
 github_username:  ariestiyansyah
+disqus: oonlab
 
 # Build settings
 markdown: kramdown
