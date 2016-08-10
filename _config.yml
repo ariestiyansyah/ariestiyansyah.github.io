@@ -12,7 +12,7 @@ email: ariestiyansyah.rizky@gmail.com
 description: >
   Lab of ariestiyansyah
 logo: "/images/profile.jpg"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "http://oonlab.com" # the subpath of your site, e.g. /blog
 # url: "http://oonlab.com"
 paginate:	7 # The number of posts to show per page on your homepage
 
