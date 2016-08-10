@@ -12,8 +12,8 @@ email: ariestiyansyah.rizky@gmail.com
 description: >
   Lab of ariestiyansyah
 logo: "/images/profile.jpg"
-baseurl: "http://oonlab.com" 
-# enforce_ssl: oonlab.com
+baseurl: "https://oonlab.com" 
+ enforce_ssl: oonlab.com
 # url: "http://oonlab.com"
 paginate:	7 # The number of posts to show per page on your homepage
 
