@@ -26,9 +26,9 @@ We can use code below to generate SECRET KEY in Django.
 
 	python3 = version_info[0] > 2
 	if python3:
-    		print (SECRET_KEY)
+    	print (SECRET_KEY)
 	else:
-    		print SECRET_KEY
+    	print SECRET_KEY
     		
 or simply install using `pip install django-secret-key` then run `django-secret-key`
 
