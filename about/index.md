@@ -4,7 +4,7 @@ author: ariestiyansyah
 layout: page
 ---
 
-  <img alt="" src="https://s.gravatar.com/avatar/19b2ec1f2a46e04e94ce54dadd8946d6?s=200" width="200" height="200" />
+<amp-img width="200" height="200" layout="responsive" src="/images/profile.jpg"></amp-img>
 
 Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
