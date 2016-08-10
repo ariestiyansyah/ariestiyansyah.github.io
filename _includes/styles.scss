@@ -291,8 +291,8 @@ body {
       font-size: 18px;
       line-height: 1.59;
       letter-spacing: -.002em;
-      margin-top: 30px;
-      margin-bottom: 0;
+     /*  margin-top: 30px;
+      margin-bottom: 0; */
       color: #333333;
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
@@ -343,7 +343,7 @@ body {
       }
     }
     ul, ol {
-      padding: 0 0 30px;
+      padding: 0 0 0px;
       margin: 0;
     }
     li {
