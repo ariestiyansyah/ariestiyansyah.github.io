@@ -12,9 +12,9 @@ email: ariestiyansyah.rizky@gmail.com
 description: >
   Lab of ariestiyansyah
 logo: "/images/profile.jpg"
-baseurl: "http://oonlab.com" # the subpath of your site, e.g. /blog
-url: "http://oonlab.com" # the base hostname & protocol for your site
-paginate:	6 # The number of posts to show per page on your homepage
+baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "http://oonlab.com"
+paginate:	7 # The number of posts to show per page on your homepage
 
 name: 'Rizky Ariestiyansyah'
 bio: >
