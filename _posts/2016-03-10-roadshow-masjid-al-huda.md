@@ -31,53 +31,40 @@ description: Masjid Al-Huda Daan Mogot
 | Fasilitas       | Parkir, Gudang, Perlengkapan Pengurusan Jenazah, Kantor Sekretariat, Penyejuk Udara/AC,  Sound System dan Multimedia, Pembangkit Listrik/Genset, Kamar Mandi/WC,  Tempat Wudhu, Sarana Ibadah                                                                                                        |
 | Kegiatan        | Pemberdayaan Zakat, Infaq, Shodaqoh dan Wakaf, Menyelenggarakan kegiatan pendidikan  (TPA, Madrasah, Pusat Kegiatan Belajar Masyarakat),  Menyelenggarakan Pengajian Rutin, Akbar, Menyelenggarakan Kegiatan Hari Besar Islam,  Menyelenggarakan Sholat Jumat, Menyelenggarakan Ibadah Sholat Fardhu 
 
-
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tampakluar.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tampakluar.jpg"></amp-img>
 
 Masjid berikut ini adalah Masjid Jami yang terletak di Kecamatan Batuceper, Kota Tangerang. Kunjungan saya pada waktu itu menjelang Isya jadi foto yang didapatkan mungkin agak sedikit gelap.
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/dalammasjid.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/dalammasjid.jpg"></amp-img>
 
 Ok, Masjid ini cukup ramai pada saat kunjungan saya, banyak remaja dan anak-anak bahkan orang dewasa berkeliaran disekitar lingkungan Masjid, Akses menuju Masjid Al-Huda sangat mudah karena berada dipinggit jalan Daan Mogot, pertama kali sampai di Masjid saya memasuki tempat wudhu yang cukup besar dan cukup bersih.
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tempatwudhu.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tempatwudhu.jpg"></amp-img>
 
 Saat masuk kedalam Masjid yang cukup luas ini banyak masyarakat yang sudah siap menunggu shalat Isya, sekitar pintu masuk dari arah tempat wudhu ada kotak amal untuk yatim dan masjid. Didalam Masjid terdapat mimbar, jam digital dan sebuah <i>longcase clock</i> yang berdiri megah disudut kiri Masjid. Karpet Masjid Jami Al-Huda ini cukup bersih dan nyaman untuk shalat.
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas2.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas2.jpg"></amp-img>
 
 Didalam Masjid terdapat fasilitas perlengkapan shalat dan area membaca al-quran jadi untuk Anda yang bepergian jauh dan hendak melaksanakan shalat disini tidak perlu khawatir karena ada fasilitas perlengkapan shalat.
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas3.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas3.jpg"></amp-img>
 
 Pintu utama Masjid ini terdapat bedug yang lumayan besar saya sih pengen memukul bedug tersebut karena sudah ada isyarat untuk memukul bedug dari pengurus Masjid tapi ada daya saya gak enak kalau sok tahu hahaha.
 
-<center>
-<img src="" width="500px"></center>
-
 Saya sedikit lupa, konon Masjid ini diresmikan oleh Gubernur Jawa Barat ke-11 Bapak Aang Kunaefi.
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/peresmian.jpg" width="500px"></center>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/peresmian.jpg"></amp-img>
 
 Oh iya saya sedang mengikuti kursus <i>The Art of Islamic World</i> di Khan Academy, jika Anda tertarik silahkan kunjungi link berikut [https://www.khanacademy.org/humanities/art-islam](https://www.khanacademy.org/humanities/art-islam).
 
 **Koleksi Foto: **
 
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas.jpg" width="500px"></center>
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tampaksamping.jpg" width="500px"></center>
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/adzan.jpg" width="500px"></center>
-<center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/adzan2.jpg" width="500px"></center><center>
-<img src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/wanita.jpg" width="500px"></center>
+
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/fasilitas.jpg"></amp-img>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/tampaksamping.jpg"></amp-img>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/adzan.jpg"></amp-img>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/adzan2.jpg"></amp-img>
+<amp-img width="500" layout="responsive" src="https://raw.githubusercontent.com/ariestiyansyah/kemasimage/master/Tangerang/Al-Huda/wanita.jpg"></amp-img>
 
 Roadshow 1001 Masjid.
 
