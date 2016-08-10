@@ -4,7 +4,7 @@ title: SoulMateX is available on Firefox Marketplace
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=294
-permalink: /soulmatex-is-available-on-firefox-marketplace.onto
+permalink: /soulmatex-is-available-on-firefox-marketplace
 authorsure_include_css:
   - 
 categories:

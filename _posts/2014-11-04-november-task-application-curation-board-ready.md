@@ -4,7 +4,7 @@ title: November Task Application Curation Board is Ready
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=427
-permalink: /november-task-application-curation-board-ready.onto
+permalink: /november-task-application-curation-board-ready
 categories:
   - Mozilla
 ---

@@ -4,7 +4,7 @@ title: Welcome ASK Fedora Indonesia
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=177
-permalink: /welcome-ask-fedora-indonesia.onto
+permalink: /welcome-ask-fedora-indonesia
 categories:
   - News
 tags:

@@ -4,7 +4,7 @@ title: Webmaker with SMK ITACO
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=383
-permalink: /webmaker-smk-itaco.onto
+permalink: /webmaker-smk-itaco
 categories:
   - Mozilla
 tags:

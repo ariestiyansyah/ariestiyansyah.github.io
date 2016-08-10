@@ -4,7 +4,7 @@ title: OpenX Quiz is featured on Firefox Marketplace, Awesome!
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=247
-permalink: /openx-quiz-is-featured-on-firefox-marketplace-awesome.onto
+permalink: /openx-quiz-is-featured-on-firefox-marketplace-awesome
 authorsure_include_css:
   - 
 categories:

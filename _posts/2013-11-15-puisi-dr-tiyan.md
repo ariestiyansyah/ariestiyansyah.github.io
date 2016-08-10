@@ -4,7 +4,7 @@ title: Puisi Dr. Tiyan
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=97
-permalink: /puisi-dr-tiyan.onto
+permalink: /puisi-dr-tiyan
 post_views_count:
   - 1
 categories:

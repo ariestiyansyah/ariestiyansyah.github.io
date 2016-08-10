@@ -4,7 +4,7 @@ title: Evolution of evonestudio.com
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=412
-permalink: /evolution-evonestudio-com.onto
+permalink: /evolution-evonestudio-com
 categories:
   - News
 ---

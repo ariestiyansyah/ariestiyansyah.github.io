@@ -4,7 +4,7 @@ title: Hola! Planet Mozilla
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=196
-permalink: /hola-planet-mozilla.onto
+permalink: /hola-planet-mozilla
 categories:
   - Mozilla
 tags:

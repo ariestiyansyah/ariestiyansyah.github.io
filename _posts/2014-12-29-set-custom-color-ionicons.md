@@ -4,7 +4,7 @@ title: Set custom color ionicons
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=436
-permalink: /set-custom-color-ionicons.onto
+permalink: /set-custom-color-ionicons
 categories:
   - Code
 tags:

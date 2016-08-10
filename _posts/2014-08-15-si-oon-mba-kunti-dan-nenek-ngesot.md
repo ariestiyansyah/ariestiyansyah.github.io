@@ -4,7 +4,7 @@ title: Si Oon, Mba Kunti dan Nenek Ngesot
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=359
-permalink: /si-oon-mba-kunti-dan-nenek-ngesot.onto
+permalink: /si-oon-mba-kunti-dan-nenek-ngesot
 categories:
   - Ide
   - Think

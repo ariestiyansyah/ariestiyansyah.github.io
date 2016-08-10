@@ -4,7 +4,7 @@ title: Model Bisnis OpenShift
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=199
-permalink: /model-bisnis-openshift.onto
+permalink: /model-bisnis-openshift
 categories:
   - Ide
   - Think

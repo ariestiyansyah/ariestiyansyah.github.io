@@ -4,7 +4,7 @@ title: Hidup Seorang Freelancer
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=204
-permalink: /hidup-seorang-freelancer.onto
+permalink: /hidup-seorang-freelancer
 categories:
   - Ide
 tags:

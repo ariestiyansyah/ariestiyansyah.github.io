@@ -4,7 +4,7 @@ title: Pasang Firefox Nightly di IGOS Nusantara / Fedora
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=222
-permalink: /pasang-firefox-nightly-di-igos-nusantara-fedora.onto
+permalink: /pasang-firefox-nightly-di-igos-nusantara-fedora
 authorsure_include_css:
   - 
 categories:

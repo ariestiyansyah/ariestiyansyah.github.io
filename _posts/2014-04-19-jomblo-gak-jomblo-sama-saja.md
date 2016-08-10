@@ -4,7 +4,7 @@ title: Jomblo gak jomblo sama saja
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=261
-permalink: /jomblo-gak-jomblo-sama-saja.onto
+permalink: /jomblo-gak-jomblo-sama-saja
 authorsure_include_css:
   - 
 categories:

@@ -4,7 +4,7 @@ title: Event and Recognition of STPI Firefox Club in 7 Month
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=134
-permalink: /event-and-recognition-of-stpi-firefox-club-in-7-month.onto
+permalink: /event-and-recognition-of-stpi-firefox-club-in-7-month
 categories:
   - Mozilla
 tags:
@@ -38,8 +38,8 @@ Event we created until 19 December 2013 are :
   * Meetup & Buka Puasa bersama STPI Firefox Club &#8211; 25 July 2013
   * 1st Online Meeting on WhatsApp application ( Topic : Tactics and Strategy to run Firefox Club at our College School ) &#8211; 28 July 2013
   * STPI Firefox Club meeting ( Get involved with Firefox Student Ambassador ) &#8211; 7 October 2013
-  * <a href="http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto" rel="nofollow">First “Student Learning” in @STPIFirefoxClub</a> &#8211; 21 October 2013
-  * <a href="http://oonlab.com/2nd-student-learning-we-have-new-generation-for-stpifirefoxclub.onto#more-107" rel="nofollow">2nd Student Learning &#8220;New generation&#8221;</a> &#8211; 18 November 2013
+  * <a href="http://oonlab.com/first-student-learning-in-stpifirefoxclub" rel="nofollow">First “Student Learning” in @STPIFirefoxClub</a> &#8211; 21 October 2013
+  * <a href="http://oonlab.com/2nd-student-learning-we-have-new-generation-for-stpifirefoxclub#more-107" rel="nofollow">2nd Student Learning &#8220;New generation&#8221;</a> &#8211; 18 November 2013
   * 3rd Student Learning &#8220;Get involved with Mozilla&#8221; &#8211; 25 November 2013
   * 4th Student Learning &#8220;Design Firefox OS App&#8221; &#8211; 09 December 2013
   * 5th Student Learning &#8220;Design Firefox OS App 2&#8243; &#8211; 16 December 2013

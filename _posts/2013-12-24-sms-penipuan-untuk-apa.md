@@ -4,7 +4,7 @@ title: SMS Penipuan untuk apa?
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=139
-permalink: /sms-penipuan-untuk-apa.onto
+permalink: /sms-penipuan-untuk-apa
 categories:
   - Think
 tags:

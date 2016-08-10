@@ -4,7 +4,7 @@ title: '2nd &#8220;Student Learning&#8221; : We have new generation for STPIFire
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=107
-permalink: /2nd-student-learning-we-have-new-generation-for-stpifirefoxclub.onto
+permalink: /2nd-student-learning-we-have-new-generation-for-stpifirefoxclub
 categories:
   - Mozilla
 tags:

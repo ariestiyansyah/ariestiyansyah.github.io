@@ -4,7 +4,7 @@ title: 'Leiden Universities &#8220;photo from my friend&#8221;'
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=62
-permalink: /leiden-universities-photo-from-my-fiend.onto
+permalink: /leiden-universities-photo-from-my-fiend
 categories:
   - Think
 tags:

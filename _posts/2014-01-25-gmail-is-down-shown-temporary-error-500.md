@@ -4,7 +4,7 @@ title: 'Gmail is down shown Temporary error [500]'
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=184
-permalink: /gmail-is-down-shown-temporary-error-500.onto
+permalink: /gmail-is-down-shown-temporary-error-500
 categories:
   - News
 tags:

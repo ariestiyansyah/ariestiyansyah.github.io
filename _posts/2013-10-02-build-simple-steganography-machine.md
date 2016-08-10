@@ -4,7 +4,7 @@ title: Build simple Steganography machine
 author: ariestiyansyah
 layout: post
 guid: http://code-tax.rhcloud.com/?p=18
-permalink: /build-simple-steganography-machine.onto
+permalink: /build-simple-steganography-machine
 crisp_persona_post_view_count:
   - 2
 categories:

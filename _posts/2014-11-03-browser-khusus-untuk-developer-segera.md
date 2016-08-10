@@ -4,7 +4,7 @@ title: Browser Khusus untuk Developer, Segera!
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=421
-permalink: /browser-khusus-untuk-developer-segera.onto
+permalink: /browser-khusus-untuk-developer-segera
 categories:
   - Mozilla
 tags:

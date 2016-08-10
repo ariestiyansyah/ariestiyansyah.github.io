@@ -4,7 +4,7 @@ title: Sistem Personalia dan Penggajian seperti apa?
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=228
-permalink: /sistem-personalia-dan-penggajian-seperti-apa.onto
+permalink: /sistem-personalia-dan-penggajian-seperti-apa
 authorsure_include_css:
   - 
 categories:

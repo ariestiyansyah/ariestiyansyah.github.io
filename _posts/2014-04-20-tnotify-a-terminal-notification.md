@@ -4,7 +4,7 @@ title: Tnotify, a Terminal Notification
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=267
-permalink: /tnotify-a-terminal-notification.onto
+permalink: /tnotify-a-terminal-notification
 authorsure_include_css:
   - 
 categories:

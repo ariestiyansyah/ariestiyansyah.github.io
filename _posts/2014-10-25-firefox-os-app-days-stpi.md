@@ -4,7 +4,7 @@ title: Firefox OS App Days STPI
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=400
-permalink: /firefox-os-app-days-stpi.onto
+permalink: /firefox-os-app-days-stpi
 categories:
   - Mozilla
 ---

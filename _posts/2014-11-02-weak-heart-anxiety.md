@@ -4,7 +4,7 @@ title: Weak heart and anxiety
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=409
-permalink: /weak-heart-anxiety.onto
+permalink: /weak-heart-anxiety
 categories:
   - Think
 tags:

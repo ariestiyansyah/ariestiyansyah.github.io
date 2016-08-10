@@ -4,7 +4,7 @@ title: 'OpenX Quiz : Test your knowledge about Mozilla and Open Web'
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=209
-permalink: /openx-quiz-test-your-knowledge-about-mozilla-and-open-web.onto
+permalink: /openx-quiz-test-your-knowledge-about-mozilla-and-open-web
 categories:
   - Code
   - Mozilla

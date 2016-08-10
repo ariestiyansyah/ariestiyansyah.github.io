@@ -4,7 +4,7 @@ title: Fix gem install mysql2 (Conflict MariaDB) on Fedora
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=307
-permalink: /fix-gem-install-mysql2-conflict-mariadb-on-fedora.onto
+permalink: /fix-gem-install-mysql2-conflict-mariadb-on-fedora
 authorsure_include_css:
   - 
 ssb_post_sites:

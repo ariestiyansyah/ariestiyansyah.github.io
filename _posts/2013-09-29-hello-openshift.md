@@ -4,7 +4,7 @@ title: Hello OpenShift !
 author: ariestiyansyah
 layout: post
 guid: http://code-tax.rhcloud.com/?p=6
-permalink: /hello-openshift.onto
+permalink: /hello-openshift
 crisp_persona_post_view_count:
   - 1
 categories:

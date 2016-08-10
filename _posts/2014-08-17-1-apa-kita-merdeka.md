@@ -4,7 +4,7 @@ title: '#1 Apa Kita Merdeka?'
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=380
-permalink: /1-apa-kita-merdeka.onto
+permalink: /1-apa-kita-merdeka
 categories:
   - Si Oon
 ---

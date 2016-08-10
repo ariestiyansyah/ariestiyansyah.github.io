@@ -4,7 +4,7 @@ title: 'First &#8220;Student Learning&#8221; in @STPIFirefoxClub'
 author: ariestiyansyah
 layout: post
 guid: http://oonlab.com/?p=74
-permalink: /first-student-learning-in-stpifirefoxclub.onto
+permalink: /first-student-learning-in-stpifirefoxclub
 categories:
   - Mozilla
 tags:
@@ -28,7 +28,7 @@ This is our photo <img src="https://oonlab.com/wp-includes/images/smilies/icon_b
 <div id='gallery-1' class='gallery galleryid-74 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto/fxos3'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS3-160x160.jpg" class="attachment-thumbnail" alt="@dcmanurung and @ariestiyansyah" /></a>
+      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub/fxos3'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS3-160x160.jpg" class="attachment-thumbnail" alt="@dcmanurung and @ariestiyansyah" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption'>
@@ -38,7 +38,7 @@ This is our photo <img src="https://oonlab.com/wp-includes/images/smilies/icon_b
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto/fxos1'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS1-160x160.jpg" class="attachment-thumbnail" alt="FSA and New Student" /></a>
+      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub/fxos1'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS1-160x160.jpg" class="attachment-thumbnail" alt="FSA and New Student" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption'>
@@ -48,7 +48,7 @@ This is our photo <img src="https://oonlab.com/wp-includes/images/smilies/icon_b
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto/fxos4'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS4-160x160.jpg" class="attachment-thumbnail" alt="@ariestiyansyah give presentation" /></a>
+      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub/fxos4'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS4-160x160.jpg" class="attachment-thumbnail" alt="@ariestiyansyah give presentation" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption'>
@@ -60,7 +60,7 @@ This is our photo <img src="https://oonlab.com/wp-includes/images/smilies/icon_b
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto/fxos2'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS2-160x160.jpg" class="attachment-thumbnail" alt="Talk about our program" /></a>
+      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub/fxos2'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS2-160x160.jpg" class="attachment-thumbnail" alt="Talk about our program" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption'>
@@ -70,7 +70,7 @@ This is our photo <img src="https://oonlab.com/wp-includes/images/smilies/icon_b
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub.onto/fxos5'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS5-160x160.jpg" class="attachment-thumbnail" alt="Talk about webmaker" /></a>
+      <a href='http://oonlab.com/first-student-learning-in-stpifirefoxclub/fxos5'><img width="160" height="160" src="http://oonlab.com/wp-content/uploads/2013/10/FxOS5-160x160.jpg" class="attachment-thumbnail" alt="Talk about webmaker" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption'>

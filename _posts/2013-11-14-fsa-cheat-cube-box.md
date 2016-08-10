@@ -4,7 +4,7 @@ title: FSA Cheat Cube Box
 author: ariestiyansyah
 layout: post
 guid: https://oonlab.com/?p=89
-permalink: /fsa-cheat-cube-box.onto
+permalink: /fsa-cheat-cube-box
 post_views_count:
   - 2
 ssb_post_sites:
