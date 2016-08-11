@@ -31,9 +31,9 @@ This is part of my research using AppleScript and Python.
     Album = """osascript -e 'tell application "Spotify" to album of current track as string'"""
     Track = """osascript -e 'tell application "Spotify" to name of current track as string'"""
     
-    class SpotifyCli(cmd.Cmd,object):
+    class SpotiPy(cmd.Cmd,object):
         intro = 'Welcome to SpotifyCli for MacOS! Type help or ? to list commands.\n'
-        prompt = 'Spotify> '
+        prompt = 'SpotiPy> '
 
     def do_start(self, s):
         subprocess.call(Activate, shell=True)
@@ -103,7 +103,7 @@ This is part of my research using AppleScript and Python.
         print "Bye...."
     
     if __name__ == '__main__':
-        SpotifyCli().cmdloop()
+        SpotiPy().cmdloop()
     		
 You can download full source code: [https://github.com/ariestiyansyah/SpotiPy](https://github.com/ariestiyansyah/SpotiPy)
 
