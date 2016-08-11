@@ -105,6 +105,7 @@ This is part of my research using AppleScript and Python.
     if __name__ == '__main__':
         SpotifyCli().cmdloop()
     		
+You can download full source code: [https://github.com/ariestiyansyah/SpotiPy](https://github.com/ariestiyansyah/SpotiPy)
 
 Cheers :D
 
