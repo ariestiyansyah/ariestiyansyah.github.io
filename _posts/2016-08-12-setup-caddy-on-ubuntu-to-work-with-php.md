@@ -153,9 +153,9 @@ Paste the following code into `tes.php`
 	phpinfo();
 	?>
 
-Exit and save tes.php from yout Editor. Now, load the following address in your browser:
+Exit and save tes.php from your editor. Now, load the following address in your browser:
 
-	https://yourdomain.com/info.php
+	https://yourdomain.com/tes.php
 
 You should see PHP version and configuration info for PHP. Once you've double-checked this, it's safest to to delete testing file.
 
