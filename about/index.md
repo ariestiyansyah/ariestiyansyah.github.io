@@ -10,7 +10,7 @@ Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Full Stack Developer & B
 
 I love to explore my brain, by day I am active as Entrepreneur and researcher and by night as the Darth edXius. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
-I'm active as open source warrior, volunteering in non-profit organization like [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing and all about buiness and finance.
+I'm active as open source warrior, volunteering in non-profit organization like [Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing and all about buiness and finance.
 
 <div class="github-card" data-github="ariestiyansyah" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
