@@ -42,7 +42,7 @@ Some of my happy clients are :
 I had been a speaker at this event and university :
 
 - [PyCon Malaysia 2016](http://pycon.my)
-- [Pycon Taiwan 2016](http://tw.pycon.org)
+- [PyCon Taiwan 2016](http://tw.pycon.org)
 - [Open edX Conference 2016](http://2016openedxconference.sched.org/event/5c24f965a8c1e9ab825df7a5b5b509a3#.VvVUVjh0IGA.facebook)
 - [FOSSASIA 2016](http://2016.fossasia.org/#speakers)
 - [Youth Media Festival](http://youthmediafestival.com/)
