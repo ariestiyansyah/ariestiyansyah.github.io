@@ -6,7 +6,7 @@ layout: page
 
 <amp-img width="500" height="500" layout="responsive" src="/images/profile.jpg"></amp-img>
 
-Hola, my name is __Rizky Ariestiyansyah__ and I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
+Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
 I love to explore my brain, by day I am active as Entrepreneur and researcher and by night as the Darth edXius. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
