@@ -21,7 +21,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 - [PT. Polatic Informatika Indonesia](http://polatic.co.id)
 - [Evolusi Network Studio](http://evonestudio.com)
 - [PT Education Technology Indonesia](https://indonesiax.co.id)
-- [Nava+ Group](http://navaplus.com)
+- [Nava+ Group](http://www.navaplus.com)
 
 Some of my happy clients are :
 
@@ -42,6 +42,7 @@ Some of my happy clients are :
 
 I had been a speaker at this event and university :
 
+- [PyCon Hongkong 2016](http://pycon.hk/2016)
 - [PyCon Malaysia 2016](http://pycon.my)
 - [PyCon Taiwan 2016](http://tw.pycon.org)
 - [Open edX Conference 2016](http://2016openedxconference.sched.org/event/5c24f965a8c1e9ab825df7a5b5b509a3#.VvVUVjh0IGA.facebook)
@@ -59,6 +60,7 @@ I had been a speaker at this event and university :
 - [STMI ( Ministry of Industry )](http://stmi.ac.id) 
 - [STMIK Masa Depan](http://masadepan.ac.id/) 
 - [Satya State University of Indonesia](http://usni.ac.id) 
+- [Universitas Islam Syeikh Yusuf Tangerang](http://unistangerang.ac.id/2014/)
 
 ## Ping me!
 
