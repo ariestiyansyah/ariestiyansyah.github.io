@@ -21,6 +21,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 - [PT. Polatic Informatika Indonesia](http://polatic.co.id)
 - [Evolusi Network Studio](http://evonestudio.com)
 - [PT Education Technology Indonesia](https://indonesiax.co.id)
+- [Nava+ Group](http://navaplus.com)
 
 Some of my happy clients are :
 
