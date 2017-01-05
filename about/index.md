@@ -4,7 +4,9 @@ author: ariestiyansyah
 layout: default
 ---
 
-<amp-img width="500" height="500" layout="responsive" src="/images/profile.jpg"></amp-img>
+<div class="post">
+	<h1 class="pageTitle">About</h1>
+<img width="500" height="500" layout="responsive" src="/images/profile.jpg"></img>
 
 Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
@@ -67,3 +69,4 @@ I had been a speaker at this event and university :
 
 If you have any questions, comments, or would just like to __PING ME__, please don't hesitate to  [send me an email](mailto:ariestiyansyah.rizky@gmail.com). 
 
+</div>
