@@ -48,7 +48,7 @@ PHP7
 Create web server root directory to store all of your webpages like .php, .html, ect.
 
 	sudo mkdir -p /opt/www
-	sudo chwon -R www-data:www-data
+	sudo chown -R www-data:www-data
 
 #### Caddy Configuration
 
