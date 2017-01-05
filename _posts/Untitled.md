@@ -1,15 +1,35 @@
-Conference Day started at 9AM
+SKOR Developer Documentation
+==============
 
-Tarek Ziade from Mozilla started the first conference day with his keynote: Python, the not-so-secret weapon at Mozilla.
-
-As mentioned by dietrich he can run fast, hahaha
+### Create Organization and Superuse
 
 
-For 2nd conference day 
+Hi, first import the two objects
 
-My talk is focused on how to build Massive Open Online Course Platform using Flask, I tried to explain
+`from profiles.models import CustomUser, Organization `
 
-Many attendees came to listen to the my speech showing great interest about the platform
+Then try creating one 
 
-This year’s PyCon MY talks ranged from topics such as why python is being used in web development, to board game building, to educational uses of python for high school student, to python being used to easily prototype custom protocols, to even community building and diversity.
+`Organization.objects.create()`
+
+It will show errors about required fields that u haven't provided. Provide all required fields then try again.
+
+
+If you do `Organization??` then hit enter u will see all fields in the organization.
+Required fields are name, slug, domain,timezone and country.
+
+
+```
+org = Organization(name="MyTest", slug="my-test", country="ID", timezone="Asia/Jakarta", domain="test.com")
+org.full_clean()
+org.save()
+```
+
+
+for user you can do same thing. required fields are email and organization 
+
+`user = CustomUser(email="test@test.com", organization=org)`
+
+
+
 

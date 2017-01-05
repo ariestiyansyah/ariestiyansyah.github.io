@@ -1,35 +1,28 @@
-# Welcome to Amplified for Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title:  OONLAB
+description: Lab of Ariestiyansyah
 
-# Site settings
-permalink: /:categories/:year/:month/:day/:title/
-title: oonlab
-email: ariestiyansyah.rizky@gmail.com
-description: >
-  Lab of ariestiyansyah
-logo: "/images/profile.jpg"
-baseurl: "http://oonlab.com" 
-# enforce_ssl: oonlab.com
-# url: "http://oonlab.com"
-paginate:	7 # The number of posts to show per page on your homepage
+url: http://oonlab.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-name: 'Rizky Ariestiyansyah'
-bio: >
-  Darth edXius. Full-time researcher Part-time tech speaker.
-  Life is not about code.
-author_image: "/images/profile.jpg"
-twitter_username: ariestiyansyah
-github_username:  ariestiyansyah
-disqus: oonlab
-# Build settings
 markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
 
-kramdown:
-  parse_block_html: true
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
 
-gems:
-  - jekyll-paginate
+social:
+   github: ariestiyansyah
+   twitter: ariestiyansyah
+   facebook: edXius
+   email: ariestiyansyah.rizky@gmail.com
+
+google_analytics: "UA-58263416-1"

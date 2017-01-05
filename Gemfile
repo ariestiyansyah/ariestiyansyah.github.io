@@ -1,3 +1,9 @@
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'jekyll-compose', group: [:jekyll_plugins]
+source 'http://rubygems.org'
+
+gem "jekyll"
+gem "jekyll-paginate"
+gem "susy"
+gem "normalize-scss"
+gem "compass"
+gem "sass"
+gem "support-for"
