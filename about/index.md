@@ -5,7 +5,7 @@ layout: default
 ---
 
 <h1 class="pageTitle">About</h1>
-<img width="500" height="500" layout="responsive" src="/images/profile.jpg"></img>
+<img width="500" height="500" layout="responsive" src="/images/profile.jpg">
 
 Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
