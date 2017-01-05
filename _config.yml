@@ -4,7 +4,7 @@ description: Lab of Ariestiyansyah
 url: http://oonlab.com
 baseurl: ""
 paginate_path: "page:num/"
-permalink: :title/
+permalink: /:categories/:year/:month/:day/:title/
 disqus: oonlab
 
 markdown: kramdown
