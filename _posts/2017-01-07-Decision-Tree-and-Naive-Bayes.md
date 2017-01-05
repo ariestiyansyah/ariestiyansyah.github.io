@@ -1,5 +1,5 @@
 ---
-title: Secercah Harapan
+title: Dasar Decision Tree dan Naive Bayes
 author: ariestiyansyah
 layout: post
 categories:
@@ -16,13 +16,14 @@ Machine Learning merupakan ilmu pengetahuan yang membahas tentang mesin yang mem
 
 Decision Trees
 
-Jenis Kelamin		Umur		Aplikasi
-L			17		Pokemon Go
-P 			25		Whatsapp
-L			42		Twitter
-P			19		Pokemon Go
-P			12		Pokemon Go
-L			22		Twitter
+| Jenis Kelamin | Umur | Aplikasi   |
+|---------------|------|------------|
+| L             | 17   | Pokemon Go |
+| P             | 25   | WhatsApp   |
+| L             | 42   | Twitter    |
+| P             | 19   | Pokemon Go |
+| P             | 12   | Pokemon Go |
+| L             | 22   | Twitter    |
 
 Antara Umur dan Jenis Kelamin, Dari data diatas bagaimana kita dapat menentukan aplikasi mana yang akan pengguna unduh?
 
