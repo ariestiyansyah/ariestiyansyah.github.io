@@ -11,7 +11,6 @@ tags:
 - Naive Bayes
 description: Machine Learning merupakan ilmu pengetahuan yang membahas tentang mesin yang mempelajari tingkah laku dan mengolah data yang diberikan seperti halnya manusia yang belajar dari pengalaman sebelumnya
 ---
--
 Machine Learning merupakan ilmu pengetahuan yang membahas tentang mesin yang mempelajari tingkah laku dan mengolah data yang diberikan seperti halnya manusia yang belajar dari pengalaman sebelumnya. Machine Learning banyak digunakan untuk voice recognition, trading, car automation, rumah sakit dan sebagainya.
 
 ## Decision Trees
