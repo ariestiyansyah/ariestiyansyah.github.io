@@ -3,9 +3,12 @@ layout: default
 title: About
 ---
 
-<amp-img width="500" height="500" layout="responsive" src="/images/profile.jpg"></amp-img>
-
-Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
+<div class="post">
+	<h1 class="pageTitle">About</h1>
+	<img src="{{ '/assets/img/background.png' | prepend: site.baseurl }}" alt=""> 
+	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
+	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
+	Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
 
 I love to explore my brain, by day I am active as Entrepreneur and researcher and by night as the Darth edXius. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
@@ -65,5 +68,4 @@ I had been a speaker at this event and university :
 ## Ping me!
 
 If you have any questions, comments, or would just like to __PING ME__, please don't hesitate to  [send me an email](mailto:ariestiyansyah.rizky@gmail.com). 
-
-
+</div>
