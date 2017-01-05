@@ -1,7 +1,7 @@
 ---
 title: About
 author: ariestiyansyah
-layout: page
+layout: default
 ---
 
 <amp-img width="500" height="500" layout="responsive" src="/images/profile.jpg"></amp-img>
