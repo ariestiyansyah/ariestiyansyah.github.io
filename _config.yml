@@ -5,6 +5,7 @@ url: http://oonlab.com
 baseurl: ""
 paginate_path: "page:num/"
 permalink: :title/
+disqus: oonlab
 
 markdown: kramdown
 highlighter: rouge
