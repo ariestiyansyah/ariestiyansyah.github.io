@@ -1,159 +1,49 @@
-# Amplify for Jekyll
+![preview Long Haul](/preview.jpg)
 
-*A Jekyll html theme in the vague style of Medium.com built using Google AMP*
+Long Haul is a minimal jekyll theme built with COMPASS / SASS / SUSY and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
 
-Google's [Accelerated Mobile Pages Project](https://www.ampproject.org/)
-(a.k.a. "Google AMP" or Google ⚡) is an open-source project that defines rules
-for creating websites that load nearly instantly even on mobile devices with
-slow connections.
+If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
 
-## Why use Google AMP?
+####[View Demo](http://brianmaierjr.com/long-haul)
 
-There are two reasons to use Google AMP:
+## Features
 
-First, it's really fast! An often sited claim (by Amazon, Yahoo, Walmart and
-others) is that every extra 100ms improvement in page load time increases
-incremental revenue by up to 1%. Your personal blog might not be selling
-anything, but why settle for a slow page and risk losing readers?
+- Minimal, Type Focused Design
+- Built with SASS + COMPASS
+- Layout with SUSY Grid
+- SVG Social Icons
+- Responsive Nav Menu
+- XML Feed for RSS Readers
+- Contact Form via Formspree
+- 5 Post Loop with excerpt on Home Page
+- Previous / Next Post Navigation
+- Estimated Reading Time for posts
+- Stylish Drop Cap on posts
+- A Better Type Scale for all devices
 
-Second, Google might feature your AMP page in Search Results! Google gives
-preferential treatment to AMP pages on Mobile Search. When it displays your
-page in the AMP search results widget, it will even serve your page through
-it's own CDN to make the page load even faster. It's similar to how
-[Facebook Instant Articles](https://instantarticles.fb.com/) works on the
-Facebook platform.
+## Setup
 
-## Getting Started
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
+3. Clone it
+4. [Install Bundler](http://bundler.io/)
+5. Run `bundle install`
+6. Run Jekyll `jekyll serve -w`
+7. Run `compass watch`
+8. Customize!
 
-To use this theme, it's dead simple and just like using any other Jekyll
-template:
+## Site Settings
 
-*Step 1:* [Install Jekyll](https://jekyllrb.com/docs/installation/)
+The main settings can be found inside the `_config.yml` file:
 
-*Step 2:* Clone this repo to your computer
-
-```bash
-git clone <blah>
-```
-
-*Step 3:* Tweak `_config.yml`.
-
-Just fill in everything in the `# Site settings` section.
-You'll want to set your site's title, your name, your twitter username, etc.
-
-*Step 4:* Run `jekyll serve` and then open
-[http://localhost:4000/](http://localhost:4000/) to see your site!
-
-*Step 5:* Publish your site
-[just like any other Jekyll site](https://jekyllrb.com/docs/deployment-methods/).
-
-## Google AMP Limitations
-
-Google AMP sets many
-[strict limits on what you can include in your web pages](https://www.ampproject.org/docs/get_started/technical_overview.html).
-A few of these are worth talking about:
-
-*Limitation: All CSS must be inline (no external css files).*
-
-Because of this, the main css file for this site is in `_includes/styles.scss`
-instead of in the normal `css/` Jekyll folder. This css file is inlined
-into the header of every page via the special `scssify` filter in `_includes/head.html`.
-
-*Limitation: Size all resources statically*
-
-Every image you include in your page *must* have a height and width. This also
-applies to other things like embedding videos or other resources. Check below
-for more details.
-
-## Writing Posts with Google AMP
-
-Writing posts works
-[just like it does normally in Jekyll](https://jekyllrb.com/docs/posts/)
-except when you want to include extra resources likes pictures, videos,
-embedded Twitter posts, etc.
-
-Google AMP has it's own set of special html tags for including content. You
-should use these instead of normal Markdown or HTML tags.
-
-The two you are are most likely to need are `<amp-img>` and `<amp-youtube>`:
-
-### Images in your posts
-
-```
-<amp-img width="600" height="300" layout="responsive" src="/assets/images/your_picture.jpg"></amp-img>
-```
-
-### Youtube Videos in your posts
-
-```
-<amp-youtube data-videoid="NpEaa2P7qZI" layout="responsive" width="480" height="270"></amp-youtube>
-```
-
-### Embedding other types of content
-
-The AMP Project provides helpers for many other types of content like audio,
-ads, Google Analytics, etc.
-
-* Built-in AMP tags:
- * https://github.com/ampproject/amphtml/blob/master/builtins/README.md
-
-* Extended AMP tags:  
- * https://github.com/ampproject/amphtml/blob/master/extensions/README.md
-
-## Validating your page with Google AMP
-
-Google AMP adds built-in validation logic to make sure your pages follow all
-the rules so they render as fast as possible.
-
-To check your page, just add `#development=1` to any url on your site and then
-check the javascript console in your browser.
-
-http://localhost:4000/#development=1
-
-You will either see a success message:
-
-```
-Powered by AMP ⚡ HTML – Version 1457112743399
-AMP validation successful.
-```
-
-Or you will see a list of errors to fix:
-
-```
-Powered by AMP ⚡ HTML – Version 1457112743399
-AMP validation had errors:
-The attribute 'style' may not appear in tag 'span'
-The attribute 'style' may not appear in tag 'div'
-```
-
-## Making Google serve your page
-
-Google will cache valid AMP pages if you link to them with one of these urls:
-
-`https://cdn.ampproject.org/c/s/<your page url here>`
-
-Or:
-
-`https://amp.gstatic.com/c/s/<your page url here>`
-
-But keep in mind these two limitations:
-
-1. The caches don't refresh that often. So don't view these urls until your page
-   is done!
-2. Remove `/s` from both urls if your page isn't served over `https://`.
-
-## Required Schema Data
-
-To actually get your page featured in Google search results, it needs to include
-a http://schema.org NewsArticle schema. See `_includes/metadata.json` for the
-version generated by default. You might want to tweak it.
-
-## Credits
-
-This theme is inspired by
-[Mediator by Dirk Fabisch](https://github.com/dirkfabisch/mediator). I used some
-of the css and html from that theme as a starting point. Thanks!
+- **title:** title of your site
+- **description:** description of your site
+- **url:** your url
+- **paginate:** the amount of posts displayed on homepage
+- **navigation:** these are the links in the main site navigation
+- **social** diverse social media usernames (optional)
+- **google_analytics** Google Analytics key (optional)
 
 ## License
 
-MIT. See LICENSE file in repo.
+This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
