@@ -3,8 +3,8 @@ description: Lab of Ariestiyansyah
 
 url: http://oonlab.com
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "page:num/"
+permalink: :title/
 
 markdown: kramdown
 highlighter: rouge
