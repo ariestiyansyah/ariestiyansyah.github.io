@@ -6,7 +6,7 @@ title: Contact
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p>If you have questions about the theme feel free to <a href="mailto:ariestiyansyah.rizky@gmail.com">email me</a> or create an issue on <a href="https://github.com/ariestiyansyah/ariestiyansyah.github.io">GitHub</a>. Enjoy!</p>
+    <p>If you have questions feel free to <a href="mailto:ariestiyansyah.rizky@gmail.com">email me</a> or create an issue on <a href="https://github.com/ariestiyansyah/ariestiyansyah.github.io">GitHub</a>. Enjoy!</p>
   </div>
   <form action="http://formspree.io/ariestiyansyah.rizky@gmail.com" method="POST">
     <label for="name">Name</label>    
