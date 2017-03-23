@@ -78,7 +78,7 @@ DATABASES": {
             "ENGINE": "django.db.backends.mysql",
             "HOST": "localhost",
             "NAME": "edxapp_csmh",
-            "PASSWORD": "kAUCBmhPrTrGAEeWC5y62uo8qrWYLx0TyKd",
+            "PASSWORD": "randomhash",
             "PORT": "3306",
             "USER": "edxapp_cmsh001"
         }
