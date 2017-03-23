@@ -3,7 +3,7 @@ title: Open edX Instructor Page Error on Ficus
 author: ariestiyansyah
 layout: post
 categories:
-- Data
+- edX
 tags:
 - Open edX
 - Instructor
