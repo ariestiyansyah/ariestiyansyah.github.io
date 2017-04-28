@@ -17,7 +17,6 @@ url: http://oonlab.com # the base hostname & protocol for your site
 timezone:          Asia/Jakarta
 markdown:          kramdown
 highlighter:       rouge
-excerpt_separator: <!--more-->
 permalink:         /:categories/:year/:month/:day/:title/
 
 kramdown:
