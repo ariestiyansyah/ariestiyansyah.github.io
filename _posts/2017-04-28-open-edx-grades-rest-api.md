@@ -19,9 +19,9 @@ User Grades API support the following resources, tasks, methods, and endpoints
 
 | Task	| Method | Endpoint |
 |------------|------------|--------------|
-| Get user grade information | GET | api/grades/v0/course_grade/{course_id}/users/?username={username} |
+| Get user grade information | GET | /api/grades/v0/course_grade/{course_id}/users/?username={username} |
 
-The endpoint to get the details for a course is ``api/grades/v0/course_grade/{course_id}/users/?username={username}``
+The endpoint to get the details for a course is ```api/grades/v0/course_grade/{course_id}/users/?username={username}```
 
 **Use Case**
 
@@ -31,7 +31,9 @@ Currently, getting the grade for only an individual user is supported.
 
 **Example Request**
 
-`GET /api/grades/v0/course_grade/{course_id}/users/?username={username}`
+```
+GET /api/grades/v0/course_grade/{course_id}/users/?username={username}
+```
 
 
 **GET Parameters**
@@ -66,7 +68,6 @@ The HTTP 200 response has the following values.
 }]
 ```
 
-
 ## Grades Policy API Resource
 
 | Task | Method | Endoint |
@@ -79,8 +80,8 @@ The HTTP 200 response has the following values.
 
 **Example requests**:
 
-`GET /api/grades/v0/policy/{course_id}/`
-
+```
+GET /api/grades/v0/policy/{course_id}/```
 
 **Response Values**
 
