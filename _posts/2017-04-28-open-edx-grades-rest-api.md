@@ -12,6 +12,9 @@ tags:
 description: Open edX Grades API and Open edX Grading Policy API
 ---
 
+```
+Disclaimer: Open edX Grades API is under development, it's available only on Ficus release.
+```
 User Grades API support the following resources, tasks, methods, and endpoints
 
 ## User Grades API Resource
