@@ -2,6 +2,7 @@
 title: Open edX Grades REST API
 author: ariestiyansyah
 layout: post
+comments: true
 categories:
 - edX
 tags:
