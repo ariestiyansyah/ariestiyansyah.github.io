@@ -10,19 +10,19 @@ permalink: /:categories/:year/:month/:day/:title/
 
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
+excerpt_separator: <!--more-->
 
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
 
 owner:
     name: Rizky Ariestiyansyah
+    job: Researcher
+    bio: Full-time researcher and part-time tech speaker turned to the dark side.
     avatar: profile.jpg
     github: ariestiyansyah
     twitter: ariestiyansyah
