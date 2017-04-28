@@ -1,7 +1,9 @@
-title:  OONLAB
-description: Lab of Ariestiyansyah
+title:  oonlab
+email: ariestiyansyah.rizky@gmail.com
+description: Rizky Ariestiyansyah
 
 url: http://oonlab.com
+timezone: Asia/Jakarta
 baseurl: ""
 paginate_path: "page:num/"
 permalink: /:categories/:year/:month/:day/:title/
@@ -20,10 +22,14 @@ navigation:
  - title: Contact
    url: /contact
 
-social:
-   github: ariestiyansyah
-   twitter: ariestiyansyah
-   facebook: edXius
-   email: ariestiyansyah.rizky@gmail.com
-
-google_analytics: "UA-48740529-1"
+owner:
+    name: Rizky Ariestiyansyah
+    avatar: /images/profile.jpg
+    github: #ariestiyansyah
+    twitter: #ariestiyansyah
+    facebook: #edXius
+    email: ariestiyansyah.rizky@gmail.com
+    disqus_shortname: 
+    linkedin: #ariestiyansyah
+    google:
+        analytics: "UA-48740529-1"
