@@ -21,10 +21,12 @@ User Grades API support the following resources, tasks, methods, and endpoints
 |------------|------------|--------------|
 | Get user grade information | GET | /api/grades/v0/course_grade/{course_id}/users/?username={username} |
 
-The endpoint to get the details for a course is ```api/grades/v0/course_grade/{course_id}/users/?username={username}```
+The endpoint to get the details for a course is 
+```
+api/grades/v0/course_grade/{course_id}/users/?username={username}
+```
 
 **Use Case**
-
 
 - Get the current course grades for users in a course.
 Currently, getting the grade for only an individual user is supported.
@@ -47,7 +49,6 @@ A GET request must include the following parameters.
 **GET Response Values**
 
 If the request for information about the course grade is successful, an HTTP 200 "OK" response is returned.
-
 The HTTP 200 response has the following values.
 
 - username: A string representation of a user's username passed in the request.
@@ -81,7 +82,8 @@ The HTTP 200 response has the following values.
 **Example requests**:
 
 ```
-GET /api/grades/v0/policy/{course_id}/```
+GET /api/grades/v0/policy/{course_id}/
+```
 
 **Response Values**
 
