@@ -3,11 +3,12 @@ title: Open edX Grades REST API
 author: ariestiyansyah
 layout: post
 categories:
-- edx
+- edX
 tags:
-- open edx
+- Open edX
 - REST API
 - Grades
+- OpenedX
 
 description: Open edX Grades API and Open edX Grading Policy API
 ---
