@@ -19,7 +19,7 @@ I'm active as open source warrior, volunteering in non-profit organization like 
 I was worked at several company as full-time employeer and __freelancer__ like
  
 - [Ministry of Public Work Indonesia](http://litbang.pu.go.id/)
-- [PT. Polatic Informatika Indonesia](http://polatic.co.id)
+- [PT Polatic Informatika Indonesia](http://polatic.co.id)
 - [Evolusi Network Studio](http://evonestudio.com)
 - [PT Education Technology Indonesia](https://indonesiax.co.id)
 - [Paramount Enterprise International](http://www.paramount-land.com/)
@@ -27,6 +27,8 @@ I was worked at several company as full-time employeer and __freelancer__ like
 
 Some of my happy clients are :
 
+- [PT Daya Sinergi Solution](http://dssconsulting.id/)
+- [New Horizons Singapore Pte Ltd](http://newhorizons.com.sg/)
 - [Makati Capital Partners PTE LTD](http://makaticapital.com)
 - [PT Sampoerna Wirausaha](http://mekar.id)
 - [PT. Education Technology Indonesia](http://indonesiax.co.id)
@@ -35,11 +37,11 @@ Some of my happy clients are :
 - [Dr. Hasan Rachmany, Ak., MA.](http://stpi-pajak.ac.id)
 - [Sekolah Tinggi Perpajakan Indonesia](http://stpi-pajak.ac.id)
 - [Kwarcab Pramuka Tangerang Selatan](http://pramukatangsel.or.id)
-- [PT. Valua Lidi Impresario](http://valuatraining.com) 
-- [PT. Andalan Global Sarana](http://www.properti1001.com)
+- [PT Valua Lidi Impresario](http://valuatraining.com) 
+- [PT Andalan Global Sarana](http://www.properti1001.com)
 - [Pulsagame](http://pulsagame.com)
 - [Brili Agung the Inspiratormaker](http://briliagung.com)
-- [PT. Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name) 
+- [PT Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name) 
 - Email me for more...
 
 I had been a speaker at this event and university :
