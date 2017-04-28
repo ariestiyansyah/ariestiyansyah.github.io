@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
 
 {% include head.html %}
 
 <body>
-
-   {% include header.html %}
-
-   <div class="content">
-      <div class="container">
-         {{ content }}
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        {% include sidebar.html %}
       </div>
-   </div><!-- end .content -->
-
-   {% include footer.html %}
-   {% include scripts.html %}
-
+    </div>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        {{ content }}
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+  {% include js.html %}
 </body>
-
 </html>
