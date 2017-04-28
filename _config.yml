@@ -1,27 +1,67 @@
-title:  oonlab
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: oonlab
 email: ariestiyansyah.rizky@gmail.com
-description: Rizky Ariestiyansyah
+description: Rizky Ariestiyansyah.
+url: http://oonlab.com # the base hostname & protocol for your site
 
-url: http://oonlab.com
-timezone: Asia/Jakarta
-baseurl: ""
-paginate_path: "page:num/"
-permalink: /:categories/:year/:month/:day/:title/
-paginate: 5
-markdown: kramdown
-highlighter: rouge
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Jakarta
+markdown:          kramdown
+highlighter:       rouge
 excerpt_separator: <!--more-->
+permalink:         /:categories/:year/:month/:day/:title/
 
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
 owner:
-    name: Rizky Ariestiyansyah
-    job: Researcher
-    bio: Full-time researcher and part-time tech speaker turned to the dark side.
-    avatar: profile.jpg
-    github: ariestiyansyah
-    twitter: ariestiyansyah
-    facebook: edXius
-    email: ariestiyansyah.rizky@gmail.com
-    disqus-shortname: oonlab
-    linkedin: ariestiyansyah
-    google:
-        analytics: "UA-48740529-1"
+  name: Rizky Ariestiyansyah
+  avatar: profile.jpg
+  job: "Researcher"
+  bio: "Full-time researcher and part-time tech speaker turned to the dark side"
+  email: ariestiyansyah.rizky@gmail.com
+  disqus-shortname: oonlab
+  twitter: ariestiyansyah #username
+  facebook: edxius
+  google:
+    plus: RizkyAriestiyansyah
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ariestiyansyah #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: ariestiyansyah #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
