@@ -17,6 +17,7 @@ url: http://oonlab.com # the base hostname & protocol for your site
 timezone:          Asia/Jakarta
 markdown:          kramdown
 highlighter:       rouge
+gems: [jekyll-paginate]
 permalink:         /:categories/:year/:month/:day/:title/
 
 kramdown:
@@ -41,8 +42,8 @@ owner:
   twitter: ariestiyansyah #username
   facebook: edxius
   google:
-    plus: RizkyAriestiyansyah
-    analytics: UA-62251910-2
+    plus: 
+    analytics: UA-48740529-1
     verify:
     ad-client:
     ad-slot:
