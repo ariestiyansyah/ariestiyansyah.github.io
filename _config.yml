@@ -7,7 +7,6 @@ timezone: Asia/Jakarta
 baseurl: ""
 paginate_path: "page:num/"
 permalink: /:categories/:year/:month/:day/:title/
-disqus: oonlab
 
 markdown: kramdown
 highlighter: rouge
@@ -29,7 +28,7 @@ owner:
     twitter: ariestiyansyah
     facebook: edXius
     email: ariestiyansyah.rizky@gmail.com
-    disqus_shortname: 
+    disqus_shortname: oonlab
     linkedin: ariestiyansyah
     google:
         analytics: "UA-48740529-1"
