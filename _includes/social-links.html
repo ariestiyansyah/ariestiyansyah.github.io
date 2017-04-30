@@ -12,7 +12,7 @@
 </script>
 <div class="social-links">
   <ul>
-    {% if author.email %}
+    {% if site.owner.email %}
       <li>
       <script>gen_mail_to_link('{{ site.owner.email }}', 'Hello');</script>
       </li>
