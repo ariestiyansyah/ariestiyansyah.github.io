@@ -49,23 +49,6 @@ owner:
   linkedin: ariestiyansyah #username
   instagram: ariestiyansyah
 
-author:
-  name: Rizky Ariestiyansyah
-  avatar: profile.jpg
-  job: "Researcher"
-  bio: "Full-time researcher and part-time tech speaker turned to the dark side"
-  email: ariestiyansyah.rizky@gmail.com
-  disqus-shortname: oonlab
-  twitter: ariestiyansyah #username
-  facebook: edxius
-  google:
-    analytics: UA-48740529-1
-  bing-verify:
-  github: ariestiyansyah #username
-  stackoverflow: 2215684/rizky-ariestiyansyah   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: ariestiyansyah #username
-  instagram: ariestiyansyah
-
 defaults:
   -
     scope:
