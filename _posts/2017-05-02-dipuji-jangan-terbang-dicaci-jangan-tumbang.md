@@ -9,7 +9,7 @@ tags:
 - Self-reminder
 - Life
 
-description: "Why should we worry about what others think of us, do we have more confidence in their opinions than we do our own?”
+description: Why should we worry about what others think of us, do we have more confidence in their opinions than we do our own?
 ---
 
 Saya yang sedang menulis artikel ini masih kenal betul dengan diri saya sendiri. Iya! diri saya saya sendiri, seorang pemuda yang pernah merasakan tertawa di muka umum tetapi menangis di belakang layar, seorang pemuda yang selalu bermimpi untuk menjadi orang besar tapi tetapi hatinya berkehendak untuk berjiwa besar.
