@@ -11,7 +11,7 @@ tags:
 - days
 - 9ideasperday
 image:
-	feature: firsttry.jpg
+  feature: firsttry.jpg
 ---
 
 Kemarin sudah Hari Pendidikan Nasional yah, sekarang gw mau coba aktivitas baru, new habbit yaitu menulis apa yang gw pikirkan dalam seharian ini. Kalau dapat ide langsung catat dan save :D tidur paling lama 7 jam berarti sisa 17 jamnnya itu pasti adalah ide yang muncul karena gw orangnya suka berpikir dan terus terang banyak ide gagal dan gagal gw.
