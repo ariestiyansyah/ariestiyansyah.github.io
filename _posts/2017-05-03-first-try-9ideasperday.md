@@ -4,7 +4,7 @@ excerpt: "Jadi gw akan fokus pada 9 ide perharinya"
 author: ariestiyansyah
 layout: post
 categories:
-- idea
+- 9ideasperday
 tags:
 - idea
 - Life
