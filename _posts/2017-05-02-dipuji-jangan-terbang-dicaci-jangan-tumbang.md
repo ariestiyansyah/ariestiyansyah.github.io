@@ -12,11 +12,11 @@ tags:
 description: Why should we worry about what others think of us, do we have more confidence in their opinions than we do our own?
 ---
 
-Saya yang sedang menulis artikel ini masih kenal betul dengan diri saya sendiri. Iya! diri saya saya sendiri, seorang pemuda yang pernah merasakan tertawa di muka umum tetapi menangis di belakang layar, seorang pemuda yang selalu bermimpi untuk menjadi orang besar tapi tetapi hatinya berkehendak untuk berjiwa besar.
+Saya yang sedang menulis artikel ini masih kenal betul dengan diri saya sendiri. Iya! diri saya saya sendiri, seorang pemuda yang pernah merasakan tertawa di muka umum tetapi menangis di belakang layar, seorang pemuda yang selalu bermimpi untuk menjadi orang besar tetapi hatinya berkehendak untuk berjiwa besar.
 
 Jadi apa yang ingin saya bahas lewat tulisan ini? ah ini hanya curahan hati saya agar kalian yang membaca jangan malu dan takut untuk ikut organisasi saja dan mungkin karena ini adalah Hari Pendidikan Nasional. Banyak sekali potensi besar di Indonesia ini, tapi banyak kita lihat generasi sekarang yang cenderung menjadi follower (pengikut), hilang arah mereka untuk berinovasi.
 
-Banyak juga yang takut mencoba sih sebanrnya, situasi dimana seseorang sudah melihat jalannya tapi takut untuk melangkah. Okay! mungkin karena malu? hmmm
+Banyak juga yang takut mencoba sih sebenarnya, situasi dimana seseorang sudah melihat jalannya tapi takut untuk melangkah. Okay! mungkin karena malu? hmmm
 
 > "Why should we worry about what others think of us, do we have more confidence in their opinions than we do our own?”
 
