@@ -9,6 +9,7 @@ tags:
 - idea
 - Life
 - days
+- 9ideasperday
 image:
 	feature: firsttry.jpg
 
