@@ -1,5 +1,6 @@
 ---
-title: First Try #9IdeasPerDay
+title: "First Try #9IdeasPerDay"
+excerpt: "Jadi gw akan fokus pada 9 ide perharinya"
 author: ariestiyansyah
 layout: post
 categories:
@@ -12,8 +13,6 @@ tags:
 - 9ideasperday
 image:
 	feature: firsttry.jpg
-
-description: Jadi kita akan fokus pada 9 ide perharinya
 ---
 
 Kemarin sudah Hari Pendidikan Nasional yah, sekarang gw mau coba aktivitas baru, new habbit yaitu menulis apa yang gw pikirkan dalam seharian ini. Kalau dapat ide langsung catat dan save :D tidur paling lama 7 jam berarti sisa 17 jamnnya itu pasti adalah ide yang muncul karena gw orangnya suka berpikir dan terus terang banyak ide gagal dan gagal gw.
