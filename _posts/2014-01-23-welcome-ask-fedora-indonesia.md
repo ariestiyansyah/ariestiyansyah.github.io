@@ -12,7 +12,7 @@ tags:
   - Fedora
 ---
 <div id="attachment_178" style="width: 610px" class="wp-caption aligncenter">
-  <a href="http://oonlab.com/wp-content/uploads/2014/01/Screenshot-from-2014-01-23-190832.png"><img class="size-large wp-image-178" alt="Tampilan Ask Fedora" src="http://oonlab.com/wp-content/uploads/2014/01/Screenshot-from-2014-01-23-190832-600x397.png" width="600" height="397" /></a>
+  <a href="http://oonlab.com/wp-content/uploads/2014/01/Screenshot-from-2014-01-23-190832.png"><img class="size-large wp-image-178" alt="Tampilan Ask Fedora" src="http://oonlab.com/wp-content/uploads/2014/01/Screenshot-from-2014-01-23-190832-600x397.png" width="350" /></a>
   
   <p class="wp-caption-text">
     Tampilan Ask Fedora
