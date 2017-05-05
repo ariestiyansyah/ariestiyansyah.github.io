@@ -15,7 +15,7 @@ tags:
   - OON
 ---
 <div id="attachment_360" style="width: 726px" class="wp-caption aligncenter">
-  <a href="http://oonlab.com/wp-content/uploads/2014/08/introduce.png"><img class="size-full wp-image-360" src="http://oonlab.com/wp-content/uploads/2014/08/introduce.png" alt="Oon, Mba Kunti dan Nenek Ngesot" width="400" /></a>
+  <a href="http://oonlab.com/wp-content/uploads/2014/08/introduce.png"><img class="size-full wp-image-360" src="http://oonlab.com/wp-content/uploads/2014/08/introduce.png" alt="Oon, Mba Kunti dan Nenek Ngesot" width="200" /></a>
   
   <p class="wp-caption-text">
     Oon, Mba Kunti dan Nenek Ngesot
