@@ -1,5 +1,5 @@
 ---
-title: "Ide Surprise Box Hingga Telemarketing Platform #9IdeasPerDay"
+title: " 9IdeasPerDay - Ide Surprise Box Hingga Telemarketing Platform"
 author: ariestiyansyah
 layout: post
 categories:

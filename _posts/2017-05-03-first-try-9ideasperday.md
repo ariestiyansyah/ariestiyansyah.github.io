@@ -1,5 +1,5 @@
 ---
-title: "First Try #9IdeasPerDay"
+title: "9IdeasPerDay - First Try"
 excerpt: "Jadi gw akan fokus pada 9 ide perharinya"
 author: ariestiyansyah
 layout: post
