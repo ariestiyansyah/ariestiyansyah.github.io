@@ -22,7 +22,7 @@ Ada yang mau gw share juga sih sebelum ke topik utama, jadi sekarang lagi *resea
 Anak-anak 90-an itu mainannya banyak sekali ada beyblad, tamiya, crush gear dan sebagainya. Dewasa ini jika permainan masa kecil kita yang masih monoton sebetulanya bisa dibuat lebih dinamis dan mengikuti anime sebenarnya, saya ambil salah satunya adalah crush gear yang digabungkan dengan teknologi *internet of things*. Membuat *crush gear* yang dapat dikendalikan dengan *remote control* akan sangat menarik ditambah lagi arena yang dibuat benar-benar mirip dengan animenya dengan tambahan rintangan, waaaaah pasti seru sekali. 
 
 ### 2. Lemari Lipat
-Lemari sekarang kayunya udah berat ditambah lagi dimensinya yang sangat besar aduh rasanya menuhin tempat saja, gw males banget dengan lemari seperti ini karena setiap hari pasti ketemu ini lemari (lemarinya sebelah kasur hahaa). Coba deh bayangkan jika lemari tersebut bisa dilibat dan pakian kita didalam lemari tersebut akan mengikuti pola lipatan lemari tersebut, pastinya jangan dibuat untuk lecekin baju aja sih.
+Lemari sekarang kayunya udah berat ditambah lagi dimensinya yang sangat besar aduh rasanya menuhin tempat saja, gw males banget dengan lemari seperti ini karena setiap hari pasti ketemu ini lemari (lemarinya sebelah kasur hahaa). Coba deh bayangkan jika lemari tersebut bisa dilipat dan pakaian kita didalam lemari tersebut akan mengikuti pola lipatan lemari tersebut, pastinya jangan dibuat untuk lecekin baju aja sih.
 
 ### 3. Buku Berjalan
 Banyak banget tuh buku yang dikelola oleh pemerintah Indonesia, perpusatakaannya juga lumayan banyak tapi sayangnya buku-buku tersebut hanya tidur diam diperpusataan. Itu buku sebenarnya butuh jalan-jalan, kasih label ini buku pemerintah deh coba. Idenya apa? Jadi gini, itu dibuat peraturan buku itu bisa dibaca oleh siapa saja yang menemukannya, pembacanya juga bisa menyimpan buku tersebut diruang publik manapun, misalnya saya menemukan buku dikoridor busway Jakarta Selatan lalu gw ambil untuk dibaca didalam busway, sesampainya di Jakarta Timur saya menyimpan buku itu dimana saja yang bisa diakses oleh orang, kan seru siapa saja yang melihat bisa membacanya.
@@ -32,8 +32,8 @@ Ide ini lebih rapi lagi kalau ada pos khusus untuk menyimpan buku tersebut, plea
 ### 4. Mood Wallpaper
 Wallpaper diruangan tamu atau dikamar kita pasti gambarnya *flat* ya gitu-gitu aja gak ada yang berubah. Gw berpikir ketika bangun dari tidur tadi kalau *wallpaper* itu bisa berubah tergantung *mood* dari yang punya rumah tersebut, ketahuan kan *mood*nya bagaimana dan kita bisa menjaga *mood* juga sih kalau ada ini.
 
-### 5. Idea Maping
-Aplikasi untuk maping idea belum ada sih, kalau ada juga belum pernah coba makanya gw kepikiran aja aplikasi yang bisa maping semua ide yang kita submit. Sederhananya kita masukan satu (1) lalu aplikasi tersebut akan menganalisa dan membuat maping ide dari *keyword* yang kita masukan tadi.
+### 5. Idea Mapping
+Aplikasi untuk *mapping* idea belum ada sih, kalau ada juga belum pernah coba makanya gw kepikiran aja aplikasi yang bisa *mapping* semua ide yang kita submit. Sederhananya kita masukan satu (1) lalu aplikasi tersebut akan menganalisa dan membuat *mapping* ide dari *keyword* yang kita masukan tadi.
 
 ### 6. Ping Match
 Ini idenya sensitif dengan data pengguna, masukan interest masing-masing terus aplikasi ini akan mengolah datanya, jika dikemudian hari kita berjalan dan berpapasan dengan lawan jenis yang interestnya sama persis perangkat kita akan berdering PING! PING! PING! cie cie kalian punya kecocokan, *that's the idea*.
