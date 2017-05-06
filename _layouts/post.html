@@ -60,13 +60,14 @@ layout: default
     </li>
   </ul>
 </div><!-- end share-buttons -->
-<div>
+<div style="text-align:left">
     {% if page.previous.url %} 
       <a href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
     </a>
     {% endif %}  
+</div><div style="text-align: right">
     {% if page.next.url %}  
-      <a style="text-align:right" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
+      <a href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
       </a>
     {% endif %} 
   </div>
