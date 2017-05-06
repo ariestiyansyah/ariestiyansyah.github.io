@@ -60,18 +60,18 @@ layout: default
     </li>
   </ul>
 </div><!-- end share-buttons -->
-<div style="text-align:left">
+<div style="width:100%"><div style="float:left">
     {% if page.previous.url %} 
-      <a href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
+      <a href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp; Previous Article {{ page.previous.title }}</span>
     </a>
     {% endif %}  
-</div><div style="text-align: right">
+</div><div style="float:right">
     {% if page.next.url %}  
-      <a href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
+      <a href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }} Next Article &nbsp;&raquo;</span>
       </a>
     {% endif %} 
   </div>
-
+</div>
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>
 {% include disqus.html %}
