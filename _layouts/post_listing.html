@@ -60,8 +60,6 @@ title: oonlab - Rizky Ariestiyansyah
     {% endif %}
 
 </section>
-{% endfor %}
-
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -87,3 +85,6 @@ title: oonlab - Rizky Ariestiyansyah
     <span class="next ">Next</span>
   {% endif %}
 </div>
+
+{% endfor %}
+
