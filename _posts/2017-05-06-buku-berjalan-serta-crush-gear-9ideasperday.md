@@ -49,5 +49,6 @@ Seringkali kalau menerima receipt itu bahasanya mengikuti sistemnya saja, idenya
 
 Udah ya, kalau kalian ada saran untuk proses *generating new ideas* atau sebuah *keyword* saja please share karena itu akan sangat berguna buat gw untuk membuat ide-ide baru, monggo mention gw di facebook, twitter atau di email ya, dan *see you tomorrow!*
 
-Facebook: https://facebook.com/edXius
-Twitter: https://twitter.com/ariestiyansyah
+Facebook: [https://facebook.com/edXius]()
+
+Twitter: [https://twitter.com/ariestiyansyah]()
