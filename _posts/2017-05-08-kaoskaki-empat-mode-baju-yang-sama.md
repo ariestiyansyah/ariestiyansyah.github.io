@@ -38,7 +38,7 @@ Topi yang *inflatable* udah ada belum sih? jadi kalau panas dan ingin menjaga mu
 ### 7. Discount Selector
 Banyak aplikasi dan website coupon tapi harus *copy-paste* dulu codenya dan terkadang klik dulu linknya untuk dapat kode vouchernya, huffft. Kalau kita sedang berkunjung ke *ecommerce*  aplikasi *discounter* ini akan otomatis menginput kode, gak ribet kan jadinya? tunggu dulu monetizenya dimana sebagai *provider?*, hmmmm ya model partnership bisa kali dicoba.
 
-### 8. Kaos Maki 4 Model
+### 8. Kaos Kaki 4 Model
 Kaos Kaki itu punya sisi luar dan dalam, kiri dan kanan. Memungkinkan sekali untuk dibuat empat model kaoskakinya, kalau hari Senin kaos kakinya pakai seperti biasa saja, hari Selasa kaos kaki kiri dipakai dikanan begitu juga sebaliknya, hari Rabu sisi dalam kaos kaki jadi sisi luar, hari Kamis pindah lagi dari kiri ke kanan, hahahah bisa kan 4 model :D
 
 Ide ini kepikiran karena gw jarang ganti kaos kaki sih sebenarnya.
