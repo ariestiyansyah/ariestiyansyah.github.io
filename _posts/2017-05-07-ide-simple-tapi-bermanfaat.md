@@ -41,7 +41,7 @@ Pernah pakai kacamata merk bagus sebut saja Oakley uhuk, waktu itu gw dari Jakar
 Gw pengen banget ada dinding yang bisa berubah-rubah warnanya karena bosan banget melihat dinding yang berwarna kuning, putih, biru dan hijau. Terlebih lagi bisa terhubung dengan *gadget* kita pasti akan sangat menarik, huh.
 
 ### 8. Remote Multi-Function
-Satu untuk semua, barangkali itu cocok dengan remote yang gw pikirkan ini. *Remote* yang bisa mengontol semua benda disekitar kita, wow! Tapi tunggu dulu, kalau mau *pair* dengan benda baru harus punya *accss code* khusus jadi gak boleh sembarangan *pair* hihihi.
+Satu untuk semua, barangkali itu cocok dengan remote yang gw pikirkan ini. *Remote* yang bisa mengontrol semua benda disekitar kita, wow! Tapi tunggu dulu, kalau mau *pair* dengan benda baru harus punya *accss code* khusus jadi gak boleh sembarangan *pair* hihihi.
 
 ### 9. A-frame studio
 Mungkin kalian tahu teknologi baru yang namanya *WebVR (Web Virtual Reality*, nah kita bisa membuat sebuah entitas baru atau object baru yang bisa kita gunakan untuk membuat sebuah *project*, kalau dibuat *studionya* yaitu aplikasi untuk membuat project VR dimana didalamnya terdapat banyak *object* yang sudah dibuat, tinggal *drag and drop* sudah bisa buat dunia VR sendiri :D
