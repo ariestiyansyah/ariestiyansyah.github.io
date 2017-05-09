@@ -50,3 +50,7 @@ Kalau gw tanya apakah kalian punya ide "Menyalakan ide dengan mengetuk layarnya?
 
 Nah, itu untuk hari ini, berikutnya task gw adalah buat *video review* untuk ide selama tujuh hari terakhir, *be right back* siapin *black paper* andalan gw.
 
+
+Facebook: [https://facebook.com/edXius]()
+
+Twitter: [https://twitter.com/ariestiyansyah]()
