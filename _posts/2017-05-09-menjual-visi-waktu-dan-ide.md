@@ -1,5 +1,5 @@
 ---
-title: " 9IdeasPerDay - Menjual visi, waktu dan Ide"
+title: " 9IdeasPerDay - Menjual Visi, Waktu dan Ide"
 author: ariestiyansyah
 layout: post
 categories:
