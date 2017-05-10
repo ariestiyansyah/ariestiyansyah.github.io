@@ -13,4 +13,4 @@ tags:
 
 So.. this is my first video guys hahahaha, penasaran kan dengan 7 ide terpilih selama seminggu terakhir? yap langsung aja nonton videonya ya kk.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI4PfC2ykcw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/sI4PfC2ykcw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
