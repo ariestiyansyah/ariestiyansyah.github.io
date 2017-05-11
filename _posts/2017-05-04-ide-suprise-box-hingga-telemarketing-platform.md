@@ -1,14 +1,14 @@
 ---
-title: " 9IdeasPerDay - Ide Surprise Box Hingga Telemarketing Platform"
+title: " XIdeasPerDay - Ide Surprise Box Hingga Telemarketing Platform"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- Xideasperday
 image:
   feature: second.jpg
   credit: Quino Al
