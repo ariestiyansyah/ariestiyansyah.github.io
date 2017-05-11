@@ -1,14 +1,14 @@
 ---
-title: "9IdeasPerDay - Ide Buku Berjalan Serta Mainan Crush Gear"
+title: "XIdeasPerDay - Ide Buku Berjalan Serta Mainan Crush Gear"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- Xideasperday
 image:
   feature: four.jpg
   credit: Siyan Ren

@@ -1,15 +1,15 @@
 ---
-title: "9IdeasPerDay - First Try"
+title: "XIdeasPerDay - First Try"
 excerpt: "Jadi gw akan fokus pada 9 ide perharinya"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- xideasperday
 image:
   feature: firsttry.jpg
   credit: Scott Webb

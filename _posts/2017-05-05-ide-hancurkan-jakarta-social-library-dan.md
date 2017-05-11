@@ -1,14 +1,14 @@
 ---
-title: "9IdeasPerDay - Ide Hancurkan Jakarta, Social Library dan ..."
+title: "XIdeasPerDay - Ide Hancurkan Jakarta, Social Library dan ..."
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- Xideasperday
 image:
   feature: third.jpg
   credit: Sophie Sollmann
