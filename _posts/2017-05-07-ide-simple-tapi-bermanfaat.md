@@ -1,9 +1,9 @@
 ---
-title: " 9IdeasPerDay - Ide Simple Tapi Bermanfaat"
+title: " XIdeasPerDay - Ide Simple Tapi Bermanfaat"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life

@@ -1,14 +1,14 @@
 ---
-title: " 9IdeasPerDay - Kaos Kaki Empat Model, Baju yang Sama dan ..."
+title: " XIdeasPerDay - Kaos Kaki Empat Model, Baju yang Sama dan ..."
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- xideasperday
 image:
   feature: six.jpg
   credit: Jeff Sheldon

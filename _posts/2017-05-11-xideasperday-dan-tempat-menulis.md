@@ -1,9 +1,9 @@
 ---
-title: " 3IdeasPerDay - XIdeasPerDay dan Tempat Menulis "
+title: " XIdeasPerDay - XIdeasPerDay dan Tempat Menulis "
 author: ariestiyansyah
 layout: post
 categories:
-- 3ideasperday
+- xideasperday
 tags:
 - idea
 - Life

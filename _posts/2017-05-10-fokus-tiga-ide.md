@@ -1,9 +1,9 @@
 ---
-title: " 3IdeasPerDay - Fokus Tiga Ide"
+title: " XIdeasPerDay - Fokus Tiga Ide"
 author: ariestiyansyah
 layout: post
 categories:
-- 3ideasperday
+- xideasperday
 tags:
 - idea
 - Life

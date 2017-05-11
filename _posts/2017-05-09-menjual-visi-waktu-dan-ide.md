@@ -1,9 +1,9 @@
 ---
-title: " 9IdeasPerDay - Menjual Visi, Waktu dan Ide"
+title: " XIdeasPerDay - Menjual Visi, Waktu dan Ide"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
