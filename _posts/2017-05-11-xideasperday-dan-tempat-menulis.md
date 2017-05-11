@@ -28,7 +28,7 @@ Saat gw menulis artikel ini tempatnya sungguh nyaman sekali yaitu tempat dimana 
 
 Kenapa toilet? Tempat ini bisa dibilang adalah tempat yang paling sunyi dan damai untuk menikmati *solitude*, yap kesendirian. Kalau kalian cari di internet banyak *entrepreneur* mendapatkan *briliant idea* didalam toilet loh, unik sih. 
 
-### 3. Continous Song
+### 3. Continuous Song
 Suka dengarin music? sudah biasa sih, yang sering gw lakukan adalah menyanyikan lagu yang dipotong-potong, contohnya gini
 
 "Dengarkanlah permintaan hati yang teraniaya kini, dan..." Ini lagunya Letto terus disambung ke lagu lainnya
