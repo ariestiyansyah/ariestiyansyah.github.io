@@ -1,14 +1,14 @@
 ---
-title: " 9IdeasPerDay - Review Minggu Pertama"
+title: " XIdeasPerDay - Review Minggu Pertama"
 author: ariestiyansyah
 layout: post
 categories:
-- 9ideasperday
+- xideasperday
 tags:
 - idea
 - Life
 - days
-- 9ideasperday
+- Xideasperday
 ---
 
 So.. this is my first video guys hahahaha, penasaran kan dengan 7 ide terpilih selama seminggu terakhir? yap langsung aja nonton videonya ya kk.
