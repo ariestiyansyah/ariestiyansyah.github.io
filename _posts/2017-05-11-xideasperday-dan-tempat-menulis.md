@@ -10,9 +10,9 @@ tags:
 - days
 - 3ideasperday
 image:
-  feature: eight.jpg
-  credit: Lauran Mancke
-  creditlink: https://unsplash.com/photos/aOC7TSLb1o8
+  feature: ten.jpg
+  credit: Paul Morris
+  creditlink: https://unsplash.com/photos/1-6CHp3zLIQ
 ---
 
 Ada satu hal yang pengen gw katakan sebelum membahas tiga ide hari ini yaitu "Kau masih sama cantiknya seperti dulu", ah gw tahu lu pasti baca tulisan ini :D jadi ya gw mau menyatakannya disesi pembuka.
