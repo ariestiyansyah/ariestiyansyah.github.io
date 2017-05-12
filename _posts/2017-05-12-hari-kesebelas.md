@@ -17,7 +17,7 @@ image:
 
 Tidak terasa sudah hari Jumat lagi yah, akhir pekan kembali datang menyinari kegelapan dan XIdeasPerDaypun kembali datang menyinari akhir pekan kalian, ciaaat ciaaat bahasanya sedikit lebay, huh.
 
-Sambil menulis lagu ini gw tidak didampingi oleh pacar (halah) tetapi didampingi oleh lantunan musik *Spotify* ada beberapa ide yang sudah gw rangkum hari ini, salah satu idenya gw dapat tadi subuh ketika berada didalam toilet, ide nomor 2 deh coba dibaca.
+Sambil menulis lagu ini gw tidak didampingi oleh pacar (halah) tetapi didampingi oleh lantunan musik *Spotify* sambil nyinyir melihat pengunjung blog XIdeasPerDay sudah masuk 200 pageviews ehem. Ada beberapa ide yang sudah gw rangkum hari ini, salah satu idenya gw dapat tadi subuh ketika berada didalam toilet, ide nomor 2 deh coba dibaca.
 
 ### 1. Film CardBoard
 Minggu yang lalu gw sempat membahas tentang film, hari ini gw juga kepikiran tentang film. Masih ingat ga waktu kecil (anak 90an yak) beli susu bubuk milo bungkusnya itu bisa dijadikan gawang dan kita mendapatkan karakter pemain bola yang memiliki dua lubang dikakinya dimana lubang tersebut untuk memasukan tangan kita, nah tangan kita jadi kaki dari karakter tersebut, dulu mah sampai main ditanah bikin lapangan sepakbola benaran tapi kecil sih.
