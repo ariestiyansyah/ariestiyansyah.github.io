@@ -1,5 +1,5 @@
 ---
-title: " XIdeasPerDay - Hari Kesebelas"
+title: " XIdeasPerDay - Hari Kesepuluh"
 author: ariestiyansyah
 layout: post
 categories:
