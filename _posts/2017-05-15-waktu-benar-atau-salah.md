@@ -27,7 +27,7 @@ Ada juga hal yang namanya *super connected habbit*, contohnya gw ketika sedang a
 
 ### Benar atau Salah
 
-Pernah berpikir apa yang kita lakukan ini benar atau salah? coba buat dua tombol yang dapat menghitung perbuatan kita dalam sehari, kalau dirasa perbuatan yang kalian lakukan salah tekan tombol salah begitu juga sebaliknya, lewat hal sederhana ini kalian bisa kalkulasi perbuatan kalian setiap harinya, apakah kalian banyak berbuat benar atau salah? menarik untuk dicoba loh, karena jujur gw udah punya aplikasi *counter* minum air putih atau kopi hari ini, coba *swicth* menarik.
+Pernah berpikir apa yang kita lakukan ini benar atau salah? coba buat dua tombol yang dapat menghitung perbuatan kita dalam sehari, kalau dirasa perbuatan yang kalian lakukan salah tekan tombol salah begitu juga sebaliknya, lewat hal sederhana ini kalian bisa kalkulasi perbuatan kalian setiap harinya, apakah kalian banyak berbuat benar atau salah? menarik untuk dicoba loh, karena jujur gw udah punya aplikasi *counter* minum air putih atau kopi hari ini, coba *switch* menarik.
 
 ### Bantal Berubah
 
