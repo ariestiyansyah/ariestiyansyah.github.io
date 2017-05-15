@@ -7,17 +7,17 @@ layout: default
 <h1 class="pageTitle">About</h1>
 <img width="500" height="500" layout="responsive" src="/images/profile.jpg">
 
-Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Full Stack Developer & Business Strategist__ with equal parts interest in business, tax, management development, and writing.
+Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Researcher & Business Strategist__ with equal parts interest in digital learning, tax, management, development, and writing.
 
 I love to explore my brain, by day I am active as Entrepreneur and researcher and by night as the Darth edXius. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
 
 I'm active as open source warrior, volunteering in non-profit organization like [Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing and all about buiness and finance.
 
-<div class="github-card" data-github="ariestiyansyah" data-width="400" data-height="" data-theme="default"></div>
+<div class="github-card" data-github="ariestiyansyah" data-width="300" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 I was worked at several company as full-time employeer and __freelancer__ like
- 
+
 - [Ministry of Public Work Indonesia](http://litbang.pu.go.id/)
 - [PT Polatic Informatika Indonesia](http://polatic.co.id)
 - [Evolusi Network Studio](http://evonestudio.com)
@@ -31,7 +31,7 @@ Some of my happy clients are :
 - [New Horizons Singapore Pte Ltd](http://newhorizons.com.sg/)
 - [Makati Capital Partners PTE LTD](http://makaticapital.com)
 - [PT Sampoerna Wirausaha](http://mekar.id)
-- [PT. Education Technology Indonesia](http://indonesiax.co.id)
+- [PT Education Technology Indonesia](http://indonesiax.co.id)
 - [GRC Mulya Abadi](#)
 - [Kevin Zhang - Cargo Made Simple](http://cargoerp.com)
 - [Dr. Hasan Rachmany, Ak., MA.](http://stpi-pajak.ac.id)
