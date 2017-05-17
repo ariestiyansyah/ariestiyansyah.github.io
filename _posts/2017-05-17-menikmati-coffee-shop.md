@@ -38,3 +38,8 @@ Kalau untuk ke *coffee shop* dulu untuk beli kopi sih rasanya bosan banget, perl
 Sempat berpikir bagaimana cara membuat bisnis yang bisa lancar, hmm kalau yang gw lihat sih banyak orang yang hanya fokus pada *building business* bukan *building people*, iya beneran banyak yang tidak peduli tentang orang-orang yang bekerja dalam satu timnya, gw yakin sih berkembangnya akan susah karena *the important thing in your business is people*, yap merekalah yang akan mebangun bisnis kita, jadi jangan pernah berhenti dan lengah untuk membangun orang-orang didalam bisnis kalian ya, semangat *building peoplenya*
 
 Hari ini sudah cukup dulu ya idenya, gw lagi berpikir untuk ide-ide berikutnya nih.
+
+Subscribe untuk menerima update mingguan ya.
+
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/XIdeasPerDay" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/XIdeasPerDay', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+​                  
