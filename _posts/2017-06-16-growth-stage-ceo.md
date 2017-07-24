@@ -15,10 +15,6 @@ image:
   creditlink: https://www.facebook.com/hendry.ramdhan/posts/10211850414868670
 ---
 
-
-
-*ORIGINAL POST*: https://www.facebook.com/hendry.ramdhan/posts/10211850414868670 *by* Hendry Ramdhan
-
 Setiap tahap pertumbuhan bisnis membutuhkan kualitas pemimpin perusahaan (baca: CEO) yg berbeda.
 
 ketika memulai bisnis rintisan, diperlukan CEO yg punya visi yg mampu meyakinkan ide bisnisnya sangat potensial (*The Visionary*).
@@ -35,3 +31,5 @@ Dan akhirnya ketika sudah di fase decline, seorang CEO harus berpikir mungkin ja
 
 Bila diterapkan ke kasus Yahoo, seharusnya Yahoo menerima tawaran Microsoft di tahun 2008. CEO Yahoo saat itu harusnya pakai Topi "*The Liquidator*" sehingga nilai Yahoo tidak turun drastis saat ini yg hanya dihargai 1/10 dari tawaran Microsoft ketika itu.
 
+
+ 20 [Source](https://www.facebook.com/hendry.ramdhan/posts/10211850414868670)

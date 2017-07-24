@@ -9,9 +9,9 @@ layout: default
 
 Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Researcher & Business Strategist__ with equal parts interest in digital learning, tax, management, development, and writing.
 
-I love to explore my brain, by day I am active as Entrepreneur and researcher and by night as the Darth edXius. I 'm also leading training, teaching student and providing support to everyone who want to share their knowledge.
+I love to explore my brain, by day I am active as Entrepreneur, and by night as researcher. I 'm also leading training, teaching student, and providing support to everyone who want to share their knowledge.
 
-I'm active as open source warrior, volunteering in non-profit organization like [Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing and all about buiness and finance.
+I'm active as open source warrior, volunteering in non-profit organization like [Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing, and all about buiness and finance.
 
 I was worked at several company as full-time employeer and __freelancer__ like
 
@@ -25,6 +25,7 @@ I was worked at several company as full-time employeer and __freelancer__ like
 Some of my happy clients are :
 
 - [PT Daya Sinergi Solution](http://dssconsulting.id/)
+- [DPLK Indonesia](http://www.pdplk.com/)
 - [New Horizons Singapore Pte Ltd](http://newhorizons.com.sg/)
 - [Makati Capital Partners PTE LTD](http://makaticapital.com)
 - [PT Sampoerna Wirausaha](http://mekar.id)
@@ -41,8 +42,10 @@ Some of my happy clients are :
 - [PT Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name) 
 - Email me for more...
 
-I had been a speaker at this event and university :
+I have been speaker at the event and university like:
 
+- [PyCon Japan 2017](https://pycon.jp/2017/en/)
+- [PyCon APAC 2017](https://pycon.my/pycon-apac-2017-program-schedule/)
 - [PyCon Hongkong 2016](http://pycon.hk/2016)
 - [PyCon Malaysia 2016](http://pycon.my)
 - [PyCon Taiwan 2016](http://tw.pycon.org)
