@@ -44,6 +44,7 @@ Some of my happy clients are :
 
 I have been speaker at the event and university like:
 
+- [PyCon UK 2017](https://pyconuk.org)
 - [PyCon Japan 2017](https://pycon.jp/2017/en/)
 - [PyCon APAC 2017](https://pycon.my/pycon-apac-2017-program-schedule/)
 - [PyCon Hongkong 2016](http://pycon.hk/2016)
