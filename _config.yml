@@ -6,8 +6,8 @@ url: http://oonlab.com
 baseurl: # the sub-path of your site, e.g. /blog/
 
 disqus_shortname: oonlab
-google_analytics: true #if set to "true" modify the google_analytycs.html, set to false otherwise
-paginate: 9
+google_analytics: true
+paginate: 14
 
 
 # Links settings
