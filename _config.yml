@@ -8,7 +8,7 @@ baseurl: # the sub-path of your site, e.g. /blog/
 disqus_shortname: oonlab
 google_analytics: true
 paginate: 14
-
+permalink: /:categories/:year/:month/:day/:title/
 
 # Links settings
 links:
