@@ -7,6 +7,8 @@ baseurl: # the sub-path of your site, e.g. /blog/
 
 disqus_shortname: kuoa # leave empty if you don't want comments
 google_analytics: false #if set to "true" modify the google_analytycs.html, set to false otherwise
+paginate: 6
+
 
 # Links settings
 links:
