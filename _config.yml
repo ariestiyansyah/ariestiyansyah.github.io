@@ -1,61 +1,31 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
-title: oonlab
-email: ariestiyansyah.rizky@gmail.com
-description: Rizky Ariestiyansyah.
-url: http://oonlab.com # the base hostname & protocol for your site
+# Site settings
+title: Julia #website title
+description: > # this means to ignore newlines until "baseurl:"
+  Julia
+url: #https://kuoa.github.io # the base hostname & protocol for your site
+baseurl: # the sub-path of your site, e.g. /blog/
 
+disqus_shortname: kuoa # leave empty if you don't want comments
+google_analytics: false #if set to "true" modify the google_analytycs.html, set to false otherwise
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Asia/Jakarta
-markdown:          kramdown
-highlighter:       rouge
-paginate_path: "page:num/"
-paginate: 5
-gems: [jekyll-paginate]
-permalink:         /:categories/:year/:month/:day/:title/
+# Links settings
+links:
+  - name:         Home
+    url:          /
+  - name:         About
+    url:          /about
+    external:     false
+  - name:         Archive
+    url:          /archive
+    external:     false
+    external:     false
+  - name:         GitHub
+    url:          http://github.com/kuoa
+    external:     true
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# Build settings
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Rizky Ariestiyansyah
-  avatar: profile.jpg
-  job: "Researcher"
-  bio: "Full-time researcher and part-time tech speaker turned to the dark side"
-  email: ariestiyansyah.rizky@gmail.com
-  disqus-shortname: oonlab
-  twitter: ariestiyansyah #username
-  facebook: edxius
-  google:
-    analytics: UA-48740529-1
-  bing-verify:
-  github: ariestiyansyah #username
-  stackoverflow: 2215684/rizky-ariestiyansyah
-  linkedin: ariestiyansyah #username
-  instagram: ariestiyansyah
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]

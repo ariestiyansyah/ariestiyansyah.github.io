@@ -1,0 +1,16 @@
+<div class="site-header">
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <i class="fa fa-navicon fa-lg"></i>
+      </a>
+
+      <div class="trigger">
+        {% for link in site.links %}
+          <a class="page-link" target="{% if link.external %}_blank{% else %}_top{% endif %}"
+             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{link.name}}</a>
+        {% endfor %}
+      </div>
+    </nav>
+
+</div>

@@ -1,27 +1,50 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "UTF-8";
+@charset "utf-8";
 
-// Mixins
-@import "components/mixins";
+// Our variables
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$post-font-family: 'Quicksand', Heltvetica, sans-serif;
+$small-font-size:  $base-font-size * 0.895;
+$large-font-size:  $base-font-size * 1.40;
 
-// Variables
-@import "components/variables";
+$base-line-height: 1.5;
 
-// Reset
-@import "components/normalize";
+$spacing-unit:     30px;
 
-// Components
-@import "components/global";
-@import "components/helpers";
-@import "components/grid";
-@import "components/typography";
-@import "components/buttons";
-@import "components/syntax-highlighting";
+$text-color:       #454545;
+$background-color: #fff;
+$brand-color:      #5aa3d1; //#eb5a5b;
+$brand-color-light:lighten($brand-color, 20%);
 
-// Pages styling
-@import "pages/layout";
-@import "pages/tags";
-@import "pages/archive";
-@import "pages/post";
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 20%);
+$grey-color-dark:  darken($grey-color, 15%);
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          800px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
