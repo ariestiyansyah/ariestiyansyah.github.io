@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
 url: http://oonlab.com
 baseurl: # the sub-path of your site, e.g. /blog/
 
-disqus_shortname: kuoa # leave empty if you don't want comments
-google_analytics: false #if set to "true" modify the google_analytycs.html, set to false otherwise
-paginate: 6
+disqus_shortname: oonlab
+google_analytics: true #if set to "true" modify the google_analytycs.html, set to false otherwise
+paginate: 9
 
 
 # Links settings
@@ -22,7 +22,7 @@ links:
     external:     false
     external:     false
   - name:         GitHub
-    url:          http://github.com/arieistiyansyah
+    url:          http://github.com/ariestiyansyah
     external:     true
 
 # Build settings
