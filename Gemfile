@@ -1,6 +1,9 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-# Specify your gem's dependencies in julia-jejyll-theme.gemspec
-gem 'kramdown'
-gem 'jekyll-watch'
-gem 'rouge'
+gem "jekyll"
+gem "jekyll-paginate"
+gem "susy"
+gem "normalize-scss"
+gem "compass"
+gem "sass"
+gem "support-for"
