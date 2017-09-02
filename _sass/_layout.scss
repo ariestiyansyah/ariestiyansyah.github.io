@@ -1,0 +1,227 @@
+/* Site Header
+ * ============================================== */
+    .site-header {
+        height: 55px;
+        background-color: #F5F5F5;
+        position: relative;
+        width: 100%;
+    }
+
+
+    .logo-header {
+      margin-top: -$spacing-unit;
+      margin-bottom: $spacing-unit;
+      text-align: center;
+      border-bottom: 1px solid $brand-color-light;
+    }
+
+    .site-header a {color: $brand-color};
+
+    .site-nav {
+        padding-top: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 16px;
+
+        .menu-icon {
+            display: none;
+        }
+
+        @include media-query($on-palm) {
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            background-color: $background-color;
+            border: 1px solid $grey-color-light;
+            border-radius: 5px;
+            text-align: center;
+
+            .menu-icon {
+                display: block;
+                float: right;
+                width: 50px;
+                height: 30px;
+                line-height: 0;
+                text-align: center;
+            }
+
+            .trigger {
+                font-size: 0.9em;
+                clear: both;
+                display: none;
+            }
+
+            &:hover .trigger {
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .page-link {
+                display: block;
+                padding: 5px 10px;
+                text-align: center;
+                margin-left: 20px;
+            }
+        }
+
+        .page-link {
+            font-family: $post-font-family;
+            font-weight: 600 !important;
+            line-height: $base-line-height;
+            letter-spacing: 0.05em;
+            margin-right: 20px;
+
+            &:hover {
+                opacity: 0.8
+            };
+        }
+}
+
+/* Site Footer
+ * ============================================== */
+    .footer {
+        padding-bottom: 3em;
+        margin: auto;
+        font-size: 12px;
+        font-family: $post-font-family;
+        color: #959595;
+    }
+
+    .footer.center {
+      text-align: center;
+    }
+
+    .footer.center > * {
+      margin: 0 auto;
+    }
+
+    .footer img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-bottom: 3px;
+  }
+
+/* Individual Posts
+ * ============================================== */
+    .page-content {
+        padding: $spacing-unit 0;
+        text-align: justify;
+    }
+
+    .page-heading {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+/* Archive
+ * ============================================== */
+    .post-list {
+        margin-left: 0;
+        list-style: none;
+
+        > li {
+            display: block;
+            padding: 0.1em 1.5em;
+        }
+
+    }
+
+    .post-link {
+        font-family: $post-font-family;
+        font-weight: 300;
+        font-size: 1.5em;
+        letter-spacing: -1px;
+        color: #454545;
+        width: 100%;
+
+        @include media-query($on-palm) {
+            font-size: 1.0em;
+        }
+    }
+
+     .post-date {
+       font-family: $post-font-family;
+       font-weight: 300;
+       font-size: 1.2em;
+       letter-spacing: -1px;
+       color: $grey-color;
+       float: right;
+       padding-top: 6px;
+
+       @include media-query($on-palm) {
+         font-size: 0.8em;
+       }
+     }
+
+
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color-light;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+     .post-tags{
+       padding-left: 40px;
+     }
+     .post-tag {
+       padding-bottom: 3em;
+       margin: auto;
+       font-size: 1em;
+       color: $grey-color;
+       font-family: $post-font-family;
+
+       @include media-query($on-palm) {
+         font-size: 0.7em;
+       }
+     }
+
+/* Post Format
+ * ============================================== */
+    .post-header {
+        margin-bottom: $spacing-unit;
+        text-align: center;
+        border-bottom: 1px solid $brand-color-light;
+    }
+
+    .post-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+    }
+
+    .post-content {
+        margin-bottom: $spacing-unit;
+    }
+
+   .post-paging a {
+       opacity: 0.4;
+   }
+
+   .post-paging a:hover {
+       opacity: 0.8;
+   }
+
+  .post-paging .left, .post-paging .right {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+  }
+
+  .post-paging .left {
+      margin-left: -440px;
+  }
+
+  .post-paging .right {
+      margin-left: 410px;
+  }
+
+  .post-up a {
+    opacity: 0.4;
+  }
+
+  .post-up a:hover{
+    opacity: 0.8;
+  }
