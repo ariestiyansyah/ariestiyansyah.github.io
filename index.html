@@ -20,7 +20,7 @@ layout: main
   </ul>
 
   <!-- Pagination links -->
-<div class="pagination">
+  <center><div class="pagination">
         {% if paginator.previous_page %}
           <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
         {% else %}
@@ -32,6 +32,6 @@ layout: main
         {% else %}
           <span class="next ">Next</span>
         {% endif %}
-      </div>
+    </div></center>
       {% include footer.html %}
 </div>
