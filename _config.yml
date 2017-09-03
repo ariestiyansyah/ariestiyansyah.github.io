@@ -1,7 +1,6 @@
 # Site settings
-title: oonlab
-description: > # this means to ignore newlines until "baseurl:"
-  Lab of ariestiyansyah
+title: oonlab - Rizky Ariestiyansyah
+description: Lab of ariestiyansyah
 url: http://oonlab.com
 baseurl: # the sub-path of your site, e.g. /blog/
 
