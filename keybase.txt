@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ariestiyansyah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://oonlab.com
+  * I am ariestiyansyah (https://keybase.io/ariestiyansyah) on keybase.
+  * I have a public key ASDlPE-FW11kgyEgV3MalvZOD5iQov2vNyEOJUDFxxD43Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010149f71f38ee412941650be73814dda4156fffa7df392a99724400a9da1aabb4c50a",
+      "host": "keybase.io",
+      "kid": "0120e53c4f855b5d6483212057731a96f64e0f9890a2fdaf37210e2540c5c710f8dc0a",
+      "uid": "031d68435e5b55fd8a7d2e8fdbefd919",
+      "username": "ariestiyansyah"
+    },
+    "merkle_root": {
+      "ctime": 1505873600,
+      "hash": "983fef32dce3699a68c7847b33f0e2de9d8b54c5235fd6e9ef7a66768f7088d79c0b5810873a09a35d3bbe4eddb3e78640a2bf9fe58d7fb0def7c2a10d26dcf8",
+      "hash_meta": "73fd9cf443489e8d3a3ad7df9cec5c8e24bfc17ae6682dc262a2c7b927c8c369",
+      "seqno": 1424168
+    },
+    "service": {
+      "hostname": "oonlab.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505873633,
+  "expire_in": 504576000,
+  "prev": "a6b6a9b810c9f360303933132ffc09ae7e34f2e4a48c6f368752fa63b5020988",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5TxPhVtdZIMhIFdzGpb2Tg+YkKL9rzchDiVAxccQ+NwKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDlmNzFmMzhlZTQxMjk0MTY1MGJlNzM4MTRkZGE0MTU2ZmZmYTdkZjM5MmE5OTcyNDQwMGE5ZGExYWFiYjRjNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTUzYzRmODU1YjVkNjQ4MzIxMjA1NzczMWE5NmY2NGUwZjk4OTBhMmZkYWYzNzIxMGUyNTQwYzVjNzEwZjhkYzBhIiwidWlkIjoiMDMxZDY4NDM1ZTViNTVmZDhhN2QyZThmZGJlZmQ5MTkiLCJ1c2VybmFtZSI6ImFyaWVzdGl5YW5zeWFoIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA1ODczNjAwLCJoYXNoIjoiOTgzZmVmMzJkY2UzNjk5YTY4Yzc4NDdiMzNmMGUyZGU5ZDhiNTRjNTIzNWZkNmU5ZWY3YTY2NzY4ZjcwODhkNzljMGI1ODEwODczYTA5YTM1ZDNiYmU0ZWRkYjNlNzg2NDBhMmJmOWZlNThkN2ZiMGRlZjdjMmExMGQyNmRjZjgiLCJoYXNoX21ldGEiOiI3M2ZkOWNmNDQzNDg5ZThkM2EzYWQ3ZGY5Y2VjNWM4ZTI0YmZjMTdhZTY2ODJkYzI2MmEyYzdiOTI3YzhjMzY5Iiwic2Vxbm8iOjE0MjQxNjh9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoib29ubGFiLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzAifSwiY3RpbWUiOjE1MDU4NzM2MzMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYTZiNmE5YjgxMGM5ZjM2MDMwMzkzMzEzMmZmYzA5YWU3ZTM0ZjJlNGE0OGM2ZjM2ODc1MmZhNjNiNTAyMDk4OCIsInNlcW5vIjoxMSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAEIaiW/3XwnbBeZKKysVHm6IpNBop29qE9wUdRX34ZU0VfNyBMT50xmCr7f7esKeOJkSeyLbmFcrE6A0X0DIcMqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgMYwldZB9CKekf3v4uJJMtVW6dp8HY4JAw2CPEnRtE6KjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ariestiyansyah
+
+==================================================================

@@ -3,7 +3,7 @@ title: "PyCon Journey 2017"
 author: ariestiyansyah
 layout: post
 categories:
--
+- journey
 tags:
 - pycon
 - journey
