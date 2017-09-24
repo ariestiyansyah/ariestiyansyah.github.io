@@ -73,19 +73,36 @@ Rust memiliki 4 cara untuk error handling
 Wijaya memperkenalkan panic, result dan option
 
 
-
-### Bambang PDP
-Pengembangan situs web dengan framework rocket dan diesel
-
-
-
-
-
 ### Yuri Setiantoko
 Apa yang bisa anda lakukan dengan Rust dalam waktu X menit
 
+Project based talk: 
+
+Project central ini seperti redis/consul = portinh ke rust
 
 
 
 ### Ibun Yahya
 Rust untuk IoT: Mendalami Internet of Thing dengan Rust
+
+Internet of things di Indonesia, perangkat Iot
+Rust untuk Internet of things
+
+Tessel
+
+
+Q: Mensiasati keamanan di IoT.
+A: Salah satu yang krusial disemua perangkat IoT itu adalah kemaanan, misalanya saja teansfer data
+
+Teknik pengamanan: IoT menggunakan protokol umum, data di encrypt sebelum dikirim ke server, beberapa perangkat menggunakan protokol khusus (sampai sekarang masih dipertanyakan keamanannya) belum ada perusahaan yang menyatakan bahwa komunikasi Iot yang mengaku aman.
+
+Q: IoT ingin aman harus ada maskernya
+
+power consumtion = security
+
+get in touch rust Indonesia:
+
+github.com/rustid
+facebook.com/rustindo
+telegram: t.me/rustindonesia
+youtube: youtube.com/rustid
