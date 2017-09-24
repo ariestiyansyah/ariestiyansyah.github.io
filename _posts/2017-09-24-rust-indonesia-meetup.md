@@ -48,6 +48,30 @@ Kelemahan f32
 ### Wijaya Adhisurya
 Think different with Rust: Penanganan error C++ ke Rust dan OOP Rust
 
+Compiler rust pertama kali ditulis menggunakan 
+
+Error handline yang biasa yaitu menggunakan sentinel values
+Int return values
+
+
+C Way:
+- Programmer can pretend or ignore there is no error / Programmer bisa menghindari bahwa no error
+-  Error type is just an int, it isn't meaningful
+-  Handline errors will disrupt the flow of program / Handline error akan mengganggu flow program
+
+C++ Way:
+- Catching runtime exception is hard / runtime exception susah
+- Nested calls makes it more complicated  nested call terlalu rumit
+
+
+Rust memiliki 4 cara untuk error handling
+- Original way: match expression // 
+- The skip other errors way
+- Functional way: cobinatorial error handling
+- The convenient way*: Try trait
+
+Wijaya memperkenalkan panic, result dan option
+
 
 
 ### Bambang PDP
