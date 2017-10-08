@@ -16,6 +16,17 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+<div style="width:100%"><div style="float:left">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | prepend: site.url }}"><span>&laquo;&nbsp; {{ page.previous.title }}</span>
+    </a>
+    {% endif %}
+</div><div style="float:right">
+    {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.url }}"><span>{{ page.next.title }} &nbsp;&raquo;</span>
+      </a>
+    {% endif %}
+  </div>
 
     {% if site.google_analytics %}
         {% include google_analytics.html %}
