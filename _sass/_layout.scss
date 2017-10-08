@@ -2,7 +2,7 @@
  * ============================================== */
     .site-header {
         height: 55px;
-        background-color: #F5F5F5;
+        background-color: #4fa6e3;
         position: relative;
         width: 100%;
     }
@@ -15,7 +15,7 @@
       border-bottom: 1px solid $brand-color-light;
     }
 
-    .site-header a {color: $brand-color};
+    .site-header a {color: #ffffff};
 
     .site-nav {
         padding-top: 16px;
@@ -31,8 +31,8 @@
             position: absolute;
             top: 3px;
             right: 3px;
-            background-color: $background-color;
-            border: 1px solid $grey-color-light;
+            background-color: #4fa6e3;
+            border: 1px solid #ffffff;
             border-radius: 5px;
             text-align: center;
 
@@ -107,7 +107,7 @@
  * ============================================== */
     .page-content {
         padding: $spacing-unit 0;
-        text-align: justify;
+        text-align: left;
     }
 
     .page-heading {
@@ -132,7 +132,7 @@
         font-family: $post-font-family;
         font-weight: 300;
         font-size: 1.5em;
-        letter-spacing: -1px;
+        letter-spacing: 0px;
         color: #454545;
         width: 100%;
 

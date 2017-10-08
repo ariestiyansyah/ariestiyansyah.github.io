@@ -14,7 +14,7 @@ permalink: /archive/
 		{% for post in site.categories[cat] %}
 		  <li>
 		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			 <span class="post-date">{{ post.date | date_to_long_string }}</span>
+			 <span class="post-date">{{ post.date | date_to_string }}</span>
 		  </li>
 
 			{% if post.tags %}
