@@ -32,7 +32,7 @@ We want to convert all the list to markdown link and put the result into `newfil
 
 Here's the snippet using go with io/ioutil, fmt and string lib.
 
-```
+```go
 package main
 
 import (
