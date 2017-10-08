@@ -8,7 +8,8 @@
       <div class="trigger">
         {% for link in site.links %}
           <a class="page-link" target="{% if link.external %}_blank{% else %}_top{% endif %}"
-             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{link.name}}</a>
+             href="{% unless link.external %}{{ site.url }}{% endunless %}{{
+             link.url }}"><i class="fa {{link.icon}}" aria-hidden="true"></i> {{link.name}}</a>
         {% endfor %}
       </div>
     </nav>
