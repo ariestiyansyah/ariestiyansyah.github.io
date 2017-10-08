@@ -87,11 +87,11 @@
 /* Block Quotes
  * ============================================== */
     blockquote {
-        color: #BBB;
+        color: #6b6b6b;
         border-left: 4px solid $brand-color;
         padding-left: $spacing-unit / 2;
         font-size: 17px;
-        letter-spacing: -1px;
+        letter-spacing: 0px;
         font-style: italic;
 
         > :last-child {
