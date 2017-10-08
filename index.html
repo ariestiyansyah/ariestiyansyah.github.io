@@ -13,7 +13,9 @@ title: oonlab - Rizky Ariestiyansyah
     {% for post in paginator.posts %}
     <li>
         <div>
-        <a class="post-link" href="{{ site.url }}{{ post.url}}">{{ post.title }}</a>
+        <a class="post-link" href="{{ site.url }}{{ post.url}}"><span
+            style="color:#828282">{{ post.date |
+            date_to_string }}</span> - {{ post.title }}</a>
         </div>
     </li>
     {% endfor %}
