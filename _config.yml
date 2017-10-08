@@ -17,12 +17,12 @@ links:
   - name:         About
     url:          /about
     external:     false
-    icon:         fa-user-circle
+    icon:         fa-bug
   - name:         Archive
     url:          /archive
     external:     false
     external:     false
-    icon:         fa-archive
+    icon:         fa-globe
   - name:         GitHub
     url:          http://github.com/ariestiyansyah
     external:     true
