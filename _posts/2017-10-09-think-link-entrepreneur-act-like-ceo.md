@@ -1,5 +1,5 @@
 ---
-title: "Learn from "Think like entrepreneur, act like CEO""
+title: "Learn from think like entrepreneur, act like CEO - Part 1"
 author: ariestiyansyah
 layout: post
 categories:
@@ -15,11 +15,11 @@ This is part of my survival mode from [github](https://github.com/ariestiyansyah
 
 **Backlog**
 
-- [x] To Launch Something New, You Need a Good Plan
-- [x] Think Like an Entrepreneur, Wherever You Are
-- [x] Listening Is Your Sure Fire, Go-to Career Strategy
-- [x] Tweak Your Brand to Send Clear Messages
-- [x] Start Now to Build Leadership into Your Brand
+- To Launch Something New, You Need a Good Plan
+- Think Like an Entrepreneur, Wherever You Are
+- Listening Is Your Sure Fire, Go-to Career Strategy
+- Tweak Your Brand to Send Clear Messages
+- Start Now to Build Leadership into Your Brand
 
 ## To Launch Something New, You Need a Good Plan
 
