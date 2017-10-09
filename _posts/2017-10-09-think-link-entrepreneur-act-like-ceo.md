@@ -1,5 +1,5 @@
 ---
-title: "Learn from think like entrepreneur, act like CEO - Part 1"
+title: "Think like entrepreneur, act like CEO - Part 1"
 author: ariestiyansyah
 layout: post
 categories:
