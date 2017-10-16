@@ -30,7 +30,7 @@ There are 11 topics in this event:
 - Microservices with Golang by Deni Marswandi	
 - Indonesia Android Kejar by M Nasrul Alawy	
 
-Overal the event was awesome! I hope there will be a next event to inspire the young generation to continue to learn and explore the world of technology because technology has become an integral part of industry, technology is also the future and DISRUPTIONS!: well you need to anticipate and shape the technological disruption instead of being victimized by it. The IT revolution has touched nearly every human endeavor. Internet usage has grown 183 percent since 2000. The number of Internet users increased tenfold from 1999 to 2013. In 2017, around 40 percent of the world’s population had an Internet connection, and a wireless hotspot existed for each 150 persons.
+Overal the event was awesome! I hope there will be a next event to inspire the young generation to continue to learn and explore the world of technology because technology has become an integral part of industry, technology is also the future and DISRUPTIONS! well, you need to anticipate and shape the technological disruption instead of being victimized by it. The IT revolution has touched nearly every human endeavor. Internet usage has grown 183 percent since 2000. The number of Internet users increased tenfold from 1999 to 2013. In 2017, around 40 percent of the world’s population had an Internet connection, and a wireless hotspot existed for each 150 persons.
 
 Technology Disruptions:
 
