@@ -16,7 +16,7 @@ This is short blog about Lombok Developer Meetup #2, I just want to share what h
 
 This month Lombok Developer Community held a Lombok Developer Meetup with various topics from several speakers, initially this event is planned for 40 people but because the enthusiasm of the developers and students in lombok is very high then the capacity is upgraded to 80, and even the place moved from the previous location at ITEC to Soetjipto cafe at Jalan Adi Sucipto, Mataram. Participants who attended about 75 people plus 11 speakers, wew awesome!.
 
-Theare are 11 topics in this event:
+There are 11 topics in this event:
 
 - Hacking Web Virtual Reality by Rizky Ariestiyansyah
 - Introduction to Swift by Nino
