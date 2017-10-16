@@ -10,6 +10,8 @@ tags:
 - Developer
 ---
 
+![Lombok Dev Meetup](http://oonlab.com/images/lombokdev.jpg)
+
 This is short blog about Lombok Developer Meetup #2, I just want to share what happen and the state of the tehnoloy transformation today, have fun!
 
 This month Lombok Developer Community held a Lombok Developer Meetup with various topics from several speakers, initially this event is planned for 40 people but because the enthusiasm of the developers and students in lombok is very high then the capacity is upgraded to 80, and even the place moved from the previous location at ITEC to Soetjipto cafe at Jalan Adi Sucipto, Mataram. Participants who attended about 75 people plus 11 speakers, wew awesome!.
