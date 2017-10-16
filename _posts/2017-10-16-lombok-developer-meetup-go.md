@@ -44,3 +44,9 @@ Technology Disruptions:
 Digital technology is transforming almost every aspect of work life and hence there will be a continuous demand for new skills. One big challenge is that the development of new skills happens at a slower pace than the pace of technology development resulting in the paradoxical situation of simultaneous unemployment and unfilled job vacancies. So you have to learn and partnered with technology if you dont want to disrupted, Keep learn Lombok Developer Community, GO!
 
 Rizky
+
+References: 
+
+- Internet users data: [http://www.internetlivestats.com/internet-users/](http://www.internetlivestats.com/internet-users/)
+- Photo by Herpiko: [Lombok Dev Meetup](https://www.facebook.com/groups/637288823062993/)
+- Technology Disruptions: Future of Technology Management and the Business Environment
