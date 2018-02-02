@@ -12,6 +12,7 @@ tags:
 
 ![Film Favorit](/images/filmfavorit.jpg)
 
+<code>
 Terkadang hidup menggaris kan misteri
 Yang takan pernah bisa aku pahami
 Seperti aku yang tak pernah berhenti
@@ -41,5 +42,6 @@ Sama seperti di film favorit mu
 Aku takan pernah menyerah
 Tak peduli yang aku mainkan
 Bukan pemeran utamanya
+</code>
 
 Karya: Eross Candra
