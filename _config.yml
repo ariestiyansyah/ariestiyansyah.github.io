@@ -7,13 +7,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://oonlab.com" # the base hostname & protocol for your site, e.g. http://example.com
 disqus_shortname: oonlab
-paginate: 9
+paginate: 12
 permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 navigation:
   - url: /
