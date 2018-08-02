@@ -9,10 +9,6 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: ceo.jpg
-  credit: Hendry Ramdhan
-  creditlink: https://www.facebook.com/hendry.ramdhan/posts/10211850414868670
 ---
 
 Setiap tahap pertumbuhan bisnis membutuhkan kualitas pemimpin perusahaan (baca: CEO) yg berbeda.

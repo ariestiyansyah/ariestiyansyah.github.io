@@ -1,45 +1,215 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <!--menu mobile-->
+ {% include header.html %}
+    <!--menu-icon-->
+    <div class="menu-icon hidden-sm hidden-xs">
+        <i class="fa fa-navicon"></i>
+    </div>
+    <!--page-->
+    <div class="page">
+        <div class="mobile-bar hidden-lg hidden-md">
+            <div class="menu-icon-mobile hidden-lg hidden-md">
+                <i class="fa fa-navicon"></i>
+                <span>MENU</span>
+            </div>
+            <div class="search-icon-mobile">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="search-box-mobile">
+                <form>
+                    <input type="search" value="" placeholder="Begin typing..." class="txt-search">
+                </form>
+            </div>
+        </div>
+        <!--wrapper-->
+        <div class="wrapper">
+            <div class="wrap">
 
-  <header class="post-header">
-     <h1 class="post-title">{{ page.title }}</h1>
-     <p class="post-meta">
-         <i class="fa fa-calendar-o"></i> {{ page.date | date: "%b %-d, %Y" }}
-         {% if page.author %} • <i class="fa fa-user"></i> {{ page.author }}{% endif %}
-         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+                <div class="sitemap">
+                    <div class="sitemap-inner">
+                        <a href="{{site.url}}"><i class="fa fa-home"></i>Home</a>
+                        <span>	&#9830;</span>
+                        <a href="#">Categories</a>
+                        <span>	&#9830;</span>
+                        {% assign sortedCategories = page.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <a href="#">#{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--hightlight news-->
+                <!--cols-->
+                <div class="detail-page">
 
-    {% include prev_next_post.html %}
+                    <div class="detail-title">
+                        <h1>{{page.title}} </h1>
+                    </div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-<div style="width:100%"><div style="float:left">
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | prepend: site.url }}"><span>&laquo;&nbsp; {{ page.previous.title }}</span>
-    </a>
-    {% endif %}
-</div><div style="float:right">
-    {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.url }}"><span>{{ page.next.title }} &nbsp;&raquo;</span>
-      </a>
-    {% endif %}
-  </div>
+                    <div class="detail-meta">
+                        <div class="post-meta">
+                            <span class="post-date">
+                                {{ page.date | date: "%b %-d, %Y" }}
+                            </span><em>/</em>
+                            <span class="post-category">
+                                {% if page.author %} <a href="#">{{page.author}}</a>{% endif %}
+                            </span>
+                        </div>
+                        <div class="post-dot">
+                            <span>♦</span>
+                        </div>
+                        <div class="detai-social">
+                            <a href="#" class="facebook">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a href="#" class="twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="pinterest">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                            <a href="#" class="google">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </div>
+                    </div>
 
-    {% if site.google_analytics %}
-        {% include google_analytics.html %}
-    {% endif %}
+                    <div>
+                        <div class="post-thumbnail">
+                            <img alt="" src="images/p5.jpg" />
+                        </div>
+                        <article class="detail">
+                            {{content}}
+                        </article>
+                        <!---->
+                        <div class="detail-bottom">
 
-    {% if site.disqus_shortname %}
-       {% include disqus.html %}
-    {% endif %}
+                            <!--
+                                <div class="single-tag single-info">
+                                <p class="caption"><span>Tags Cloud</span> </p>
+                                <div class="tags">
+                                    <a href="#"> spotlight</a>
+                                    <a href="#"> max in</a>
+                                    <a href="#"> special</a>
+                                    <a href="3"> cloud </a>
+                                    <a href="#"> spotlight</a>
+                                    <a href="#"> Lorem text</a>
+                                    <a href="3"> review</a>
+                                    <a href="#"> spotlight</a>
 
-  <div class="post-up" align="center">
-  	<a href="#">
-  	<i class="fa fa-angle-up fa-2x"></i>
-  	</a>
-  </div>
+                                </div>
+                            </div> -->
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="single-info">
+                                        <p class="caption"><span></span> FUN FACT</p>
+                                        <div class="single-rating">
+                                            <div class="rating-item">
+                                                <strong></strong>
+                                                <span></span>
+                                            </div>
+                                            <div class="rating-item">
+                                                <strong></strong>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="single-info">
+                                        <p class="caption"><span>Share To</span> </p>
+                                        <div class="single-share">
+                                            <a href="#" class="facebook">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#" class="twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="#" class="google">
+                                                <i class="fa fa-google-plus-square"></i>
+                                            </a>
 
-</div>
+                                            <a href="#" class="pinterest">
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+                                            <a href="#" class="youtube">
+                                                <i class="fa fa-youtube"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="author-single">
+                            {% assign author = site.data.authors[page.author] %}
+                            {% if author %}
+                            <div class="author-single-inner">
+                                <img alt="" src="{{ author.image }}" />
+                                <h3>{{ author.name }}</h3>
+                                <p>{{ author.bio }}</p>
+                                <div class="social-author">
+                                    <a href="{{ author.facebook }}" class="facebook">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a href="{{ author.twitter }}" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                </div>
+                                {% endif %}
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="related-post">
+                            <div class="box-detail-caption">
+                                <span>YOU MIGHT ALSO LIKE</span>
+                            </div>
+                            <div class="tags-three">
+                                <div class="row">
+                                    {% assign firstCategory = page.categories | first %}
+                                    {% assign relatedCount = 0 %}
+                                    {% for related in site.categories[firstCategory] %}
+                                        {% unless page.permalink == related.permalink %}
+                                            {% assign relatedCount = relatedCount | plus: 1 %}
+                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                        <div class="three-item">
+                                            <article class="ciz-post">
+                                                <div class="post-thumb">
+                                                    <a href="#">
+                                                        <img alt="" src="images/w2.jpg">
+                                                    </a>
+                                                </div>
+                                                <h3 class="post-title">
+                                                    <a href="{{related.permalink}}"> {{related.title}} </a>
+                                                </h3>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    {% endunless %}
+                                    {% if relatedCount == 3 %}
+                                        {% break %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="comments" class="comments-area">
+                            {% include disqus.html %}
+
+                        </div>
+                    </div>
+                </div>
+                <!--bottom-->
+                <div class="bottom">
+                </div>
+            </div>
+        </div>
+
+{% include footer.html %}
+</body>
+</html>

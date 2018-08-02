@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="congnd91">
+    <title>MazPage - Magazine, News, Blog, Shop, Newspaper Template</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Online Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet" />
+    <!-- Vender -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <!-- Main CSS (SCSS Compile) -->
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- JavaScripts -->
+    <!--<script src="js/modernizr.js"></script>-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--preload-->
+    <div class="loader" id="page-loader">
+        <div class="loading-wrapper">
+            <p>Loading<span>.</span><span>.</span><span>.</span></p>
+        </div>
+    </div>
+    <!--menu mobile-->
+    <nav class="menu-res hidden-lg hidden-md ">
+        <div class="menu-res-inner">
+            <ul>
+                <li class="menu-item-has-children">
+                    <a href="index.html"> Home </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="index.html">Default style</a>
+                        </li>
+                        <li>
+                            <a href="index-menu.html">Menu visible</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="index-grid.html">Home grid</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="index-grid.html">Grid normal</a>
+                                </li>
+                                <li>
+                                    <a href="index-grid-large.html">Grid large</a>
+                                </li>
+                                <li>
+                                    <a href="index-grid-small.html">Grid small </a>
+                                </li>
+                                <li>
+                                    <a href="index-grid-sidebar.html">Grid sidebar </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="index-masonry.html">Home masonry</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="index-masonry.html">Masonry normal</a>
+                                </li>
+                                <li>
+                                    <a href="index-masonry-large.html">Masonry large</a>
+                                </li>
+                                <li>
+                                    <a href="index-masonry-small.html">Masonry small </a>
+                                </li>
+                                <li>
+                                    <a href="index-masonry-sidebar.html">Masonry sidebar </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="index-slider.html">Home Slider </a>
+                        </li>
+                        <li>
+                            <a href="index-sidebar-left.html">Sidebar Left </a>
+                        </li>
+                        <li>
+                            <a href="index-background.html">Home Background </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="category.html">
+                        Category
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="category.html">Category default</a>
+                        </li>
+                        <li>
+                            <a href="category-small.html">Category small </a>
+                        </li>
+                        <li>
+                            <a href="category-grid.html">Category grid </a>
+                        </li>
+                        <li>
+                            <a href="category-masonry.html">Category masonry </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="single.html">Single<span></span></a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="single.html">Default style</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="single-thum-large.html">Single Feature</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="single-thum-large.html">Feature image format </a>
+                                </li>
+                                <li>
+                                    <a href="single-gallery.html">Gallery format</a>
+                                </li>
+                                <li>
+                                    <a href="single-gallery1.html">Gallery format I</a>
+                                </li>
+                                <li>
+                                    <a href="single-video.html">Video format</a>
+                                </li>
+
+                                <li>
+                                    <a href="single-audio.html">Music format </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="single-fullwidth.html">Full width</a>
+                        </li>
+                        <li>
+                            <a href="single-fullwidth-special.html">Single special</a>
+                        </li>
+                        <li>
+                            <a href="single-fullwidth-three-column.html">Single three columns</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="about.html">Pages<span></span></a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="about.html">About me</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Page 404</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"> Gallery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="shop.html">SHOP<span></span></a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="shop.html">Shop Default</a>
+                        </li>
+                        <li>
+                            <a href="shop-sidebar.html">Shop  Sidebar</a>
+                        </li>
+                        <li>
+                            <a href="shop-sidebar-large.html">Shop Sidebar Large</a>
+                        </li>
+                        <li>
+                            <a href="shop-single.html"> Shop Single</a>
+                        </li>
+                        <li>
+                            <a href="cart.html"> Shop Cart</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--menu-icon-->
+    <div class="menu-icon hidden-sm hidden-xs">
+        <i class="fa fa-navicon"></i>
+    </div>
+    <!--page-->
+    <div class="page">
+        <div class="mobile-bar hidden-lg hidden-md">
+            <div class="menu-icon-mobile hidden-lg hidden-md">
+                <i class="fa fa-navicon"></i>
+                <span>MENU</span>
+            </div>
+            <div class="search-icon-mobile">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="search-box-mobile">
+                <form>
+                    <input type="search" value="" placeholder="Begin typing..." class="txt-search">
+                </form>
+            </div>
+        </div>
+        <!--header-->
+        <header class="header">
+            <div class="container">
+                <div class="logo-wrap">
+                    <a href="#" class="logo">
+                        <img alt="" src="images/logo.png" />
+                    </a>
+                </div>
+                <!--menu-main-->
+                <nav class="menu-main">
+                    <div class="menu-main-inner">
+                        <ul class="hidden-sm hidden-xs">
+                            <li class="menu-item-has-children">
+                                <a href="index.html"><i class="fa fa-home"></i> Home </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="index.html">Default style</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-menu.html">Menu visible</a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="index-grid.html">Home grid</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="index-grid.html">Grid normal</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-grid-large.html">Grid large</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-grid-small.html">Grid small </a>
+                                            </li>
+                                            <li>
+                                                <a href="index-grid-sidebar.html">Grid sidebar </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="index-masonry.html">Home masonry</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="index-masonry.html">Masonry normal</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-masonry-large.html">Masonry large</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-masonry-small.html">Masonry small </a>
+                                            </li>
+                                            <li>
+                                                <a href="index-masonry-sidebar.html">Masonry sidebar </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index-slider.html">Home Slider </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-sidebar-left.html">Sidebar Left </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-background.html">Home Background </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="category.html">
+                                    Category
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="category.html">Category default</a>
+                                    </li>
+                                    <li>
+                                        <a href="category-small.html">Category small </a>
+                                    </li>
+                                    <li>
+                                        <a href="category-grid.html">Category grid </a>
+                                    </li>
+                                    <li>
+                                        <a href="category-masonry.html">Category masonry </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="single.html">Single<span></span></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="single.html">Default style</a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="single-thum-large.html">Single Feature</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="single-thum-large.html">Feature image format </a>
+                                            </li>
+                                            <li>
+                                                <a href="single-gallery.html">Gallery format</a>
+                                            </li>
+                                            <li>
+                                                <a href="single-gallery1.html">Gallery format I</a>
+                                            </li>
+                                            <li>
+                                                <a href="single-video.html">Video format</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="single-audio.html">Music format </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="single-fullwidth.html">Full width</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-fullwidth-special.html">Single special</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-fullwidth-three-column.html">Single three columns</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="about.html">Pages<span></span></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About me</a>
+                                    </li>
+                                    <li>
+                                        <a href="404.html">Page 404</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html"> Gallery</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="shop.html">SHOP<span></span></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="shop.html">Shop Default</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-sidebar.html">Shop  Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-sidebar-large.html">Shop Sidebar Large</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-single.html"> Shop Single</a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html"> Shop Cart</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="search-icon">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div class="search-box">
+                            <form>
+                                <input type="search" value="" placeholder="Begin typing..." class="txt-search">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--wrapper-->
+        <div class="wrapper">
+            <div class="wrap">
+
+                <!--hightlight news-->
+                <div class="big-page-caption">
+                    <p>  #GRID  news styles</p>
+                </div>
+
+                <div class="grids-outer">
+                    <div class="grids">
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single-gallery1.html">
+                                        <span class="post-format">
+                                            <i class="fa fa-camera"></i>
+                                        </span>
+                                        <img alt="" src="images/l1.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single-gallery1.html"> Simply dummy text </a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 06, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">Life style</a>
+                                    </span>
+
+                                </div>
+                                <div class="post-des">
+                                    <p>Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <img alt="" src="images/p1.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html">First Special News Here.</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 01, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">Photography</a>
+                                    </span>
+                                </div>
+                                <div class="post-des">
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single-fullwidth.html">
+                                        <img alt="" src="images/w1.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single-fullwidth.html">My writing here.</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Mar 01, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">World</a>
+                                    </span>
+                                </div>
+                                <div class="post-des">
+                                    <p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single-gallery1.html">
+                                        <img alt="" src="images/w2.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single-gallery.html">
+                                        The beautiful life.
+                                    </a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 02, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">World</a>
+                                    </span>
+
+                                </div>
+                                <div class="post-des">
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <span class="post-format">
+                                            <i class="fa fa-music"></i>
+                                        </span>
+                                        <img alt="" src="images/p2.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html">The dark men & shadown</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 10, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">Photography</a>
+                                    </span>
+                                </div>
+                                <div class="post-des">
+                                    <p>Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <img alt="" src="images/w3.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html">Old man read the newspaper</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 01, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">World</a>
+                                    </span>
+
+
+                                </div>
+                                <div class="post-des">
+                                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <span class="post-format">
+                                            <i class="fa fa-camera"></i>
+                                        </span>
+                                        <img alt="" src="images/l4.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html"> Simply dummy text </a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Jun 05, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">Life style</a>
+                                    </span>
+                                </div>
+                                <div class="post-des">
+                                    <p>Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <img alt="" src="images/w4.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html">City in the sunshine.</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Mar 01, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">World</a>
+                                    </span>
+
+                                </div>
+                                <div class="post-des">
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="grids-item">
+                            <article class="ciz-post">
+                                <div class="post-thumb">
+                                    <a href="single.html">
+                                        <img alt="" src="images/p3.jpg" />
+                                    </a>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="single.html">Proin eget tortor risus.</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        Mar 09, 2017
+                                    </span>
+                                    <em>/</em>
+                                    <span class="post-category">
+                                        <a href="#">Photography</a>
+                                    </span>
+
+                                </div>
+                                <div class="post-des">
+                                    <p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+                <!--paging-->
+                <div class="paging-outer">
+                    <div class="paging">
+                        <a class="prev page-numbers" href="#">Prev</a>
+                        <span class="page-numbers current">1</span>
+                        <a class="page-numbers" href="#">2</a>
+                        <a class="page-numbers" href="#">3</a>
+                        <a class="page-numbers" href="#">4</a>
+                        <a class="next page-numbers" href="#">Next</a>
+                    </div>
+                </div>
+                <!--bottom-->
+                <div class="bottom">
+                    <div class="bottom-inner">
+                        <div class="bottom-col">
+                            <div class="col-caption">
+                                <span>RECENT POST</span>
+                            </div>
+                            <ul class="recent-post">
+                                <li>
+                                    <p><a href="single-gallery.html">	Maecenas semper ante sed lectus egestas.</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="single.html">	Proin eget tortor risus.</a></p>
+                                </li>
+
+                                <li>
+                                    <p><a href="single-fullwidth-special.html">	The beautifull girl.</a></p>
+                                </li>
+
+                                <li>
+                                    <p><a href="single-fullwidth-three-column.html">	Simply dummy text</a></p>
+                                </li>
+
+                                <li>
+                                    <p><a href="single-audio.html">	What The Font</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-col">
+                            <div class="col-caption">
+                                <span>TAG CLOUD</span>
+                            </div>
+                            <div class="list-tags">
+                                <p class="hidden"></p>
+                                <a href="#"> special</a>
+                                <a href="3"> USA</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> Days news</a>
+                                <a href="3"> review</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> max in</a>
+                                <a href="#"> special</a>
+                                <a href="3"> cloud </a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> Lorem text</a>
+                                <a href="3"> review</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> sky blue</a>
+                                <a href="3"> review</a>
+                                <a href="#"> hot news</a>
+                                <a href="#"> ciz themes</a>
+                                <a href="3"> review</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> Lorem text</a>
+                                <a href="3"> review</a>
+                                <a href="#"> spotlight</a>
+                                <a href="#"> sky blue</a>
+                                <a href="3"> review</a>
+                            </div>
+                        </div>
+                        <div class="bottom-col">
+                            <div class="col-caption">
+                                <span>INSTAGRAM</span>
+                            </div>
+                            <ul class="instagram-pics">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i1.jpg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i2.jpg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i3.jpg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i4.jpg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i5.jpg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/i6.jpg" alt="" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer class="footer">
+            <a href="#" class="logo">
+                <img alt="" src="images/logo1.png" />
+            </a>
+            <div class="footer-bar">
+                <div class="allright">
+                    <p> All rights reserved. Designed by <a href="#"> CizThemes</a></p>
+                </div>
+                <div class="social-footer">
+                    <a href="#" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" class="google">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a href="#" class="pinterest">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                    <a href="#" class="youtube">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </div>
+    <!--go to top-->
+    <span class="totop">
+        Go to
+        <em>TOP</em>
+    </span>
+    <!--scrip file-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.matchHeight.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
