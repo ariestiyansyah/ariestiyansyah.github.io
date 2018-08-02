@@ -1,7 +1,7 @@
 ---
 title: "Think like entrepreneur, act like CEO - Part 1"
 author: ariestiyansyah
-layout: post
+layout: post-special
 categories:
 - think
 tags:
