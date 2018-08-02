@@ -38,7 +38,7 @@
                 
 <div class="grids-outer">
         <div class="grids">
-            {% for post in site.posts limit:9 %}
+            {% for post in paginator.posts %}
             <div class="grids-item">
                 <article class="ciz-post">
                     <div class="post-thumb">
@@ -74,13 +74,16 @@
 
     <div class="paging-outer">
             <div class="paging">
-                {% if paginator.total_pages > 1 %}
                 {% if paginator.previous_page %}
-                <a class="prev page-numbers" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Prev</a>
+                <a class="prev page-numbers" href="/page{{ paginator.previous_page }}">Prev</a>
+                {% else %}
+                <span class="previous">Previous</span>
                 {% endif %}
+                <span class="page_numbers">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
                 {% if paginator.next_page %}
-                <a class="next page-numbers" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-                {% endif %}
+                <a class="next page-numbers" href="/page{{paginator.next_page}}">Next</a>
+                {% else %}
+                <span class="next ">Next</span>
                 {% endif %}
             </div>
         </div>
