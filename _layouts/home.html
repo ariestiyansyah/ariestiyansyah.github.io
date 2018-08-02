@@ -38,7 +38,7 @@
                 
 <div class="grids-outer">
         <div class="grids">
-            {% for post in paginator.posts %}
+            {% for post in site.posts limit:12 %}
             <div class="grids-item">
                 <article class="ciz-post">
                     <div class="post-thumb">
