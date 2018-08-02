@@ -2,12 +2,6 @@
 <html lang="en">
 {% include head.html %}
 <body>
-    <!--preload-->
-    <div class="loader" id="page-loader">
-        <div class="loading-wrapper">
-            <p>Loading<span>.</span><span>.</span><span>.</span></p>
-        </div>
-    </div>
 
 {% include header.html %}
         <!--wrapper-->
@@ -150,377 +144,46 @@
                     </div>
                     <div class="tags-three">
                         <div class="row">
+                            {% assign firstCategory = page.categories | first %}
+                            {% assign relatedCount = 0 %}
+                            {% for related in site.categories[firstCategory] %}
+                                {% unless page.permalink == related.permalink %}
+                                    {% assign relatedCount = relatedCount | plus: 1 %}
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="three-item">
                                     <article class="ciz-post">
                                         <div class="post-thumb">
                                             <a href="#">
-                                                <span class="post-format">
-                                                    <i class="fa fa-camera"></i>
-                                                </span>
-                                                <img alt="" src="images/w2.jpg">
+                                                <img alt="" src="/images/monkey.jpg">
                                             </a>
                                         </div>
                                         <h3 class="post-title">
-                                            <a href="#"> Simply dummy text </a>
+                                            <a href="{{related.permalink}}"> {{related.title}} </a>
                                         </h3>
-                                        <div class="post-meta">
-                                            <span class="post-date">
-                                                Mar 01, 2017
-                                            </span>
-                                            <em>/</em>
-                                            <span class="post-category">
-                                                <a href="#">Life style</a>
-                                            </span>
-                                        </div>
-                                        <div class="post-des">
-                                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                                        </div>
                                     </article>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="three-item">
-                                    <article class="ciz-post">
-                                        <div class="post-thumb">
-                                            <a href="#">
-                                                <img alt="" src="images/w1.jpg">
-                                            </a>
-                                        </div>
-                                        <h3 class="post-title">
-                                            <a href="#">Captain who is</a>
-                                        </h3>
-                                        <div class="post-meta">
-
-                                            <span class="post-date">
-                                                Mar 01, 2017
-                                            </span>
-                                            <em>/</em>
-                                            <span class="post-category">
-                                                <a href="#">Life style</a>
-                                            </span>
-                                        </div>
-                                        <div class="post-des">
-                                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="three-item">
-                                    <article class="ciz-post">
-                                        <div class="post-thumb">
-                                            <a href="#">
-                                                <img alt="" src="images/w2.jpg">
-                                            </a>
-                                        </div>
-                                        <h3 class="post-title">
-                                            <a href="#">My writing here.</a>
-                                        </h3>
-                                        <div class="post-meta">
-                                            <span class="post-date">
-                                                Mar 01, 2017
-                                            </span>
-                                            <em>/</em>
-                                            <span class="post-category">
-                                                <a href="#">Life style</a>
-                                            </span>
-                                        </div>
-                                        <div class="post-des">
-                                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
+                            {% endunless %}
+                            {% if relatedCount == 3 %}
+                                {% break %}
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
 
 
                 <div id="comments" class="comments-area">
+                    {% include disqus.html %}
 
-                    <div class="detail-caption">
-                        <span> 19 comments  </span>
-                    </div>
-
-                    <ol class="comment-list">
-                        <li class="comment">
-                            <article class="comment-body">
-                                <footer class="comment-meta">
-                                    <div class="comment-author vcard">
-                                        <img alt="" src="images/avatar1.jpg" class="avatar">
-                                        <b class="fn"><a href="#">User normal</a></b>
-                                    </div>
-                                    <div class="comment-metadata">
-                                        <a href="#">
-                                            <time datetime="2017-04-18T03:21:01+00:00">
-                                                April 18, 2017
-                                            </time>
-                                        </a>
-                                    </div>
-                                </footer>
-                                <div class="comment-content">
-
-                                    <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                    </p>
-                                </div>
-
-
-                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
-                            </article>
-                        </li>
-                        <li class="comment">
-                            <article class="comment-body">
-                                <footer class="comment-meta">
-                                    <div class="comment-author vcard">
-                                        <img alt="" src="images/avatar2.jpg" class="avatar">
-                                        <b class="fn"><a href="#">John Doe</a></b>
-                                    </div>
-                                    <div class="comment-metadata">
-                                        <a href="#">
-                                            <time datetime="2017-04-18T03:21:01+00:00">
-                                                April 18, 2017
-                                            </time>
-                                        </a>
-                                    </div>
-                                </footer>
-                                <div class="comment-content">
-
-                                    <p>
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                    </p>
-                                </div>
-
-
-                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
-                            </article>
-                            <ol class="children">
-                                <li class="comment even depth-2 parent">
-                                    <article class="comment-body">
-                                        <footer class="comment-meta">
-                                            <div class="comment-author vcard">
-                                                <img alt="" src="images/avatar.jpg" class="avatar">
-                                                <b class="fn"><a href="#">Admin </a></b>
-                                            </div>
-                                            <div class="comment-metadata">
-                                                <a href="#">
-                                                    <time datetime="2017-04-18T03:21:01+00:00">
-                                                        April 18, 2017
-                                                    </time>
-                                                </a>
-                                            </div>
-                                        </footer>
-                                        <div class="comment-content">
-                                            <p>
-                                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                            </p>
-                                        </div>
-
-
-                                        <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
-                                    </article>
-
-                                </li>
-                            </ol>
-                        </li>
-                        <li class="comment">
-                            <article class="comment-body">
-                                <footer class="comment-meta">
-                                    <div class="comment-author vcard">
-                                        <img alt="" src="images/avatar1.jpg" class="avatar">
-                                        <b class="fn"><a href="#">Jackie</a></b>
-                                    </div>
-                                    <div class="comment-metadata">
-                                        <a href="#">
-                                            <time datetime="2017-04-18T03:21:01+00:00">
-                                                April 18, 2017
-                                            </time>
-                                        </a>
-                                    </div>
-                                </footer>
-                                <div class="comment-content">
-                                    <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                    </p>
-                                </div>
-                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
-                            </article>
-                        </li>
-                        <li class="comment">
-                            <article class="comment-body">
-                                <footer class="comment-meta">
-                                    <div class="comment-author vcard">
-                                        <img alt="" src="images/avatar1.jpg" class="avatar">
-                                        <b class="fn"><a href="#">User normal</a></b>
-                                    </div>
-                                    <div class="comment-metadata">
-                                        <a href="#">
-                                            <time datetime="2017-04-18T03:21:01+00:00">
-                                                April 18, 2017
-                                            </time>
-                                        </a>
-                                    </div>
-                                </footer>
-                                <div class="comment-content">
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
-                                    </p>
-                                </div>
-                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
-                            </article>
-                        </li>
-
-                    </ol>
-
-                </div>
-
-                <!--comment form-->
-                <div id="respond" class="comment-respond">
-                    <h3 id="reply-title" class="comment-reply-title">
-                        <span>Leave a reply</span> <small>
-                        </small>
-
-                    </h3>
-                    <form action="#" method="post" class="comment-form">
-                        <div class="field-item">
-                            <p class="field-caption">
-                                Message <span>*</span>
-                            </p>
-
-                            <textarea id="comment" name="comment" aria-required="true" placeholder=""></textarea>
-                        </div><div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="field-item">
-                                    <p class="field-caption">
-                                        Name <span>*</span>
-                                    </p>
-                                    <input id="author" name="author" placeholder="" type="text" value="" tabindex="1">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="field-item">
-                                    <p class="field-caption">
-                                        Email <span>*</span>
-                                    </p>
-                                    <input id="email" name="email" placeholder="" type="text" value="" tabindex="2">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="form-submit">
-                            <input type="submit" class="my-btn my-btn-dark" value="SUBMIT">
-
-                        </p>
-                    </form>
-                </div>
-
-
-                <div>
-                </div>
-
-                <!--bottom-->
-                <div class="bottom">
-                    <div class="bottom-inner">
-                        <div class="bottom-col">
-                            <div class="col-caption">
-                                <span>RECENT POST</span>
-                            </div>
-                            <ul class="recent-post">
-                                <li>
-                                    <p><a href="single-gallery.html">	Maecenas semper ante sed lectus egestas.</a></p>
-                                </li>
-                                <li>
-                                    <p><a href="single.html">	Proin eget tortor risus.</a></p>
-                                </li>
-
-                                <li>
-                                    <p><a href="single-fullwidth-special.html">	The beautifull girl.</a></p>
-                                </li>
-
-                                <li>
-                                    <p><a href="single-fullwidth-three-column.html">	Simply dummy text</a></p>
-                                </li>
-
-                                <li>
-                                    <p><a href="single-audio.html">	What The Font</a></p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="bottom-col">
-                            <div class="col-caption">
-                                <span>TAG CLOUD</span>
-                            </div>
-                            <div class="list-tags">
-                                <p class="hidden"></p>
-                                <a href="#"> special</a>
-                                <a href="3"> USA</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> Days news</a>
-                                <a href="3"> review</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> max in</a>
-                                <a href="#"> special</a>
-                                <a href="3"> cloud </a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> Lorem text</a>
-                                <a href="3"> review</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> sky blue</a>
-                                <a href="3"> review</a>
-                                <a href="#"> hot news</a>
-                                <a href="#"> ciz themes</a>
-                                <a href="3"> review</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> Lorem text</a>
-                                <a href="3"> review</a>
-                                <a href="#"> spotlight</a>
-                                <a href="#"> sky blue</a>
-                                <a href="3"> review</a>
-                            </div>
-                        </div>
-                        <div class="bottom-col">
-                            <div class="col-caption">
-                                <span>INSTAGRAM</span>
-                            </div>
-                            <ul class="instagram-pics">
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i1.jpg" alt="" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i2.jpg" alt="" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i3.jpg" alt="" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i4.jpg" alt="" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i5.jpg" alt="" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/i6.jpg" alt="" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
                 </div>
             </div>
         </div>
+        <!--bottom-->
+        <div class="bottom">
+        </div>
+    </div>
+</div>
 
 {% include footer.html %}
 </body>
