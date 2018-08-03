@@ -1,7 +1,7 @@
 ---
 title: About
 author: ariestiyansyah
-layout: post-special
+layout: page
 ---
 
 Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Researcher & Business Strategist__ with equal parts interest in digital learning, tax, management, development, and writing.
