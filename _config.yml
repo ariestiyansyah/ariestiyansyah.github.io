@@ -10,8 +10,6 @@ disqus_shortname: oonlab
 paginate: 12
 permalink: /:categories/:year/:month/:day/:title/
 
-highlighter: rogue
-
 # Build settings
 markdown: kramdown
 plugins:
