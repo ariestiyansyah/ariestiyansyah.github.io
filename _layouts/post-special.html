@@ -7,30 +7,11 @@
         <!--wrapper-->
         <div class="wrapper">
             <div class="wrap">
-
-
                 <div class="article-fullpage">
                     <div class="article-bar">
-                        <span>Tuesday, May 9, 2017</span>
-
-
-                        <div class="detai-social">
-                            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" class="twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="pinterest">
-                                <i class="fa fa-pinterest"></i>
-                            </a>
-                            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                        </div>
-
+                        <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+                        {% include socialheader.html %}
                     </div>
-
                     <h1>
                         {{page.title}}
                     </h1>
@@ -43,25 +24,9 @@
                     <div class="post-content text-justify">
                         {{content}}
                     </div>
-
                 </div>
                 <!---->
                 <div class="detail-bottom">
-
-                    <!-- <div class="single-tag single-info">
-                        <p class="caption"><span>Tags Cloud</span> </p>
-                        <div class="tags">
-                            <a href="#"> spotlight</a>
-                            <a href="#"> max in</a>
-                            <a href="#"> special</a>
-                            <a href="3"> cloud </a>
-                            <a href="#"> spotlight</a>
-                            <a href="#"> Lorem text</a>
-                            <a href="3"> review</a>
-                            <a href="#"> spotlight</a>
-
-                        </div>
-                    </div> -->
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="single-info">
@@ -79,23 +44,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="single-info">
-                                <p class="caption"><span>Share To</span> </p>
-                                <div class="single-share">
-                                    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook">
-                                        <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" class="twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google">
-                                        <i class="fa fa-google-plus-square"></i>
-                                    </a>
-                                    <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="pinterest">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </div>
-                            </div>
+                            {% include socialshare.html %}
                         </div>
                     </div>
                 </div>
@@ -153,18 +102,14 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div id="comments" class="comments-area">
                     {% include disqus.html %}
 
                 </div>
             </div>
         </div>
-        <!--bottom-->
     </div>
 </div>
-
 {% include footer.html %}
 </body>
 </html>
