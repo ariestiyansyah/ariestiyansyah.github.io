@@ -1,13 +1,12 @@
 ---
 title: About
 author: ariestiyansyah
-layout: default
+layout: post-special
 ---
 
-<h1 class="pageTitle">About</h1>
-<img width="500" layout="responsive" src="/images/profile.jpg">
-
 Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indonesia. I’m a __Researcher & Business Strategist__ with equal parts interest in digital learning, tax, management, development, and writing.
+
+<img width="500" layout="responsive" src="/images/pro.jpg">
 
 I love to explore my brain, by day I am active as Entrepreneur, and by night as researcher. I 'm also leading training, teaching student, and providing support to everyone who want to share their knowledge.
 
@@ -42,8 +41,9 @@ Some of my happy clients are :
 - [PT Wise Pasific Venture](https://www.linkedin.com/company/8995616?goback=.anb_3942786_*2_*1_*1_*1_*1_*1&trk=prof-exp-company-name)
 - Email me for more...
 
-I have been speaker at the event and university like:
+I have been speak at the conference and university like:
 
+- [PyCon US 2018](https://pycon.us)
 - [PyCon UK 2017](https://pyconuk.org)
 - [PyCon Japan 2017](https://pycon.jp/2017/en/)
 - [PyCon APAC 2017](https://pycon.my/pycon-apac-2017-program-schedule/)
