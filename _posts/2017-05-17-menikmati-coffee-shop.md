@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: limabelas.jpg
-  credit: Jazmin Quaynor
-  creditlink: https://unsplash.com/photos/9Y8vxVQN4o4
+image: limabelas.jpg
 ---
 
 Sekarang gw lagi berada disebuah *coffee shop* depan laptop duduk sambil menulis artikel ini, seperti biasa gak sendiri karena ada kopi dan teman gw juga namanya ngurajeka, sering bantuin untuk pembuatan video youtube tapi selalu gagal, lol. Eh gw bukan ngartis loh tapi ini cuma gaya menulis gw aja, daripada bingung baca *intro* artikel ini mending langsung lu baca deh ide gw hari ini apa, yuk!

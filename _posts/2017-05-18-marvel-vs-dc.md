@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: limabelas.jpg
-  credit: Jazmin Quaynor
-  creditlink: https://unsplash.com/photos/9Y8vxVQN4o4
+image: limabelas.jpg
 ---
 
 Ye ee 

@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: limabelas.jpg
-  credit: Jazmin Quaynor
-  creditlink: https://unsplash.com/photos/9Y8vxVQN4o4
+image: limabelas.jpg
 ---
 
 Pasti banyak hal yang kalian lewati beberapa hari terakhir ini, nah lewat tulisan ini gw mau membahas hal yang mungkin kalian alami juga. Apa itu? Terkadang kita pengen nanya ke orang yang lebih tahu karena kita ga tahu, tapi ada juga yang sok tahu, nah loooh.
