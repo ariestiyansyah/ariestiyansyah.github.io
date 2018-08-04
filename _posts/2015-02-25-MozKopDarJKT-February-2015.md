@@ -10,6 +10,7 @@ tags:
 - Indonesia
 - Mozilla
 author: ariestiyansyah
+image: /images/mozposter.png
 ---
 <center>
 ![MozKopDarJKT](http://oonlab.com/images/mozposter.png) </center>

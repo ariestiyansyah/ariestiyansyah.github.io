@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - 3ideasperday
-image:
-  feature: eight.jpg
-  credit: Lauran Mancke
-  creditlink: https://unsplash.com/photos/aOC7TSLb1o8
+image: /img/eight.jpg
 ---
 
 Aduh, menulis artikel ini rasanya kesal banget karena gw sudah menulis sembilan ide gw tiba-tiba aplikasi LightPaper di Macbook gw force close, arrrrrrghhhh!! tadi gw sudah panjang lebar jelasin alasan kenapa pindah ke 3IdeasPerDay, hmmmm kzl.

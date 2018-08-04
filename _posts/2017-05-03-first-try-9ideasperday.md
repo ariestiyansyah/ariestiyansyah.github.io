@@ -10,10 +10,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: firsttry.jpg
-  credit: Scott Webb
-  creditlink: https://unsplash.com/?photo=Yohivf5JWvg
+image: /img/firsttry.jpg
 ---
 
 Kemarin sudah Hari Pendidikan Nasional yah, sekarang gw mau coba aktivitas baru, new habbit yaitu menulis apa yang gw pikirkan dalam seharian ini. Kalau dapat ide langsung catat dan save :D tidur paling lama 7 jam berarti sisa 17 jamnnya itu pasti adalah ide yang muncul karena gw orangnya suka berpikir dan terus terang banyak ide yang gagal, gagal, gagal dan gagal.

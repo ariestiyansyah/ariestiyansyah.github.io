@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: empatbelas.jpg
-  credit: Ales Krivec
-  creditlink: https://unsplash.com/photos/ZMZHcvIVgbg
+image: /img/empatbelas.jpg
 ---
 
 Tiga hari berturut-turut gw menulis telat, diatas jam 10 terus. Apa yang terjadi? gw sedang asyik membaca dan coba berkomunikasi dengan orang-orang sebenarnya, karena gw tahu hidup sendiri gak akan bisa deh dan bisa-bisa XIdeasPerDay nanti gak lanjut NOOOOOOOOO!!

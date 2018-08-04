@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: eleven.jpg
-  credit: Blake Wheeler
-  creditlink: https://unsplash.com/photos/itt1jPISHLo
+image: /img/eleven.jpg
 ---
 
 Tidak terasa sudah hari Jumat lagi yah, akhir pekan kembali datang menyinari kegelapan dan XIdeasPerDaypun kembali datang menyinari akhir pekan kalian, ciaaat ciaaat bahasanya sedikit lebay, huh.

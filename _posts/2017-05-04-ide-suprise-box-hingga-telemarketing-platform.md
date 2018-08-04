@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - Xideasperday
-image:
-  feature: second.jpg
-  credit: Quino Al
-  creditlink: https://unsplash.com/photos/8ji8tBM824U
+image: /img/second.jpg
 ---
 
 Yeaaay! bisa juga nulis hari kedua 9IdeasPerDay :D yuk langsung baca beberapa ide yang dikumpulkan hari ini:

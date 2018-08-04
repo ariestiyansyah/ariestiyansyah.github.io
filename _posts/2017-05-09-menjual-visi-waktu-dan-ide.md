@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - 9ideasperday
-image:
-  feature: seven.jpg
-  credit: Todd Quackenbush
-  creditlink: https://unsplash.com/photos/x5SRhkFajrA
+image: /img/seven.jpg
 ---
 
 Kalian tahu apa yang gw rasakan sekarang? pengen selebrasi kayak Ronaldo setelah mencetak gol, GOOOOOOOOL!!! Tujuh hari sudah gw menulis ide-ide ini dan kalian yang tetap membaca gw ucapkan terima kasih ciaaat ciaaaat... Pastinya ga ada give away, hmmm boleh juga sih kalau sudah 1 bulan menulis ide (ini ide nih).

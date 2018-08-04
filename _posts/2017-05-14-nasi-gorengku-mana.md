@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: tigabelas.jpg
-  credit: Brenda Godinez
-  creditlink: https://unsplash.com/photos/tOsKxvyNyDw
+image: /img/tigabelas.jpg
 ---
 
 Hai hei bro, gw masih konsisten kok nulis ide XIdeasPerDay, untuk hari ini curhatan gw singkat saja ya karena udah cukup ngantuk.

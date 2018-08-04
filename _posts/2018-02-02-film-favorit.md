@@ -8,6 +8,7 @@ tags:
 - Sheilaon7
 - single
 - film-favorit
+image: /images/filmfavorit.jpg
 ---
 
 ![Film Favorit](/images/filmfavorit.jpg)

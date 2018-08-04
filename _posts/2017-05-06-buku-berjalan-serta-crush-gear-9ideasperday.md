@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - Xideasperday
-image:
-  feature: four.jpg
-  credit: Siyan Ren
-  creditlink: https://unsplash.com/photos/jN_VbffJHlI
+image: /img/four.jpg
 ---
 Hari ke-empat (4) yeaay!! weekend buat gw sih biasa-biasa saja ya.. baca buku, tidur, makan, main laptop dan main game itu sih udah kebiasaan banget. Untuk keluar cari sesuatupun gw bosan banget karena yang gw inginkan adalah dunia baru seperti ditulisan pertama, YES DUNIA BARU!!
 

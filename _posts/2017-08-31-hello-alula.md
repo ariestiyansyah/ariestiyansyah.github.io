@@ -8,6 +8,7 @@ tags:
 - journey
 - macbook
 - adventure
+image: https://raw.githubusercontent.com/ariestiyansyah/dotfiles/master/alula.jpg
 ---
 
 ![Alula](https://raw.githubusercontent.com/ariestiyansyah/dotfiles/master/alula.jpg)

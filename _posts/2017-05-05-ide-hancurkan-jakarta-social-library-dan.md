@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - Xideasperday
-image:
-  feature: third.jpg
-  credit: Sophie Sollmann
-  creditlink: https://unsplash.com/photos/QmgMVjt7_nk
+image: /img/third.jpg
 ---
 
 Hi, *welcome back* bro di 9IdeasPerDay!!! hari ini gw sangat telat merangkum ide yang gw pikirkan hari ini, disela-sela aktivitas gw coba menulis ide-ide gw sih karena kembali lagi ini harus jadi kebiasaan yang baik buat gw dan semoga bermanfaat buat yang membacanya.

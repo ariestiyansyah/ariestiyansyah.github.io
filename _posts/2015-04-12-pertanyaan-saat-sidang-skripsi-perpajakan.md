@@ -9,6 +9,7 @@ tags:
 - perpajakan
 - pajak
 description: Kumpulan soal sidang skripsi jurusan perpajakan
+image: /images/snsd.jpeg)
 ---
 
 Dear pembaca oonlab, akhirnya saya bisa menyempatkan diri  untuk menulis lagi setelah hmpir satu bulan tidak menyentuh laptop dan mengerjakan proyek-proyek fun saya, ah lupakan! karena pada kesempatan ini saya datang membawa beberapa pertanyaan yang biasa ditanyakan dosen penguji pada saat sidang tugas akhir/skripsi.

@@ -8,6 +8,7 @@ tags:
 - ceo
 - lombok
 - Developer
+image: /images/lombokdev.jpg
 ---
 
 ![Lombok Dev Meetup](http://oonlab.com/images/lombokdev.jpg)

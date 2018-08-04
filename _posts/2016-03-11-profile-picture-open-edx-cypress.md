@@ -12,6 +12,7 @@ tags:
 - Django
 - Devstack
 description: Research on Open edX Cypress
+image: /images/afterx.png
 ---
 
 Before:

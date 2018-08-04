@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - 9ideasperday
-image:
-  feature: five.jpg
-  credit: Fernando Reyes
-  creditlink: https://unsplash.com/photos/bJg-iNESUfM
+image: /img/five.jpg
 ---
 
 Hari yang cukup membosankan kalau Minggu, ya selau membosankan buat gw tapi selalu diawali dengan senyum kok, halah. Gw udah bulat untuk membuat review ide setiap 7 hari menggunakan video lalu diupload ke Youtube, yeaaah *wannabe youtuber bro!* tapi tenang aja gw gak akan jadi *youtuber* dan mengambil rezeki kalian kok hohohoho Sombong!

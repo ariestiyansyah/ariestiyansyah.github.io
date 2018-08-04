@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - 3ideasperday
-image:
-  feature: ten.jpg
-  credit: Paul Morris
-  creditlink: https://unsplash.com/photos/1-6CHp3zLIQ
+image: /img/ten.jpg
 ---
 
 Ada satu hal yang pengen gw katakan sebelum membahas tiga ide hari ini yaitu "Kau masih sama cantiknya seperti dulu", ah gw tahu lu pasti baca tulisan ini :D jadi ya gw mau menyatakannya disesi pembuka.

@@ -48,7 +48,12 @@ title: oonlab
                 <article class="ciz-post">
                     <div class="post-thumb">
                         <a href="{{ site.url }}{{ post.url}}">
+                            {% if post.image %}
+                            <img alt="" src="{{post.image}}" />
+                            {% else %}
                             <img alt="" src="/images/monkey.jpg" />
+                            {% endif %}
+
                         </a>
                     </div>
                     <h3 class="post-title">

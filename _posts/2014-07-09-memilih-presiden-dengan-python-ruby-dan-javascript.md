@@ -17,6 +17,7 @@ tags:
   - Presiden Javascript
   - Presiden Python
   - Presiden Ruby
+image: /wp-content/uploads/2014/07/pemilu-2014.jpg
 ---
 [<img class="aligncenter size-full wp-image-340" src="http://oonlab.com/wp-content/uploads/2014/07/pemilu-2014.jpg" alt="pemilu-2014" width="504" height="360" />][1]
 

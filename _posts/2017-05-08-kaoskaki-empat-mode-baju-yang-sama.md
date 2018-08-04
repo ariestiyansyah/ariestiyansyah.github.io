@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: six.jpg
-  credit: Jeff Sheldon
-  creditlink: https://unsplash.com/photos/9SyOKYrq-rE
+image: /img/six.jpg
 ---
 
 Judulnya seperti biasa gak akan nyambung dengan kontennya, karena sembilan ide kalau ditulis semua dijudul kebayang sih bacanya gimana. Ide gw hari ini ada tentang heker, terus ada kebiasaan dengan kaos kaki dan baju yang gw pakai setiap harinya, oke langsung aja ya inilah idenya.
@@ -26,7 +23,8 @@ Kalau sudah suka dengan menu disuatu tempat pasti akan berkunjung kembali, fitur
 ### 3. Custom HTTP Header
 Ini untuk developer sih, HTTP singkatan dari *Hypertext Transfer Protocol* merupakan sistem yang digunakan untuk mengatur cara pengiriman data antara dua mesin, nah HTTP ini punya header untuk menyampaikan informasi tambahan ketika meminta atau memblasa pesan antar dua mesin tadi, ya bisa dibilang kop surat lah. Kalau yang sering iseng sebut saja heker mah pasti banyak berjumpa dengan header ini, idenya apa? Lagi banyak yang hire heker sih katanya, coba deh dibuat *custom http header* seperti *x-we-are-hiring* dengan value *Join us, we can rule the galaxy!* pasti lebih greget tuh dan si heker langsung bilang "Wah perusahaannya peduli keamanan nih", uhuk.
 	
-### 4. Same Tshirt
+
+### 4. Same Tshirt
 Gw bukan ngikutin siapa-siapa sih tapi memang ini membuat hidup lu lebih simple bro, gw mulai menerapkan ini awal 2017 dimana gw beli baju di amazon dengan warna (red:biru) yang sama dan sebanyak mungkin dan gw pakai tiap hari, tiap aktivitas dan tiap ngapain aja huahahhaa, rasanya? gw gak pusing milih baju dan buang waktu gw, buka lemari ambil baju dan pakai, yeaaah! kalau mau beliin ini linknya loh [http://a.co/0D12HF8](http://a.co/0D12HF8) 
 
 ### 5. New Color

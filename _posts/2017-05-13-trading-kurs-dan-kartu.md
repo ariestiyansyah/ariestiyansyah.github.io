@@ -9,10 +9,7 @@ tags:
 - Life
 - days
 - xideasperday
-image:
-  feature: twelve.jpg
-  credit: Vitaly
-  creditlink: https://unsplash.com/photos/OCrPJce6GPk
+image: /img/twelve.jpg
 ---
 
 Judulnya tetap gak akan sama denga isinya? ah gak kok, blog gw bukan penyebar *hoax* atau *click bait*. Gw mau bahasa trading kartu ala yu-gi-oh dan trading kurs ala bitcoin nih diartikel kali ini.
