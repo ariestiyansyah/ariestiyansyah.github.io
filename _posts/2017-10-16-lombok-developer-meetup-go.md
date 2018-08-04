@@ -9,6 +9,7 @@ tags:
 - lombok
 - Developer
 image: /images/lombokdev.jpg
+description:  Lombok Developer Meetup Face the technology transformation
 ---
 
 ![Lombok Dev Meetup](http://oonlab.com/images/lombokdev.jpg)

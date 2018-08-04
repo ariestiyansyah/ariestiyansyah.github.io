@@ -9,6 +9,7 @@ tags:
 - single
 - film-favorit
 image: /images/filmfavorit.jpg
+description: Film favorit
 ---
 
 ![Film Favorit](/images/filmfavorit.jpg)
