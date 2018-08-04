@@ -30,16 +30,22 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="single-info">
-                                <p class="caption"><span>RATING</span> </p>
+                                <p class="caption"><span>PREV - NEXT</span></p>
                                 <div class="single-rating">
+                                    {% if page.previous %}
                                     <div class="rating-item">
-                                        <strong>1568</strong>
-                                        <span>VIEWS</span>
+                                        <a href="{{ page.previous.url }}">
+                                            <span>{{page.previous.title}}</span>
+                                          </a>
                                     </div>
+                                    {% endif %}
+                                    {% if page.next %}
                                     <div class="rating-item">
-                                        <strong>32</strong>
-                                        <span>COMMENTS</span>
+                                        <a href="{{page.next.url}}">
+                                            <span>{{page.next.title}}</span>
+                                          </a>
                                     </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
