@@ -1,5 +1,5 @@
 ---
-title: "Kenapa saya ikut menjalankan konferensi"
+title: "Kenapa saya ikut menjalankan konferensi PYCON ID 2018"
 author: ariestiyansyah
 layout: post
 categories:
@@ -11,6 +11,8 @@ tags:
 image: /images/pycon2017.jpg
 description: Inilah kenapa saya senang menjalankan konferensi
 ---
+
+![PyCON ID 2017](/images/pycon2017.jpg.jpg)
 
 Mungkin dari beberapa pembaca sudah ada yang tahu kalau saya merupakan salah satu dari tim pelaksana konferensi Python di Indonesia, banyak pekerjaan yang perlu kita lakukan ketika ingin menyelenggarakan sebuah konferensi yang tentunya tidak mudah apalagi ini konferensi komunitas yang tentunya beda dengan konferensi bisnis pada umumnya. Saya pernah mengikuti beberapa konferensi komunitas dengan ide yang beragam, jenis acara yang <i>fun</i>, kekuatan komunitas saling mendukung terselenggaranya konferensi membuat saya kagum sembari dalam hati berkata "Ini nih <i>The power of community</i>". 
 
@@ -26,5 +28,7 @@ Diatas merupakan alasan saya kenapa ikut berkontribusi di konferensi Python Indo
 1. Jika kamu bekerja disuatu perusahaan, kamu bisa menyarankan bossmu untuk mendukung konferensi ini PyCon ID 2018
 2. Tertarik untuk ikut? yuk beli tiketnya, ajak teman dan rekanmu.
 3. Bagikan ke jejaring sosial kamu tentang Python Conference Indonesia 2018 yang akan diadakan pada 3-4 November 2018.
+
+Untuk informasi lebih lanjut tentang Python Conference Indonesia 2018 kamu bisa mengunjungi websitenya di https://pycon.id
 
 Terima kasih atas supportnya!
