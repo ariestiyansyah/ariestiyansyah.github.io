@@ -12,7 +12,7 @@ image: /images/pycon2017.jpg
 description: Inilah kenapa saya senang menjalankan konferensi
 ---
 
-![PyCON ID 2017](/images/pycon2017.jpg.jpg)
+![PyCON ID 2017](/images/pycon2017.jpg)
 
 Mungkin dari beberapa pembaca sudah ada yang tahu kalau saya merupakan salah satu dari tim pelaksana konferensi Python di Indonesia, banyak pekerjaan yang perlu kita lakukan ketika ingin menyelenggarakan sebuah konferensi yang tentunya tidak mudah apalagi ini konferensi komunitas yang tentunya beda dengan konferensi bisnis pada umumnya. Saya pernah mengikuti beberapa konferensi komunitas dengan ide yang beragam, jenis acara yang <i>fun</i>, kekuatan komunitas saling mendukung terselenggaranya konferensi membuat saya kagum sembari dalam hati berkata "Ini nih <i>The power of community</i>". 
 
