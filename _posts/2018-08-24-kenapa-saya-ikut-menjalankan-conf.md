@@ -27,6 +27,6 @@ Diatas merupakan alasan saya kenapa ikut berkontribusi di konferensi Python Indo
 2. Tertarik untuk ikut? yuk beli tiketnya, ajak teman dan rekanmu.
 3. Bagikan ke jejaring sosial kamu tentang Python Conference Indonesia 2018 yang akan diadakan pada 3-4 November 2018.
 
-Untuk informasi lebih lanjut tentang Python Conference Indonesia 2018 kamu bisa mengunjungi websitenya di https://pycon.id
+Untuk informasi lebih lanjut tentang Python Conference Indonesia 2018 kamu bisa mengunjungi websitenya di <a href="https://pycon.id">https://pycon.id</a>
 
 Terima kasih atas supportnya!
