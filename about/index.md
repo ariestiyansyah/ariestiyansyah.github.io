@@ -10,7 +10,7 @@ Hola, my name is __Rizky Ariestiyansyah__ from Bima, West Nusa Tenggara, Indones
 
 I love to explore my brain, by day I am active as Entrepreneur, and by night as researcher. I 'm also leading training, teaching student, and providing support to everyone who want to share their knowledge.
 
-I'm active as open source warrior, volunteering in non-profit organization like [Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing, and all about buiness and finance.
+I'm active as open source warrior, volunteering in non-profit organization like [Python Software Foundation](https://python.org),[Open edX](http://open.edx.org), [Mozilla](https://mozillians.org/en-US/u/ariestiyansyah), [Fedora Project](http://fedoraproject.org), [IlmuBerbagi](http://ilmuberbagi.or.id), [IGOS Nusantara](http://igosnusantara.or.id), [XFCE](http://xfce.org), and [ID-CERT](http://www.cert.or.id). Highly motivated to become part of global movement, love to investing, and all about buiness and finance.
 
 I was worked at several company as full-time employeer and __freelancer__ like
 
