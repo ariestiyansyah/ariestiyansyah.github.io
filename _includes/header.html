@@ -1,84 +1,40 @@
-<nav class="menu-res hidden-lg hidden-md ">
-    <div class="menu-res-inner">
+{%- if include.theme == 'dark' -%}
+  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- elsif include.theme == 'light' -%}
+  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- else -%}
+  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- endif -%}
+    <div class="main">
+      <div class="header__title">
+        <div class="header__brand">
+          {%- include svg/logo.svg -%}
+          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+          {%- include snippets/get-nav-url.html path=_paths_root -%}
+          {%- if site.title -%}
+            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+          {%- endif -%}
+        </div>
+        <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
+      </div>
+      {%- if site.data.navigation.header -%}
+      <nav class="navigation">
         <ul>
-            {% for nav in site.navigation %}
-            {% if nav.child %}
-            <li class="menu-item-has-children">
-                <a href="#"> {{nav.title}} </a>
-                <ul class="sub-menu">
-                {% for item in nav.child %}
-                    <li>
-                        <a href="{{item.url}}">{{item.title}}</a>
-                    </li>
-                {% endfor %}
-                </ul>
-            </li>
-            {% else %}
-            <li>
-                <a href="{{nav.url}}">{{nav.title}}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
+          {%- for _item in site.data.navigation.header -%}
+            {%- include snippets/get-nav-url.html path=_item.url -%}
+            {%- assign _nav_url = __return -%}
+            {%- include snippets/get-nav-url.html path=page.url -%}
+            {%- assign _page_url = __return -%}
+            {%- include snippets/locale-to-string.html locale=_item.titles -%}
+            {%- if _nav_url == _page_url -%}
+              <li class="navigation__link navigation__link--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+            {%- else -%}
+              <li class="navigation__link"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+          <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
         </ul>
+      </nav>
+      {%- endif -%}
     </div>
-</nav>
-<!--preload-->
-<div class="loader" id="page-loader">
-    <div class="loading-wrapper">
-        <p>Loading<span>.</span><span>.</span><span>.</span></p>
-    </div>
-</div>
-<!--page-->
-<div class="page">
-    <div class="mobile-bar hidden-lg hidden-md">
-        <div class="menu-icon-mobile hidden-lg hidden-md">
-            <i class="fa fa-navicon"></i>
-            <span>MENU</span>
-        </div>
-        <div class="search-icon-mobile">
-            <i class="fa fa-search"></i>
-        </div>
-        <div class="search-box-mobile">
-            <form>
-                <input type="search" value="" placeholder="Begin typing..." class="txt-search">
-            </form>
-        </div>
-    </div>
-    <div class="logo-show">
-        <!--<a href="#" class="logo">
-            <img alt="" src="/images/logo1.png" />
-        </a>-->
-    </div>
-
-    <nav class="menu-main menu-show hidden-sm hidden-xs">
-        <div class="menu-main-inner">
-            <ul class="hidden-sm hidden-xs">
-                {% for nav in site.navigation %}
-                {% if nav.child %}
-                <li class="menu-item-has-children">
-                    <a href="#"><i class="fa fa-home"></i> {{nav.title}} </a>
-                    <ul class="sub-menu">
-                        {% for item in nav.child %}
-                        <li>
-                            <a href="{{item.url}}">{{item.title}}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                        </li>
-                        {% else %}
-                        <li>
-                        <a href="{{nav.url}}">{{nav.title}}</a>
-                        </li>
-                 {% endif %}
-                {% endfor %}
-            </ul>
-            <div class="search-icon">
-                <i class="fa fa-search"></i>
-            </div>
-            <div class="search-box">
-                <form>
-                    <input type="search" value="" placeholder="Begin typing..." class="txt-search">
-                </form>
-            </div>
-        </div>
-    </nav>
+  </header>

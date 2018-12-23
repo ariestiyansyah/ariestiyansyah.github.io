@@ -1,19 +1,27 @@
-# frozen_string_literal: true
+# coding: utf-8
 
 Gem::Specification.new do |spec|
   spec.name          = "onto"
-  spec.version       = "0.1.0"
+  spec.version       = "2.2.4"
   spec.authors       = ["Rizky Ariestiyansyah"]
   spec.email         = ["ariestiyansyah.rizky@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.}
+  spec.homepage      = "https://github.com/ariestiyansyah/ariestiyansyah.github.io"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
+  spec.metadata["plugin_type"] = "theme"
 
-  spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.files         = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^((_data|_includes|_layouts|_sass|assets)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
+  end
 
-  spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_runtime_dependency "jekyll", "~> 3.5"
+  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.0"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.9.2"
+  spec.add_runtime_dependency "jemoji", "~> 0.8"
+
+  spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "rake", "~> 10.0"
 end
