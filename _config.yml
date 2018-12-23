@@ -180,7 +180,7 @@ defaults:
       sharing: true
       license: false
       aside:
-        toc: false
+        toc: true
       show_edit_on_github: false
       pageview: true
 
