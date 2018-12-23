@@ -2,7 +2,7 @@
 id: 375
 title: 'Si oon : 5 Lomba Kemerdekaan untuk Jomblo'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=375
 permalink: /si-oon-5-lomba-kemerdekaan-untuk-jomblo
 categories:

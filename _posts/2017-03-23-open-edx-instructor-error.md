@@ -1,7 +1,7 @@
 ---
 title: Open edX Instructor Page Error on Ficus
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - edX
 tags:

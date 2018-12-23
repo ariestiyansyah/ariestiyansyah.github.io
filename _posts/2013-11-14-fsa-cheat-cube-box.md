@@ -2,7 +2,7 @@
 id: 89
 title: FSA Cheat Cube Box
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=89
 permalink: /fsa-cheat-cube-box
 post_views_count:

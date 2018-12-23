@@ -1,7 +1,7 @@
 ---
 title: Youth Media Festival - Technology in Education
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - Speaker
 tags:

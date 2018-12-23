@@ -2,7 +2,7 @@
 id: 261
 title: Jomblo gak jomblo sama saja
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=261
 permalink: /jomblo-gak-jomblo-sama-saja
 authorsure_include_css:

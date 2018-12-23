@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Nasi Gorengku Mana?"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

@@ -2,7 +2,7 @@
 id: 383
 title: Webmaker with SMK ITACO
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=383
 permalink: /webmaker-smk-itaco
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "Rust Indonesia Meetup"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - dev
 tags:

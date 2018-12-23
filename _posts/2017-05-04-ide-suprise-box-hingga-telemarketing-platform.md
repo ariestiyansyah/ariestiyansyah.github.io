@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Ide Surprise Box Hingga Telemarketing Platform"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

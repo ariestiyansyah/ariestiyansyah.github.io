@@ -1,7 +1,7 @@
 ---
 title: Pertanyaan saat Sidang SKRIPSI Perpajakan
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /pertanyaan-saat-sidang-skripsi-perpajakan/
 categories:
   - pajak

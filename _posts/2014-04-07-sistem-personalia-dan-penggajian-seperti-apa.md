@@ -2,7 +2,7 @@
 id: 228
 title: Sistem Personalia dan Penggajian seperti apa?
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=228
 permalink: /sistem-personalia-dan-penggajian-seperti-apa
 authorsure_include_css:

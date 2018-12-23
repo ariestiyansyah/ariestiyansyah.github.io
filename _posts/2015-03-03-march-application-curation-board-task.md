@@ -1,7 +1,7 @@
 ---
 title: March Application Curation Board Task
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /march-application-curation-board-task
 categories:
   - Mozilla

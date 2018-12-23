@@ -2,7 +2,7 @@
 id: 160
 title: 'Hacking Web With Webmaker &#8220;Webmaker Party&#8221;'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=160
 permalink: /hacking-web-with-webmaker-webmaker-party
 crp_related_posts_widget:

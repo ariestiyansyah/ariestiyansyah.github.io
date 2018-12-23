@@ -1,7 +1,7 @@
 ---
 title: Setup Caddy with PHP on Ubuntu 
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - Code
 tags:

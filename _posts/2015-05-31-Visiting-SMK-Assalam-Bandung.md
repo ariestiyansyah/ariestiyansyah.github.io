@@ -1,7 +1,7 @@
 ---
 title: Visit to SMK Assalam Bandung
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /visit-to-smk-assalam-bandung
 categories:
   - Mozilla

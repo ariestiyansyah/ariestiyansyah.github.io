@@ -1,7 +1,7 @@
 ---
 title: Dipuji jangan terbang, dicaci jangan tumbang
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - life
 tags:

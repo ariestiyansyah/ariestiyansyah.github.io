@@ -1,7 +1,7 @@
 ---
 title: Sistem Pembayaran untuk Software Development
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /sistem-pambayaran-untuk-software-development
 categories:
   - Think

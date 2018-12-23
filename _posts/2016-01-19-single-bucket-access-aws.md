@@ -1,7 +1,7 @@
 ---
 title: Single Bucket Access Amazon Web Services
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - AWS

@@ -2,7 +2,7 @@
 id: 43
 title: 'MotoGP Sepang, Malaysia &#8211; 14 October 2013'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://code-tax.rhcloud.com/?p=43
 permalink: /motogp-sepang-malaysia-14-october-2013
 sn_gl_:

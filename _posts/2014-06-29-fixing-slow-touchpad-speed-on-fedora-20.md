@@ -2,7 +2,7 @@
 id: 326
 title: Fixing Slow Touchpad Speed on Fedora 20
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=326
 permalink: /fixing-slow-touchpad-speed-on-fedora-20
 authorsure_include_css:

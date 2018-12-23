@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Trading Kurs dan Kartu"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

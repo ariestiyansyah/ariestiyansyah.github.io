@@ -1,7 +1,7 @@
 ---
 title: "XIdeasPerDay - Ide Buku Berjalan Serta Mainan Crush Gear"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

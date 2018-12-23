@@ -1,7 +1,7 @@
 ---
 title:	anakpajak back to development
 author:	ariestiyansyah
-layout: post
+layout: article
 permalink: /anakpajak-back-to-development
 tags:
  - anakpajak

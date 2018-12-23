@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Ide Simple Tapi Bermanfaat"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

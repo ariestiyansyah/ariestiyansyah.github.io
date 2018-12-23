@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Review Minggu Pertama"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

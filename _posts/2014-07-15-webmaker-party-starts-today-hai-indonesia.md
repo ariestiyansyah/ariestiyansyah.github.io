@@ -2,7 +2,7 @@
 id: 342
 title: Webmaker Party Starts today! Hai Indonesia
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=342
 permalink: /webmaker-party-starts-today-hai-indonesia
 ssb_post_sites:

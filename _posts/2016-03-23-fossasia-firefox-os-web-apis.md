@@ -1,7 +1,7 @@
 ---
 title: FOSSASIA 2016 - Firefox OS, Web APIs & Hybrid Application
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - Mozilla
 tags:

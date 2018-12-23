@@ -2,7 +2,7 @@
 id: 359
 title: Si Oon, Mba Kunti dan Nenek Ngesot
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=359
 permalink: /si-oon-mba-kunti-dan-nenek-ngesot
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Easy Way to Generate Open edX Certificate
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - edX
 tags:

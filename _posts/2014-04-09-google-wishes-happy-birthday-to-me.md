@@ -2,7 +2,7 @@
 id: 254
 title: Google Wishes Happy Birthday to Me
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=254
 permalink: /google-wishes-happy-birthday-to-me
 authorsure_include_css:

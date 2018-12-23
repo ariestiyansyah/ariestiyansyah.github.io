@@ -2,7 +2,7 @@
 id: 250
 title: 'Gambar : 11 Kejadian di langit yang patut dilihat di 2014'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=250
 permalink: /gambar-11-kejadian-di-langit-yang-patut-dilihat-di-2014
 authorsure_include_css:

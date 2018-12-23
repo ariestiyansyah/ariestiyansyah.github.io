@@ -1,7 +1,7 @@
 ---
 title: Relative Strengths of the Different Models of the CTO
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - Data
 tags:

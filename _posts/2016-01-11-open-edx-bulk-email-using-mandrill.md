@@ -1,7 +1,7 @@
 ---
 title: Open edX bulk email using mandrill
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - edX
@@ -59,7 +59,8 @@ In course email template add string `message_body`  in html and plain template.
 	
 	Html Template : message_body string
 	Plain Template : message_body string
-	Name: leave blank	
+	Name: leave blank
+	
 Save!
 
 Boom! now you can send Bulk email directly from LMS.

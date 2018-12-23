@@ -1,7 +1,7 @@
 ---
 title: "Hello Alula"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - journey
 tags:

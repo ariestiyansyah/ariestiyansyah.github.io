@@ -2,7 +2,7 @@
 id: 199
 title: Model Bisnis OpenShift
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=199
 permalink: /model-bisnis-openshift
 categories:

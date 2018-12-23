@@ -1,7 +1,7 @@
 ---
 title: Convert Periscope TS file to MP4
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - hacking
 tags:

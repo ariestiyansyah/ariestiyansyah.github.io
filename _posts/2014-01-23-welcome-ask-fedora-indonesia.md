@@ -2,7 +2,7 @@
 id: 177
 title: Welcome ASK Fedora Indonesia
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=177
 permalink: /welcome-ask-fedora-indonesia
 categories:

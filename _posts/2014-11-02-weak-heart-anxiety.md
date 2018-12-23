@@ -2,7 +2,7 @@
 id: 409
 title: Weak heart and anxiety
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=409
 permalink: /weak-heart-anxiety
 categories:

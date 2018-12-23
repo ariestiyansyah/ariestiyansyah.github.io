@@ -2,7 +2,7 @@
 id: 267
 title: Tnotify, a Terminal Notification
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=267
 permalink: /tnotify-a-terminal-notification
 authorsure_include_css:

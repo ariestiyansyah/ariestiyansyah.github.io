@@ -1,7 +1,7 @@
 ---
 title: Store Open edX Profile Image to AWS S3
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - edX
 tags:

@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Menjual Visi, Waktu dan Ide"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

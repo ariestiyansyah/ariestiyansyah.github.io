@@ -2,7 +2,7 @@
 id: 153
 title: Hacking Web With Webmaker by STPI Firefox Club
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=153
 permalink: /hacking-web-with-webmaker-by-stpi-firefox-club
 categories:

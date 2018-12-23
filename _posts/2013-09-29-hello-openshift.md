@@ -2,7 +2,7 @@
 id: 6
 title: Hello OpenShift !
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://code-tax.rhcloud.com/?p=6
 permalink: /hello-openshift
 crisp_persona_post_view_count:

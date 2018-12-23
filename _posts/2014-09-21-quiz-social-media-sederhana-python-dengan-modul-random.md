@@ -2,7 +2,7 @@
 id: 396
 title: Quiz Social Media Sederhana Python dengan Modul Random
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=396
 permalink: /quiz-social-media-sederhana-python-dengan-modul-random
 categories:

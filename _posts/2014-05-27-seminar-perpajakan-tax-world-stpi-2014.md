@@ -2,7 +2,7 @@
 id: 299
 title: 'Seminar Perpajakan &#8220;Tax World STPI 2014&#8243;'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=299
 permalink: /seminar-perpajakan-tax-world-stpi-2014
 authorsure_include_css:

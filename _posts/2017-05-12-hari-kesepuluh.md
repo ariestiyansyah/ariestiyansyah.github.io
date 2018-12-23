@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Hari Kesepuluh"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

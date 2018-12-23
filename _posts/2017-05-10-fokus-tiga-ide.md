@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Fokus Tiga Ide"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

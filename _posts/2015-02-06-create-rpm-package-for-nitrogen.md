@@ -2,7 +2,7 @@
 id: 442
 title: Create RPM Package for Nitrogen
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /create-rpm-package-for-nitrogen
 categories:
   - Code

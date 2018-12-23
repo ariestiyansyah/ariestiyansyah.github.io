@@ -1,7 +1,7 @@
 ---
 title: "Growth Stage CEO"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Generate SECRET KEY Django
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - edX
   - Django

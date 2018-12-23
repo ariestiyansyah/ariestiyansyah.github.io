@@ -1,7 +1,7 @@
 ---
 title: SpotiPy - Control Spotify using AppleScript and Python
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - Python
 tags:

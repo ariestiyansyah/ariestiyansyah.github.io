@@ -2,7 +2,7 @@
 id: 74
 title: 'First &#8220;Student Learning&#8221; in @STPIFirefoxClub'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=74
 permalink: /first-student-learning-in-stpifirefoxclub
 categories:

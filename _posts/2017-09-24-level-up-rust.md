@@ -1,7 +1,7 @@
 ---
 title: "Handout: Level up your rust knowledge"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - dev
 tags:

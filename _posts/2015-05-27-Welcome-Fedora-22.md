@@ -1,6 +1,6 @@
 ---
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /welcome-fedora-22
 categories:
   - Fedora

@@ -2,7 +2,7 @@
 id: 209
 title: 'OpenX Quiz : Test your knowledge about Mozilla and Open Web'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=209
 permalink: /openx-quiz-test-your-knowledge-about-mozilla-and-open-web
 categories:

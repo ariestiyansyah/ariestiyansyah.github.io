@@ -2,7 +2,7 @@
 id: 139
 title: SMS Penipuan untuk apa?
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=139
 permalink: /sms-penipuan-untuk-apa
 categories:

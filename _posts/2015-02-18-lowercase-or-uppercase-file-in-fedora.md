@@ -11,7 +11,7 @@ categories:
     - Fedora
     - Code
 permalink: /lowercase-or-uppercase-file-in-fedora
-layout: post
+layout: article
 ---
 
 This is the simple code using bash to change uppercase to lowercase easily in

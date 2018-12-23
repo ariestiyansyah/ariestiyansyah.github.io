@@ -1,7 +1,7 @@
 ---
 title: "XIdeasPerDay - Menikmati Coffee Shop"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

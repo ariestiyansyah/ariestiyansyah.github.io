@@ -2,7 +2,7 @@
 id: 405
 title: Seminar Make Your Own Android with @ariestiyansyah
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=405
 permalink: /seminar-make-android-ariestiyansyah
 categories:

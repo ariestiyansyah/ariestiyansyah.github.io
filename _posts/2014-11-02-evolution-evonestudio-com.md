@@ -2,7 +2,7 @@
 id: 412
 title: Evolution of evonestudio.com
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=412
 permalink: /evolution-evonestudio-com
 categories:

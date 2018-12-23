@@ -2,7 +2,7 @@
 id: 18
 title: Build simple Steganography machine
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://code-tax.rhcloud.com/?p=18
 permalink: /build-simple-steganography-machine
 crisp_persona_post_view_count:

@@ -2,7 +2,7 @@
 id: 436
 title: Set custom color ionicons
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=436
 permalink: /set-custom-color-ionicons
 categories:

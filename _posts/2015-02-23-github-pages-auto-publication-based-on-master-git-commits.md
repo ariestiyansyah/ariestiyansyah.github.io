@@ -1,6 +1,6 @@
 ---
 title: Github Pages Auto Publication Based on Master Git Commits
-layout: post
+layout: article
 description: Github Pages Auto Publication Based on Master Git Commits
 categories:
 - code

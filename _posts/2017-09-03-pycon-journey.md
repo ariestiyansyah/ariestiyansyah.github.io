@@ -1,7 +1,7 @@
 ---
 title: "PyCon Journey 2017"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - journey
 tags:

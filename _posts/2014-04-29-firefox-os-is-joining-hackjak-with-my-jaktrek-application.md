@@ -2,7 +2,7 @@
 id: 278
 title: 'Firefox OS is joining #HackJak with my JakTrek Application'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=278
 permalink: /firefox-os-is-joining-hackjak-with-my-jaktrek-application
 authorsure_include_css:

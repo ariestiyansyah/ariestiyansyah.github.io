@@ -1,7 +1,7 @@
 ---
 title: EBS Snapshot Automatic Backup
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - AWS

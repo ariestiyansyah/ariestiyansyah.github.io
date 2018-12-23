@@ -1,7 +1,7 @@
 ---
 title: SOLVE Celery error saat migrasi server Open edX
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - edX

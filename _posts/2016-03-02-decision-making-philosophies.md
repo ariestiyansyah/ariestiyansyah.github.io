@@ -1,7 +1,7 @@
 ---
 title: Decision-Making Philosophies
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - life

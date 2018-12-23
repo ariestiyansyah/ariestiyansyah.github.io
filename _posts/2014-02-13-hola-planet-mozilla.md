@@ -2,7 +2,7 @@
 id: 196
 title: Hola! Planet Mozilla
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=196
 permalink: /hola-planet-mozilla
 categories:

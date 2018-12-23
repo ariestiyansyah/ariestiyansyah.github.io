@@ -2,7 +2,7 @@
 id: 134
 title: Event and Recognition of STPI Firefox Club in 7 Month
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=134
 permalink: /event-and-recognition-of-stpi-firefox-club-in-7-month
 categories:

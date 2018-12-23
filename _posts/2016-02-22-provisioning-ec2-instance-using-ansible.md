@@ -1,7 +1,7 @@
 ---
 title: AWS - Provisioning EC2 instance using ansible
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - AWS

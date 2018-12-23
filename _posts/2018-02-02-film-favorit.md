@@ -1,7 +1,7 @@
 ---
 title: "Film Favorit"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - life
 tags:

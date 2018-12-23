@@ -2,7 +2,7 @@
 id: 204
 title: Hidup Seorang Freelancer
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=204
 permalink: /hidup-seorang-freelancer
 categories:

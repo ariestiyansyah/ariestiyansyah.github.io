@@ -1,7 +1,7 @@
 ---
 title: Transfering DNS from CloudKilat to Github Pages
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /transfering-dns-from-cloudkilat-to-github-pages
 categories:
   - Code

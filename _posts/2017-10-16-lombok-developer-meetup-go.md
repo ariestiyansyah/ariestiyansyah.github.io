@@ -1,7 +1,7 @@
 ---
 title: "Lombok Developer Meetup: Face the technology transformation"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - dev
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Open edX Feature Flags
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - edX

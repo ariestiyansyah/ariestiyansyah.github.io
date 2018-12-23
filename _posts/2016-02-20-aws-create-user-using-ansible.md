@@ -1,7 +1,7 @@
 ---
 title: AWS - Create user using ansible
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - AWS

@@ -1,7 +1,7 @@
 ---
 title: "XIdeasPerDay - Antara Tahu, Gak Tahu dan Sok Tahu"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

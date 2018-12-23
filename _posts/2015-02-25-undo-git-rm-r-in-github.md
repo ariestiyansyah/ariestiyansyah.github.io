@@ -1,6 +1,6 @@
 ---
 title: Undo git rm -r command in github
-layout: post
+layout: article
 description: Step by step to undo git rm -r in github repo
 categories:
 - code

@@ -2,7 +2,7 @@
 id: 164
 title: SURAT TERBUKA UNTUK IBU NEGARA
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=164
 permalink: /surat-terbuka-untuk-ibu-negara
 categories:

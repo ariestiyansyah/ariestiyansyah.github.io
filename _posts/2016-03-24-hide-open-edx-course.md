@@ -1,7 +1,7 @@
 ---
 title: Hide Open edX Course in Studio
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - edX
 tags:

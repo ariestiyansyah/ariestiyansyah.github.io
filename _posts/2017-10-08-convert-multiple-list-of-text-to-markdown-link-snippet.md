@@ -1,7 +1,7 @@
 ---
 title: "Convert list to markdown link"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - code
 tags:

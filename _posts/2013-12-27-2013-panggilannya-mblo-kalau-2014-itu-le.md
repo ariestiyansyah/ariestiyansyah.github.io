@@ -2,7 +2,7 @@
 id: 143
 title: '2013 panggilannya &#8220;MBLO&#8221; kalau 2014 itu &#8220;LE&#8221;'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=143
 permalink: /2013-panggilannya-mblo-kalau-2014-itu-le
 categories:

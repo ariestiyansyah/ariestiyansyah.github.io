@@ -1,7 +1,7 @@
 ---
 title: Roadshow 1001 Masjid - Masjid Al-Huda
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
 - masjid

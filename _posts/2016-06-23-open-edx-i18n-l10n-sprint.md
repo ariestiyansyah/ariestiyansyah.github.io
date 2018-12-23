@@ -1,7 +1,7 @@
 ---
 title: Open edX i18n and l10n Sprint
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - edX
 tags:

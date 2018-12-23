@@ -1,7 +1,7 @@
 ---
 title: Fix optional.txt issue on Open edX dogwood installation
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - edX

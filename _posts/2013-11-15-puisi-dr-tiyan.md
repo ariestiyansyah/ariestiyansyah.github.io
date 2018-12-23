@@ -2,7 +2,7 @@
 id: 97
 title: Puisi Dr. Tiyan
 author: ariestiyansyah
-layout: post
+layout: article
 guid: https://oonlab.com/?p=97
 permalink: /puisi-dr-tiyan
 post_views_count:

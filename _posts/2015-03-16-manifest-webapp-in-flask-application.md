@@ -1,7 +1,7 @@
 ---
 title: Manifest.webapp in Flask Application
 author: ariestiyansyah
-layout: post
+layout: article
 permalink: /manifest-webapp-flask-application
 categories:
   - Mozilla

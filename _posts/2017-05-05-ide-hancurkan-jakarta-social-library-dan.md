@@ -1,7 +1,7 @@
 ---
 title: "XIdeasPerDay - Ide Hancurkan Jakarta, Social Library dan ..."
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

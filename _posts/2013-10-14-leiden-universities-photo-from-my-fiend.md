@@ -2,7 +2,7 @@
 id: 62
 title: 'Leiden Universities &#8220;photo from my friend&#8221;'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=62
 permalink: /leiden-universities-photo-from-my-fiend
 categories:

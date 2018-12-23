@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - XIdeasPerDay dan Tempat Menulis "
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

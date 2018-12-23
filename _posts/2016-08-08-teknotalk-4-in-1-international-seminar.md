@@ -1,7 +1,7 @@
 ---
 title: 4 in 1 International Seminar
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
   - Mozilla
 tags:

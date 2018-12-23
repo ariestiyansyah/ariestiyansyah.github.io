@@ -1,6 +1,6 @@
 ---
 title: Fifty Shades of Grey Parody #damn
-layout: post
+layout: article
 description: The collection of fifty shades pof grey parody video
 categories:
 - idea

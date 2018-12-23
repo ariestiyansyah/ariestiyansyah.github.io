@@ -2,7 +2,7 @@
 id: 427
 title: November Task Application Curation Board is Ready
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=427
 permalink: /november-task-application-curation-board-ready
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Profile image in navigation of Open edX
 author: ariestiyansyah
-layout: post
+layout: article
 thumbnail: /images/logo-edx.png
 categories:
   - edX

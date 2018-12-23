@@ -1,7 +1,7 @@
 ---
 title: Secercah Harapan
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - Life
 tags:

@@ -1,7 +1,7 @@
 ---
 title: MozKopDarJKT February 2015
 description: Mozilla Kopi Darat Jakarta February 2015
-layout: post
+layout: article
 permalink: /mozkopdarjkt-february-2015
 categories:
 - mozilla

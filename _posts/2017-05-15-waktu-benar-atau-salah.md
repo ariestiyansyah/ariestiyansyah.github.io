@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Waktu, Benar atau Salah?"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

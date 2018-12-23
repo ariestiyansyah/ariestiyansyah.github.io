@@ -2,7 +2,7 @@
 id: 337
 title: Memilih Presiden dengan Python, Ruby dan Javascript
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=337
 permalink: /memilih-presiden-dengan-python-ruby-dan-javascript
 ssb_post_sites:

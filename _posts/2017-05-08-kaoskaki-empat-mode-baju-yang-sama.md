@@ -1,7 +1,7 @@
 ---
 title: " XIdeasPerDay - Kaos Kaki Empat Model, Baju yang Sama dan ..."
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

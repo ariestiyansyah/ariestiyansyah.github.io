@@ -1,7 +1,7 @@
 ---
 title: Dasar Decision Tree dan Naive Bayes
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - Data
 tags:

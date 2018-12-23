@@ -2,7 +2,7 @@
 id: 400
 title: Firefox OS App Days STPI
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=400
 permalink: /firefox-os-app-days-stpi
 categories:

@@ -2,7 +2,7 @@
 id: 421
 title: Browser Khusus untuk Developer, Segera!
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=421
 permalink: /browser-khusus-untuk-developer-segera
 categories:

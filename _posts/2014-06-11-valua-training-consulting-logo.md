@@ -2,7 +2,7 @@
 id: 317
 title: 'Valua Training &#038; Consulting Logo'
 author: ariestiyansyah
-layout: post
+layout: article
 guid: http://oonlab.com/?p=317
 permalink: /valua-training-consulting-logo
 authorsure_include_css:

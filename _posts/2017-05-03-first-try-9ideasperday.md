@@ -2,7 +2,7 @@
 title: "XIdeasPerDay - First Try"
 excerpt: "Jadi gw akan fokus pada 9 ide perharinya"
 author: ariestiyansyah
-layout: post
+layout: article
 categories:
 - xideasperday
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Open edX Grades REST API
 author: ariestiyansyah
-layout: post
+layout: article
 comments: true
 categories:
 - edX
