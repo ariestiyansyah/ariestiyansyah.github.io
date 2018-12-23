@@ -25,14 +25,14 @@ default:
       show_cover: true
       show_excerpt: false
       show_readmore: false
-      show_info: false
+      show_info: true
     show_title: true
     show_edit_on_github: false
     show_date: true
     show_tags: true
-    show_author_profile: false
-    full_width: false
-    sharing: false
+    show_author_profile: true
+    full_width: true
+    sharing: true
     comment: true
     license: false
     pageview: false
