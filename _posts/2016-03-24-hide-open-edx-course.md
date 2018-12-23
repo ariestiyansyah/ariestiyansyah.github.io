@@ -9,7 +9,6 @@ tags:
 - Hide Course
 - IndonesiaX
 - Ariestiyansyah
-description: Easy way to hide Open edX course from studio
 ---
 
 Hide course in Open edX is easy.
