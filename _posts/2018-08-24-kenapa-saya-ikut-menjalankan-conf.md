@@ -2,6 +2,8 @@
 title: "Kenapa saya ikut menjalankan konferensi PYCON ID 2018"
 author: ariestiyansyah
 layout: article
+aside:
+  toc: false
 categories:
 - conf
 tags:
