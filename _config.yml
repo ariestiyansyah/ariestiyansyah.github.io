@@ -73,7 +73,7 @@ mathjax_autoNumber: true
 mermaid: # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true
 
 
 ## => Paginate
@@ -90,7 +90,7 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany
 
   ## AddThis
   addthis:
