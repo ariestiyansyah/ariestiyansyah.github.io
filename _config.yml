@@ -24,8 +24,8 @@ author:
   avatar    : # path or url of avatar image
   bio       : Swing Trader, Digital Nomad
   email     :
-  facebook  : # "edxius" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "ariestiyansyah" the last part of your profile url, e.g. https://twitter.com/user_name
+  facebook  : edXius
+  twitter   : ariestiyansyah
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name/
@@ -151,7 +151,7 @@ analytics:
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : date
+permalink: /:categories/:year/:month/:day/:title/
 
 exclude:
   - CHANGELOG.md
