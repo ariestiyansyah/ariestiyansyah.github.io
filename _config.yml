@@ -100,11 +100,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: oonlab
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -139,11 +139,11 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : UA-48740529-1
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
@@ -178,10 +178,10 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: true
+      license: false
       aside:
-        toc: true
-      show_edit_on_github: true
+        toc: false
+      show_edit_on_github: false
       pageview: true
 
 
