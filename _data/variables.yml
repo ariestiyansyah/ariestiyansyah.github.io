@@ -7,10 +7,10 @@ default:
     home: /
     archive:  /archive/
     rss:  /feed.xml
-  mathjax: false
-  mathjax_autoNumber: false
+  mathjax: true
+  mathjax_autoNumber: true
   mermaid: false
-  chart: false
+  chart: true
   toc:
     selectors: 'h1,h2,h3'
   sources: bootcdn
@@ -31,7 +31,7 @@ default:
     show_date: true
     show_tags: true
     show_author_profile: true
-    full_width: true
+    full_width: false
     sharing: true
     comment: true
     license: false
