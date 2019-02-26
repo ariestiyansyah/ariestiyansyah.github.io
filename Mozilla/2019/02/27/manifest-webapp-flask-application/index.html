@@ -157,7 +157,7 @@
 <p>first import Response class</p>
 <pre><code>from flask import Response
 </code></pre><p>then create route() decorator to tell Flask what URL should trigger our function.</p>
-<pre><code>@app.route(&apos;/manifest.webapp&apos;) 
+<pre><code>@app.route(&#39;/manifest.webapp&#39;) 
 def manifest():
         data = json.dumps({
             &quot;name&quot;: &quot;Flask Application&quot;,
@@ -179,7 +179,7 @@ def manifest():
             &quot;orientation&quot;: [&quot;portrait&quot;],
             &quot;default_locale&quot;: &quot;en&quot;
         })
-        return Response(data, mimetype=&apos;application/x-web-app-manifest+json&apos;)
+        return Response(data, mimetype=&#39;application/x-web-app-manifest+json&#39;)
 </code></pre><p>You are done creating manifest.webapp.</p>
 <p>See ya</p>
 

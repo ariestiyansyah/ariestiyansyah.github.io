@@ -160,33 +160,85 @@
 <h3 id="Variable"><a href="#Variable" class="headerlink" title="Variable"></a>Variable</h3><ul>
 <li>variable dalam rust secara default merupakan immutable yang artinya jika data sudah di initiate maka object tersebut tidak dapat dirubah.</li>
 </ul>
-<p>Contoh variable<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let nama = &quot;Meetup Rust Indonesia&quot;;</span><br><span class="line">let tahun = 2017;</span><br><span class="line">let hello = format!(&quot;&#123;&#125; &#123;&#125;&quot;, nama, tahun);</span><br><span class="line">println!(&quot;&#123;:?&#125;, hello)</span><br></pre></td></tr></table></figure></p>
-<p>Value in rust immutable</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">let tahun = 2017;</span><br><span class="line">tahun = 2017 // error!</span><br><span class="line"></span><br><span class="line">let mut tahun = 2017;</span><br><span class="line">tahun = 2018 // work</span><br></pre></td></tr></table></figure>
-<p>Mutability is also part of the type of borrowed pointer </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">fn inc(i: &amp;int) &#123;</span><br><span class="line">    *i += 1; //error</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">fn inc(i: &amp;mut int) &#123;</span><br><span class="line">    *i += 1; // ok</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Fungsi di rust menggunakan <code>fn</code> diikuti dengan nama fungsi, argumen, tipe return dan block kode.</p>
+<p>Contoh variable</p>
+<pre><code>let nama = &quot;Meetup Rust Indonesia&quot;;
+let tahun = 2017;
+let hello = format!(&quot;{} {}&quot;, nama, tahun);
+println!(&quot;{:?}, hello)
+</code></pre><p>Value in rust immutable</p>
+<pre><code>let tahun = 2017;
+tahun = 2017 // error!
+
+let mut tahun = 2017;
+tahun = 2018 // work
+</code></pre><p>Mutability is also part of the type of borrowed pointer </p>
+<pre><code>fn inc(i: &amp;int) {
+    *i += 1; //error
+}
+
+fn inc(i: &amp;mut int) {
+    *i += 1; // ok
+}
+</code></pre><p>Fungsi di rust menggunakan <code>fn</code> diikuti dengan nama fungsi, argumen, tipe return dan block kode.</p>
 <p>Contohnya</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">fn namaFungsi(argumen: i32, argumen2: i32) -&gt; bool &#123;</span><br><span class="line">    // Fungsi</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Bisa kita lihat fungsi diatas bernama <code>namaFungsi</code> dengan dua argumen bertipe i32 dan returnnya adalah boolean. Perlu diketahui tipe return digunakan setelah operator <code>-&gt;</code></p>
+<pre><code>fn namaFungsi(argumen: i32, argumen2: i32) -&gt; bool {
+    // Fungsi
+}
+</code></pre><p>Bisa kita lihat fungsi diatas bernama <code>namaFungsi</code> dengan dua argumen bertipe i32 dan returnnya adalah boolean. Perlu diketahui tipe return digunakan setelah operator <code>-&gt;</code></p>
 <p>Contoh fungsi berikutnya tanpa return value dan argumen:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">fn namaFungsiDua() &#123;</span><br><span class="line">    // </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Contoh menulis loop didalam sebuah fungsi</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">fn bagi_tiga(min: i32, max_exclusive: i32) &#123;</span><br><span class="line">    for x in min..max_exclusive &#123;</span><br><span class="line">        if x % 3 == 0 &#123;</span><br><span class="line">            println!(&quot;&#123;&#125; is divisible by 3&quot;, x);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Fungsi diatas melakaukan pengecekan dari <code>min</code> dan <code>max_exclusive</code> dengan dua 32 bit ineteger Lalu menggunakan for - in loop dengan dua input dan melakukan pengecekan dari range data yang dibuat apakah bisa dibagi tiga atau tidak lalu menggunakan statement <code>println</code></p>
+<pre><code>fn namaFungsiDua() {
+    // 
+}
+</code></pre><p>Contoh menulis loop didalam sebuah fungsi</p>
+<pre><code>fn bagi_tiga(min: i32, max_exclusive: i32) {
+    for x in min..max_exclusive {
+        if x % 3 == 0 {
+            println!(&quot;{} is divisible by 3&quot;, x);
+        }
+    }
+}
+</code></pre><p>Fungsi diatas melakaukan pengecekan dari <code>min</code> dan <code>max_exclusive</code> dengan dua 32 bit ineteger Lalu menggunakan for - in loop dengan dua input dan melakukan pengecekan dari range data yang dibuat apakah bisa dibagi tiga atau tidak lalu menggunakan statement <code>println</code></p>
 <h3 id="Struct"><a href="#Struct" class="headerlink" title="Struct"></a>Struct</h3><ul>
 <li>data structure memiliki key-value entities</li>
 <li>setiap key-value bisa menggunakan tipe data berbeda</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">struct Rust &#123;</span><br><span class="line">    nama: String</span><br><span class="line">    bulan: i32,</span><br><span class="line">    tahun: i32,</span><br><span class="line">&#125;</span><br><span class="line">let meetup = Rust &#123;name: &quot;Rust Indonesia&quot;.to_string(), bulan: 09, tahun: 2017 &#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="Struct-with-function"><a href="#Struct-with-function" class="headerlink" title="Struct with function"></a>Struct with function</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">fn next_meetup(nama_: &amp;str, bulan_: i32, tahun_: i32) -&gt; Rust &#123;</span><br><span class="line">    let new_meetup = Rust &#123;name: nama_.to_string(), bulan: bulan_, tahun: tahun_&#125;;</span><br><span class="line">    new_meetup</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">let november = next_meetup(&quot;Rust Indonesia X&quot;, 11, 2017);</span><br></pre></td></tr></table></figure>
-<h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><ul>
+<pre><code>struct Rust {
+    nama: String
+    bulan: i32,
+    tahun: i32,
+}
+let meetup = Rust {name: &quot;Rust Indonesia&quot;.to_string(), bulan: 09, tahun: 2017 };
+</code></pre><h4 id="Struct-with-function"><a href="#Struct-with-function" class="headerlink" title="Struct with function"></a>Struct with function</h4><pre><code>fn next_meetup(nama_: &amp;str, bulan_: i32, tahun_: i32) -&gt; Rust {
+    let new_meetup = Rust {name: nama_.to_string(), bulan: bulan_, tahun: tahun_};
+    new_meetup
+}
+
+let november = next_meetup(&quot;Rust Indonesia X&quot;, 11, 2017);
+</code></pre><h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><ul>
 <li>resizable array</li>
 <li>Bisa memmuat integers, floats, Strings, hingga Structs </li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let deret = vec![1,2,3];</span><br><span class="line">let mut himpunana = vec::new();</span><br><span class="line">himpunan.push(5);</span><br><span class="line">himpunan.push(6)</span><br></pre></td></tr></table></figure>
-<h4 id="Vector-of-Structs"><a href="#Vector-of-Structs" class="headerlink" title="Vector of Structs"></a>Vector of Structs</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">fn next_year() -&gt;Vec(Rust) &#123;</span><br><span class="line">    let january = new_meetup(&quot;Rust Indonesia January&quot;, 1, 2018);</span><br><span class="line">    let march = new_meetup(&quot;Rust Indonesia March&quot;, 3, 2018);</span><br><span class="line">    let may = new_meetup(&quot;Rust Indonesia May&quot;, 5, 2018);</span><br><span class="line">    let july = new_meetup(&quot;Rust Indonesia July&quot;, 7. 2018);</span><br><span class="line"></span><br><span class="line">    let mut featured_meetup = Vec::new();</span><br><span class="line">    featured_meetup.push(january);</span><br><span class="line">    featured_meetup.push(march);</span><br><span class="line">    featured_meetup.push(may);</span><br><span class="line">    featured_meetup.push(july);</span><br><span class="line"></span><br><span class="line">    featured_meetup</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">let awesome_meetup = next_year();</span><br></pre></td></tr></table></figure>
-<p>Ownership</p>
+<pre><code>let deret = vec![1,2,3];
+let mut himpunana = vec::new();
+himpunan.push(5);
+himpunan.push(6)
+</code></pre><h4 id="Vector-of-Structs"><a href="#Vector-of-Structs" class="headerlink" title="Vector of Structs"></a>Vector of Structs</h4><pre><code>fn next_year() -&gt;Vec(Rust) {
+    let january = new_meetup(&quot;Rust Indonesia January&quot;, 1, 2018);
+    let march = new_meetup(&quot;Rust Indonesia March&quot;, 3, 2018);
+    let may = new_meetup(&quot;Rust Indonesia May&quot;, 5, 2018);
+    let july = new_meetup(&quot;Rust Indonesia July&quot;, 7. 2018);
+
+    let mut featured_meetup = Vec::new();
+    featured_meetup.push(january);
+    featured_meetup.push(march);
+    featured_meetup.push(may);
+    featured_meetup.push(july);
+
+    featured_meetup
+}
+
+let awesome_meetup = next_year();
+</code></pre><p>Ownership</p>
 <ul>
 <li>Saferty dan Concurrency Rust</li>
 </ul>

@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content 12345- valutac.com- oonlab.com- mozilla.org- google.com-">
+    <meta name="description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content - valutac.com - oonlab.com - mozilla.org - google.com -">
 <meta name="keywords" content="journey,golang,development">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Convert list to markdown link">
 <meta property="og:url" content="http://oonlab.com/code/2019/02/27/2017-10-08-convert-multiple-list-of-text-to-markdown-link-snippet/index.html">
 <meta property="og:site_name" content="oonlab">
-<meta property="og:description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content 12345- valutac.com- oonlab.com- mozilla.org- google.com-">
+<meta property="og:description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content - valutac.com - oonlab.com - mozilla.org - google.com -">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-02-26T20:08:04.559Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Convert list to markdown link">
-<meta name="twitter:description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content 12345- valutac.com- oonlab.com- mozilla.org- google.com-">
+<meta name="twitter:description" content="This is snippet to convert multiple list to markdown link using golang. In this example we have file called file.txt with the following content - valutac.com - oonlab.com - mozilla.org - google.com -">
     
     
         
@@ -73,7 +73,7 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/dev/2019/02/27/2017-10-16-lombok-developer-meetup-go/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/life/2019/02/27/2018-02-02-film-favorit/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/think/2019/02/27/2017-10-09-think-link-entrepreneur-act-like-ceo/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -153,11 +153,40 @@
 
   <div class="content" itemprop="articleBody">
     <p>This is snippet to convert multiple list to markdown link using golang. In this example we have file called <code>file.txt</code> with the following content</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- valutac.com</span><br><span class="line">- oonlab.com</span><br><span class="line">- mozilla.org</span><br><span class="line">- google.com</span><br><span class="line">- microsoft.com</span><br></pre></td></tr></table></figure>
-<p>We want to convert all the list to markdown link and put the result into <code>newfile.txt</code> file, the content should be like this:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- [oonlab.com](http://oonlab.com)</span><br><span class="line">- [valutac.com](http://valutac.com)</span><br><span class="line">- [mozilla.org](http://mozilla.org)</span><br><span class="line">- [google.com](http://google.com)</span><br><span class="line">- [microsoft.com](http://microsoft.com)</span><br></pre></td></tr></table></figure>
-<p>Here’s the snippet using go with io/ioutil, fmt and string lib.</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"fmt"</span></span><br><span class="line">	<span class="string">"io/ioutil"</span></span><br><span class="line">	<span class="string">"strings"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	b, _ := ioutil.ReadFile(<span class="string">"file.txt"</span>)</span><br><span class="line">	split := strings.Split(<span class="keyword">string</span>(b), <span class="string">"\n"</span>)</span><br><span class="line">	<span class="keyword">var</span> rows <span class="keyword">string</span></span><br><span class="line">	<span class="keyword">for</span> _, row := <span class="keyword">range</span> split &#123;</span><br><span class="line">		<span class="keyword">if</span> <span class="built_in">len</span>(row) &lt; <span class="number">3</span> &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		s := row[<span class="number">2</span>:<span class="built_in">len</span>(row)]</span><br><span class="line">		rows += fmt.Sprintf(<span class="string">"- [%s](http://%s)\n"</span>, s, s)</span><br><span class="line">	&#125;</span><br><span class="line">	ioutil.WriteFile(<span class="string">"newfile,txt"</span>, []<span class="keyword">byte</span>(rows), <span class="number">0600</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre><code>- valutac.com
+- oonlab.com
+- mozilla.org
+- google.com
+- microsoft.com
+</code></pre><p>We want to convert all the list to markdown link and put the result into <code>newfile.txt</code> file, the content should be like this:</p>
+<pre><code>- [oonlab.com](http://oonlab.com)
+- [valutac.com](http://valutac.com)
+- [mozilla.org](http://mozilla.org)
+- [google.com](http://google.com)
+- [microsoft.com](http://microsoft.com)
+</code></pre><p>Here’s the snippet using go with io/ioutil, fmt and string lib.</p>
+<pre><code class="go">package main
+
+import (
+    &quot;fmt&quot;
+    &quot;io/ioutil&quot;
+    &quot;strings&quot;
+)
+
+func main() {
+    b, _ := ioutil.ReadFile(&quot;file.txt&quot;)
+    split := strings.Split(string(b), &quot;\n&quot;)
+    var rows string
+    for _, row := range split {
+        if len(row) &lt; 3 {
+            continue
+        }
+        s := row[2:len(row)]
+        rows += fmt.Sprintf(&quot;- [%s](http://%s)\n&quot;, s, s)
+    }
+    ioutil.WriteFile(&quot;newfile,txt&quot;, []byte(rows), 0600)
+}
+</code></pre>
 <p>Want More? follow our <a href="https://github.com/valutac" target="_blank" rel="noopener">github</a></p>
 
   </div>

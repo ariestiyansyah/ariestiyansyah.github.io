@@ -7,7 +7,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Control Spotify usng Terminal">
-<meta name="keywords" content="Django,Ariestiyansyah,Python,AppleScript">
+<meta name="keywords" content="Python,Django,Ariestiyansyah,AppleScript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SpotiPy - Control Spotify using AppleScript and Python">
 <meta property="og:url" content="http://oonlab.com/Python/2019/02/27/2016-08-10-SpotiPy-play-spotify-with-applescript-and-python/index.html">
@@ -73,10 +73,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/Life/2019/02/27/2017-01-06-Secercah-harapan/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/Data/2019/02/27/2017-01-07-Decision-Tree-and-Naive-Bayes/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/edX/2019/02/27/2016-08-24-store-open-edx-image-profile-to-amazon-s3/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/Code/2019/02/27/2016-08-12-setup-caddy-on-ubuntu-to-work-with-php/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -158,20 +158,20 @@ import os
 import subprocess
 from time import sleep
 
-Activate = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to activate&apos;&quot;&quot;&quot;
-Start = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to play&apos;&quot;&quot;&quot;
-Exit = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to quit&apos;&quot;&quot;&quot;
-Next = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to next track&apos;&quot;&quot;&quot;
-Previous = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to previous track&apos;&quot;&quot;&quot;
-Pause = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to playpause&apos;&quot;&quot;&quot;
-Play = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to playpause&apos;&quot;&quot;&quot;
-Artist = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to artist of current track as string&apos;&quot;&quot;&quot;
-Album = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to album of current track as string&apos;&quot;&quot;&quot;
-Track = &quot;&quot;&quot;osascript -e &apos;tell application &quot;Spotify&quot; to name of current track as string&apos;&quot;&quot;&quot;
+Activate = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to activate&#39;&quot;&quot;&quot;
+Start = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to play&#39;&quot;&quot;&quot;
+Exit = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to quit&#39;&quot;&quot;&quot;
+Next = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to next track&#39;&quot;&quot;&quot;
+Previous = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to previous track&#39;&quot;&quot;&quot;
+Pause = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to playpause&#39;&quot;&quot;&quot;
+Play = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to playpause&#39;&quot;&quot;&quot;
+Artist = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to artist of current track as string&#39;&quot;&quot;&quot;
+Album = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to album of current track as string&#39;&quot;&quot;&quot;
+Track = &quot;&quot;&quot;osascript -e &#39;tell application &quot;Spotify&quot; to name of current track as string&#39;&quot;&quot;&quot;
 
 class SpotiPy(cmd.Cmd,object):
-    intro = &apos;Welcome to SpotifyCli for MacOS! Type help or ? to list commands.\n&apos;
-    prompt = &apos;SpotiPy&gt; &apos;
+    intro = &#39;Welcome to SpotifyCli for MacOS! Type help or ? to list commands.\n&#39;
+    prompt = &#39;SpotiPy&gt; &#39;
 
 def do_start(self, s):
     subprocess.call(Activate, shell=True)
@@ -240,7 +240,7 @@ def do_quit(self, line):
 def help_quit(self):
     print &quot;Bye....&quot;
 
-if __name__ == &apos;__main__&apos;:
+if __name__ == &#39;__main__&#39;:
     SpotiPy().cmdloop()
 </code></pre><p>You can download full source code: <a href="https://github.com/ariestiyansyah/SpotiPy" target="_blank" rel="noopener">https://github.com/ariestiyansyah/SpotiPy</a></p>
 <p>Cheers :D</p>

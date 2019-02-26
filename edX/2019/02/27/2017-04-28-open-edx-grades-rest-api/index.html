@@ -152,8 +152,8 @@
   
 
   <div class="content" itemprop="articleBody">
-    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Disclaimer: Open edX Grades API is under development, it&apos;s available only on Ficus release.</span><br></pre></td></tr></table></figure>
-<p>User Grades API support the following resources, tasks, methods, and endpoints</p>
+    <pre><code>Disclaimer: Open edX Grades API is under development, it&#39;s available only on Ficus release.
+</code></pre><p>User Grades API support the following resources, tasks, methods, and endpoints</p>
 <h2 id="User-Grades-API-Resource"><a href="#User-Grades-API-Resource" class="headerlink" title="User Grades API Resource"></a>User Grades API Resource</h2><table>
 <thead>
 <tr>
@@ -170,14 +170,15 @@
 </tr>
 </tbody>
 </table>
-<p>The endpoint to get the details for a course is<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">api/grades/v0/course_grade/&#123;course_id&#125;/users/?username=&#123;username&#125;</span><br></pre></td></tr></table></figure></p>
-<p><strong>Use Case</strong></p>
+<p>The endpoint to get the details for a course is </p>
+<pre><code>api/grades/v0/course_grade/{course_id}/users/?username={username}
+</code></pre><p><strong>Use Case</strong></p>
 <ul>
 <li>Get the current course grades for users in a course.<br>Currently, getting the grade for only an individual user is supported.</li>
 </ul>
 <p><strong>Example Request</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/grades/v0/course_grade/&#123;course_id&#125;/users/?username=&#123;username&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>GET Parameters</strong></p>
+<pre><code>GET /api/grades/v0/course_grade/{course_id}/users/?username={username}
+</code></pre><p><strong>GET Parameters</strong></p>
 <p>A GET request must include the following parameters.</p>
 <ul>
 <li>course_id: A string representation of a Course ID.</li>
@@ -193,8 +194,14 @@
 <li>letter_grade: A letter grade as defined in grading_policy (e.g. ‘A’ ‘B’ ‘C’ for 6.002x) or None</li>
 </ul>
 <p><strong>Example GET Response</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    &quot;username&quot;: &quot;bob&quot;,</span><br><span class="line">    &quot;course_key&quot;: &quot;edX/DemoX/Demo_Course&quot;,</span><br><span class="line">    &quot;passed&quot;: false,</span><br><span class="line">    &quot;percent&quot;: 0.03,</span><br><span class="line">    &quot;letter_grade&quot;: None,</span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
-<h2 id="Grades-Policy-API-Resource"><a href="#Grades-Policy-API-Resource" class="headerlink" title="Grades Policy API Resource"></a>Grades Policy API Resource</h2><table>
+<pre><code>[{
+    &quot;username&quot;: &quot;bob&quot;,
+    &quot;course_key&quot;: &quot;edX/DemoX/Demo_Course&quot;,
+    &quot;passed&quot;: false,
+    &quot;percent&quot;: 0.03,
+    &quot;letter_grade&quot;: None,
+}]
+</code></pre><h2 id="Grades-Policy-API-Resource"><a href="#Grades-Policy-API-Resource" class="headerlink" title="Grades Policy API Resource"></a>Grades Policy API Resource</h2><table>
 <thead>
 <tr>
 <th>Task</th>
@@ -215,8 +222,8 @@
 <li>Get the course grading policy.</li>
 </ul>
 <p><strong>Example requests</strong>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/grades/v0/policy/&#123;course_id&#125;/</span><br></pre></td></tr></table></figure>
-<p><strong>Response Values</strong></p>
+<pre><code>GET /api/grades/v0/policy/{course_id}/
+</code></pre><p><strong>Response Values</strong></p>
 <ul>
 <li>assignment_type: The type of the assignment, as configured by course<br>staff. For example, course staff might make the assignment types Homework, Quiz, and Exam.</li>
 <li>count: The number of assignments of the type.</li>

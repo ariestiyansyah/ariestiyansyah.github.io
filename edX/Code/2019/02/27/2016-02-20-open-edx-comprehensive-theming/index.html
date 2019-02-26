@@ -78,7 +78,7 @@
         <li><a class="icon" href="/AWS/Code/2019/02/27/2016-02-20-aws-create-user-using-ansible/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/AWS/Code/2019/02/27/2016-01-29-ebs-snapshot-automatic-backup/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/AWS/Code/2019/02/27/2016-01-19-single-bucket-access-aws/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -174,15 +174,15 @@
 <h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><p>Images can be substituted simply by placing the new image at the right place in the theme directory.  In our example above, the lms/static images/logo.png image is overridden.</p>
 <h2 id="Sass-CSS"><a href="#Sass-CSS" class="headerlink" title="Sass/CSS"></a>Sass/CSS</h2><p>Most CSS styling in Open edX is done with Sass files compiled to CSS.  You can override individual settings by creating a new Sass file that uses the existing file, and overrides the few settings you want.</p>
 <p>For example, to change the fonts used throughout the site, you can create an <code>lms/static/sass/_overrides.scss</code> file with the change you want:</p>
-<pre><code>$sans-serif: &apos;Helvetica&apos;;
+<pre><code>$sans-serif: &#39;Helvetica&#39;;
 </code></pre><p>The variables that can currently be overridden are defined in<br><code>lms/static/sass/base/_variables.scss</code>.</p>
 <p><strong>Note:</strong> We are currently in the middle of a re-engineering of the Sass<br>variables.  They will change in the future.  If you are interested, you can see the new development in the <a href="http://ux.edx.org/" target="_blank" rel="noopener">edX Pattern Library</a></p>
 <p>Then create <code>lms/static/sass/lms-main.scss</code> to use those overrides, and also the rest of the definitions from the original file::</p>
 <pre><code>// Our overrides for settings we want to change.
-@import &apos;overrides&apos;;
+@import &#39;overrides&#39;;
 
 // Import the original styles from edx-platform.
-@import &apos;lms/static/sass/lms-main&apos;;
+@import &#39;lms/static/sass/lms-main&#39;;
 </code></pre><p>Do this for each .scss file your site needs.</p>
 <h2 id="HTML-Templates"><a href="#HTML-Templates" class="headerlink" title="HTML Templates"></a>HTML Templates</h2><p>You can make changes to HTML templates by copying them to your theme directory in the appropriate place, and making the changes you need.  Keep in mind that in the future if you upgrade the Open edX code, you may have to update the copied template in your theme also.</p>
 <h1 id="Template-Names"><a href="#Template-Names" class="headerlink" title="Template Names"></a>Template Names</h1><p>Here are the list of template names that you <em>should</em> use in your comprehensive theme (so far):</p>
@@ -199,15 +199,15 @@
 <ol>
 <li><p>If you usually edit server-vars.yml:</p>
 <p> i. As the vagrant user, edit (or create)  /edx/app/edx_ansible/server-vars.yml to add the <code>edxapp_comprehensive_theme_dir</code>  value:</p>
-<pre><code>edxapp_comprehensive_theme_dir: &apos;/full/path/to/my-theme&apos;
+<pre><code> edxapp_comprehensive_theme_dir: &#39;/full/path/to/my-theme&#39;
 </code></pre><p> ii. Run the update script</p>
-<pre><code>$ sudo /edx/bin/update configuration master
-$ sudo /edx/bin/update edx-platform HEADcomprehenisve
+<pre><code>  $ sudo /edx/bin/update configuration master
+  $ sudo /edx/bin/update edx-platform HEADcomprehenisve
 </code></pre></li>
 </ol>
 <ol start="2">
 <li><p>Otherwise, edit the /edx/app/edxapp/lms.env.json file to add the   <code>COMPREHENSIVE_THEME_DIR</code> value:</p>
-<pre><code>&quot;COMPREHENSIVE_THEME_DIR&quot;: &quot;/full/path/to/my-theme&quot;,
+<pre><code> &quot;COMPREHENSIVE_THEME_DIR&quot;: &quot;/full/path/to/my-theme&quot;,
 </code></pre></li>
 </ol>
 <p>Restart your site.  Your changes should now be visible.</p>
@@ -225,9 +225,9 @@ $ sudo /edx/bin/update edx-platform HEADcomprehenisve
 <li>lms-footer-rtl.scss</li>
 </ul>
 <p>The contents of each of these files will be very similar. Here’s what<br><code>lms-main.scss</code> should look like::</p>
-<pre><code>$static-path: &apos;../../../..&apos;;
-@import &apos;lms/static/sass/lms-main&apos;;
-@import &apos;_default&apos;;
+<pre><code> $static-path: &#39;../../../..&#39;;
+ @import &#39;lms/static/sass/lms-main&#39;;
+ @import &#39;_default&#39;;
 </code></pre><p>Each file should set the <code>$static-path</code> variable to a relative path that<br>points to the <code>lms/static</code> directory inside of <code>edx-platform</code>. Then,<br>it should <code>@import</code> the sass file under <code>lms/static/sass</code> that matches<br>its name: <code>lms-footer.scss</code> should import <code>lms/static/sass/lms-footer</code>,<br>for example. Finally, the file should import the <code>_default</code> name, which<br>refers to the <code>_default.scss</code> Sass file that should already exist in your<br>Stanford theme directory.</p>
 <p>If your theme uses a different name than “default”, you’ll need to use that<br>name in the <code>@import</code> line.</p>
 <p>Run the <code>update_assets</code> command to recompile the theme::</p>
@@ -250,12 +250,12 @@ $ sudo /edx/bin/update edx-platform HEADcomprehenisve
 <li><p>The <code>css_overrides_file</code> config value is now ignored. To add a CSS override file to your microsite, create a <code>head-extra.html</code> template with the following content:</p>
 </li>
 </ul>
-<pre><code>&lt;%namespace name=&apos;static&apos; file=&apos;../../static_content.html&apos;/&gt;
-&lt;%! from microsite_configuration import microsite %&gt;
-&lt;% style_overrides_file = microsite.get_value(&apos;css_overrides_file&apos;) %&gt;
-% if style_overrides_file:
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;${static.url(style_overrides_file)}&quot; /&gt;
-% endif
+<pre><code>    &lt;%namespace name=&#39;static&#39; file=&#39;../../static_content.html&#39;/&gt;
+    &lt;%! from microsite_configuration import microsite %&gt;
+    &lt;% style_overrides_file = microsite.get_value(&#39;css_overrides_file&#39;) %&gt;
+    % if style_overrides_file:
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;${static.url(style_overrides_file)}&quot; /&gt;
+    % endif
 </code></pre><p>  If you already have a <code>head-extra.html</code> template, you can modify it to<br>  output this <code>&lt;link rel=&quot;stylesheet&quot;&gt;</code> tag, in addition to whatever else you already have in that template.</p>
 <p>Source: <a href="https://github.com/edx/edx-platform" target="_blank" rel="noopener">https://github.com/edx/edx-platform</a></p>
 

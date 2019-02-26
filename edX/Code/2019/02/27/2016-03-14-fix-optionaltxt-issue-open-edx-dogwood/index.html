@@ -75,10 +75,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/Speaker/2019/02/27/2016-03-22-youth-media-festival-technology-in-education/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/edX/2019/02/27/2016-03-24-hide-open-edx-course/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/Mozilla/2019/02/27/2016-03-23-fossasia-firefox-os-web-apis/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/Speaker/2019/02/27/2016-03-22-youth-media-festival-technology-in-education/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -159,9 +159,9 @@
 ok: [localhost] =&gt; (item=base.txt)
 failed: [localhost] =&gt; (item=optional.txt) =&gt; {&quot;cmd&quot;: &quot;/edx/app/edx_notes_api/venvs/    edx_notes_api/bin/pip install --exists-action w -r /edx/app/edx_notes_api/edx_notes_api/    requirements/optional.txt&quot;, &quot;failed&quot;: true, &quot;item&quot;: &quot;optional.txt&quot;}
 msg: 
-:stderr: Could not open requirements file: [Errno 2] No such file or directory: &apos;/edx/app/    edx_notes_api/edx_notes_api/requirements/optional.txt&apos;
+:stderr: Could not open requirements file: [Errno 2] No such file or directory: &#39;/edx/app/    edx_notes_api/edx_notes_api/requirements/optional.txt&#39;
 You are using pip version 7.1.2, however version 8.1.0 is available.
-You should consider upgrading via the &apos;pip install --upgrade pip&apos; command. 
+You should consider upgrading via the &#39;pip install --upgrade pip&#39; command. 
 </code></pre><p>It means the <code>option.txt</code> file has been removed on top configuration app but not updated on <code>edx-notes-api</code> repository so the problem is that <code>edx-notes-api</code> is not versioned to dogwood, so we are getting master of <code>edx-notes-api</code>rather than the version of the code that worked with Dogwood.</p>
 <p>To fix this issue is simple by using cherry-pick from git to this commit <code>https://github.com/edx/configuration/commit/de9dab63381ae036304bb25c04a65f3a689902eb</code>. Cherry-pick is designed to apply some commit from one branch into another branch. It can be done if you eg. made a mistake and committed a change into wrong branch, but do not want to merge the whole branch. You can just eg. revert the commit and cherry-pick it on another branch.</p>
 <p>Go to <code>/var/tmp/configuration</code> and make sure you are working on dogwood.1 branch then run command</p>

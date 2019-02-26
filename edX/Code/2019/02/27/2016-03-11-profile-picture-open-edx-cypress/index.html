@@ -160,15 +160,27 @@
 <p>Go to <code>/edx/app/edxapp/edx-platform/lms/templates/</code></p>
 <p>Open <code>navigation.html</code> using vim in terminal</p>
 <p>Add code below in your header.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_image_urls_for_user</span><br></pre></td></tr></table></figure>
-<p>The code will look like this</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">from microsite_configuration import microsite</span><br><span class="line">from microsite_configuration.templatetags.microsite import platform_name</span><br><span class="line">from ccx.overrides import get_current_ccx</span><br><span class="line">from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_image_urls_for_user</span><br></pre></td></tr></table></figure>
-<p>Find the <code>&lt;ol class=&quot;user&quot;&gt;</code> section and add code below after <code>&lt;li class=&quot;primary&quot;&gt;</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;% </span><br><span class="line">username = user.username</span><br><span class="line">profile_image_url = get_profile_image_urls_for_user(user)[&apos;medium&apos;]</span><br><span class="line">%&gt;</span><br><span class="line">&lt;img style=&quot;max-width:35px;border-radius:5px;&quot; src=&quot;$&#123;profile_image_url&#125;&quot; alt=&quot;$&#123;_(&apos;Profile image for &#123;username&#125;&apos;).format(username=username)&#125;&quot;&gt;</span><br></pre></td></tr></table></figure>
-<p>If you want to enable link in profile image that will direct to learners profile page insert this code</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;a style=&quot;padding:0px;&quot; href=&quot;$&#123;reverse(&apos;learner_profile&apos;, kwargs=&#123;&apos;username&apos;: user.username&#125;)&#125;&quot;&gt;&lt;/a&gt;</span><br><span class="line">```	</span><br><span class="line"> </span><br><span class="line">So the final code will be like this</span><br></pre></td></tr></table></figure>
-<p>&lt;%<br>username = user.username<br>profile_image_url = get_profile_image_urls_for_user(user)[‘medium’]<br>%&gt;<br><a style="padding:0px;" href="${reverse('learner_profile', kwargs={'username': user.username})}"><img style="max-width:35px;border-radius:5px;" src="${profile_image_url}" alt="${_('Profile image for {username}').format(username=username)}"></a><br><code>`</code></p>
-<p>Result:</p>
+<pre><code>from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_image_urls_for_user
+</code></pre><p>The code will look like this</p>
+<pre><code>from microsite_configuration import microsite
+from microsite_configuration.templatetags.microsite import platform_name
+from ccx.overrides import get_current_ccx
+from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_image_urls_for_user
+</code></pre><p>Find the <code>&lt;ol class=&quot;user&quot;&gt;</code> section and add code below after <code>&lt;li class=&quot;primary&quot;&gt;</code></p>
+<pre><code>&lt;% 
+username = user.username
+profile_image_url = get_profile_image_urls_for_user(user)[&#39;medium&#39;]
+%&gt;
+&lt;img style=&quot;max-width:35px;border-radius:5px;&quot; src=&quot;${profile_image_url}&quot; alt=&quot;${_(&#39;Profile image for {username}&#39;).format(username=username)}&quot;&gt;
+</code></pre><p>If you want to enable link in profile image that will direct to learners profile page insert this code</p>
+<pre><code>&lt;a style=&quot;padding:0px;&quot; href=&quot;${reverse(&#39;learner_profile&#39;, kwargs={&#39;username&#39;: user.username})}&quot;&gt;&lt;/a&gt;
+</code></pre><p>So the final code will be like this</p>
+<pre><code>&lt;% 
+username = user.username
+profile_image_url = get_profile_image_urls_for_user(user)[&#39;medium&#39;]
+%&gt;
+&lt;a style=&quot;padding:0px;&quot; href=&quot;${reverse(&#39;learner_profile&#39;, kwargs={&#39;username&#39;: user.username})}&quot;&gt;&lt;img style=&quot;max-width:35px;border-radius:5px;&quot; src=&quot;${profile_image_url}&quot; alt=&quot;${_(&#39;Profile image for {username}&#39;).format(username=username)}&quot;&gt;&lt;/a&gt;
+</code></pre><p>Result:</p>
 <p><img src="http://oonlab.com/images/beforex.png" alt></p>
 <p>Done.</p>
 

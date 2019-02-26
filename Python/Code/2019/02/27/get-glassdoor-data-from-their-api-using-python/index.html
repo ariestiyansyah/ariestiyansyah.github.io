@@ -157,14 +157,14 @@
 <ol>
 <li>Urllib2</li>
 <li><p>BeautifulSoup</p>
-<pre><code>import urllib2, sys
-from BeautifulSoup import BeautifulSoup
+<pre><code> import urllib2, sys
+ from BeautifulSoup import BeautifulSoup
 
-url = &quot;http://api.glassdoor.com/api/api.htm?t.p=25738&amp;t.k=iRCtcWJQamE&amp;format=json&amp;v=1&amp;action=employers&amp;q=&quot;
-hdr = {&apos;User-Agent&apos;: &apos;Mozilla/5.0&apos;}
-req = urllib2.Request(url,headers=hdr)
-response = urllib2.urlopen(req)
-soup = BeautifulSoup(response)
+ url = &quot;http://api.glassdoor.com/api/api.htm?t.p=25738&amp;t.k=iRCtcWJQamE&amp;format=json&amp;v=1&amp;action=employers&amp;q=&quot;
+ hdr = {&#39;User-Agent&#39;: &#39;Mozilla/5.0&#39;}
+ req = urllib2.Request(url,headers=hdr)
+ response = urllib2.urlopen(req)
+ soup = BeautifulSoup(response)
 </code></pre></li>
 </ol>
 <p>Save with name <code>glassdoor.py</code> then run <code>$ python glassdoor.py</code></p>

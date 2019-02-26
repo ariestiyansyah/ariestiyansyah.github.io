@@ -73,10 +73,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/Data/2019/02/27/2017-03-23-relative-strenghts-of-different-models-cto/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/life/2019/02/27/2017-05-02-dipuji-jangan-terbang-dicaci-jangan-tumbang/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/Data/2019/02/27/2017-01-07-Decision-Tree-and-Naive-Bayes/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/Data/2019/02/27/2017-03-23-relative-strenghts-of-different-models-cto/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -153,15 +153,65 @@
 
   <div class="content" itemprop="articleBody">
     <p>This is what I found on edx.log</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">OperationalError: (1045, &quot;Access denied for user &apos;edxapp_replica001&apos;@&apos;localhost&apos; (using password: YES)&quot;)</span><br><span class="line">Mar 23 05:39:18 ip-172-31-6-181 [service_variant=lms][request_cache][env:sandbox] WARNING [ip-172-31-6-181  30422] [__init__.py:66] - Could not retrieve the current request. A stub request will be created instead using settings.SITE_NA</span><br><span class="line">ME</span><br></pre></td></tr></table></figure>
-<p>I can’t access instructor tab on Open edX Learning Management System, the problem is user <code>edxapp_replica001</code> doesn’t exist. Here’s list of MySQL use on ficus installation</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; SELECT User FROM mysql.user;</span><br><span class="line">+------------------+</span><br><span class="line">| User             |</span><br><span class="line">+------------------+</span><br><span class="line">| root             |</span><br><span class="line">| root             |</span><br><span class="line">| root             |</span><br><span class="line">|                  |</span><br><span class="line">| admin            |</span><br><span class="line">| api001           |</span><br><span class="line">| debian-sys-maint |</span><br><span class="line">| ecomm001         |</span><br><span class="line">| edxapp001        |</span><br><span class="line">| edxapp_cmsh001   |</span><br><span class="line">| migrate          |</span><br><span class="line">| programs001      |</span><br><span class="line">| read_only        |</span><br><span class="line">| reports001       |</span><br><span class="line">| root             |</span><br><span class="line">| xqueue001        |</span><br><span class="line">+------------------+</span><br><span class="line">16 rows in set (0.00 sec)</span><br></pre></td></tr></table></figure>
-<p>What’s the main problem? if you familiar with the new Open edX ficus <a href="https://openedx.atlassian.net/wiki/display/OpenOPS/Native+Open+edX+Ubuntu+16.04+64+bit+Installation" target="_blank" rel="noopener">installation</a> and choose to randomized password by running command below, the script will set default <code>EDXAPP_MYSQL_REPLICA_USER</code> on asible to <code>edxapp_replica001</code> which will cause an error on MySQL 5.7.8 because it’s greater than 16 character</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/install/generate-passwords.sh -O - | bash</span><br></pre></td></tr></table></figure>
-<p>Simple! to fix this problem after installation of ficus is to change <code>lms.auth.json</code> and <code>cms.auth.json</code> database configuration. We can use <code>edxapp001</code> user for <code>read_replica</code> database instead instead of <code>edxapp_replica001</code>.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">DATABASES&quot;: &#123;</span><br><span class="line">        &quot;default&quot;: &#123;</span><br><span class="line">            &quot;ATOMIC_REQUESTS&quot;: true,</span><br><span class="line">            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,</span><br><span class="line">            &quot;HOST&quot;: &quot;localhost&quot;,</span><br><span class="line">            &quot;NAME&quot;: &quot;edxapp&quot;,</span><br><span class="line">            &quot;PASSWORD&quot;: &quot;yourpassword&quot;,</span><br><span class="line">            &quot;PORT&quot;: &quot;3306&quot;,</span><br><span class="line">            &quot;USER&quot;: &quot;edxapp001&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &quot;read_replica&quot;: &#123;</span><br><span class="line">            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,</span><br><span class="line">            &quot;HOST&quot;: &quot;localhost&quot;,</span><br><span class="line">            &quot;NAME&quot;: &quot;edxapp&quot;,</span><br><span class="line">            &quot;PASSWORD&quot;: &quot;yourpassword&quot;,</span><br><span class="line">            &quot;PORT&quot;: &quot;3306&quot;,</span><br><span class="line">            &quot;USER&quot;: &quot;edxapp001&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &quot;student_module_history&quot;: &#123;</span><br><span class="line">            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,</span><br><span class="line">            &quot;HOST&quot;: &quot;localhost&quot;,</span><br><span class="line">            &quot;NAME&quot;: &quot;edxapp_csmh&quot;,</span><br><span class="line">            &quot;PASSWORD&quot;: &quot;randomhash&quot;,</span><br><span class="line">            &quot;PORT&quot;: &quot;3306&quot;,</span><br><span class="line">            &quot;USER&quot;: &quot;edxapp_cmsh001&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br></pre></td></tr></table></figure>
-<p>Now restart your lms and cms! it should be work<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /edx/bin/supervisorctl restart edxapp:</span><br></pre></td></tr></table></figure></p>
-
+<pre><code>OperationalError: (1045, &quot;Access denied for user &#39;edxapp_replica001&#39;@&#39;localhost&#39; (using password: YES)&quot;)
+Mar 23 05:39:18 ip-172-31-6-181 [service_variant=lms][request_cache][env:sandbox] WARNING [ip-172-31-6-181  30422] [__init__.py:66] - Could not retrieve the current request. A stub request will be created instead using settings.SITE_NA
+ME
+</code></pre><p>I can’t access instructor tab on Open edX Learning Management System, the problem is user <code>edxapp_replica001</code> doesn’t exist. Here’s list of MySQL use on ficus installation</p>
+<pre><code>mysql&gt; SELECT User FROM mysql.user;
++------------------+
+| User             |
++------------------+
+| root             |
+| root             |
+| root             |
+|                  |
+| admin            |
+| api001           |
+| debian-sys-maint |
+| ecomm001         |
+| edxapp001        |
+| edxapp_cmsh001   |
+| migrate          |
+| programs001      |
+| read_only        |
+| reports001       |
+| root             |
+| xqueue001        |
++------------------+
+16 rows in set (0.00 sec)
+</code></pre><p>What’s the main problem? if you familiar with the new Open edX ficus <a href="https://openedx.atlassian.net/wiki/display/OpenOPS/Native+Open+edX+Ubuntu+16.04+64+bit+Installation" target="_blank" rel="noopener">installation</a> and choose to randomized password by running command below, the script will set default <code>EDXAPP_MYSQL_REPLICA_USER</code> on asible to <code>edxapp_replica001</code> which will cause an error on MySQL 5.7.8 because it’s greater than 16 character</p>
+<pre><code>wget https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/install/generate-passwords.sh -O - | bash
+</code></pre><p>Simple! to fix this problem after installation of ficus is to change <code>lms.auth.json</code> and <code>cms.auth.json</code> database configuration. We can use <code>edxapp001</code> user for <code>read_replica</code> database instead instead of <code>edxapp_replica001</code>.</p>
+<pre><code>DATABASES&quot;: {
+        &quot;default&quot;: {
+            &quot;ATOMIC_REQUESTS&quot;: true,
+            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,
+            &quot;HOST&quot;: &quot;localhost&quot;,
+            &quot;NAME&quot;: &quot;edxapp&quot;,
+            &quot;PASSWORD&quot;: &quot;yourpassword&quot;,
+            &quot;PORT&quot;: &quot;3306&quot;,
+            &quot;USER&quot;: &quot;edxapp001&quot;
+        },
+        &quot;read_replica&quot;: {
+            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,
+            &quot;HOST&quot;: &quot;localhost&quot;,
+            &quot;NAME&quot;: &quot;edxapp&quot;,
+            &quot;PASSWORD&quot;: &quot;yourpassword&quot;,
+            &quot;PORT&quot;: &quot;3306&quot;,
+            &quot;USER&quot;: &quot;edxapp001&quot;
+        },
+        &quot;student_module_history&quot;: {
+            &quot;ENGINE&quot;: &quot;django.db.backends.mysql&quot;,
+            &quot;HOST&quot;: &quot;localhost&quot;,
+            &quot;NAME&quot;: &quot;edxapp_csmh&quot;,
+            &quot;PASSWORD&quot;: &quot;randomhash&quot;,
+            &quot;PORT&quot;: &quot;3306&quot;,
+            &quot;USER&quot;: &quot;edxapp_cmsh001&quot;
+        }
+    },
+</code></pre><p>Now restart your lms and cms! it should be work</p>
+<pre><code>$ sudo /edx/bin/supervisorctl restart edxapp:
+</code></pre>
   </div>
 </article>
 

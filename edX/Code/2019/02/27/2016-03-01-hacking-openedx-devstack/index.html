@@ -75,10 +75,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/life/think/2019/02/27/2016-03-02-decision-making-philosophies/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/masjid/2019/02/27/2016-03-07-roadshow-masjid-asmaul-husna/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/AWS/Code/2019/02/27/2016-02-22-provisioning-ec2-instance-using-ansible/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/life/think/2019/02/27/2016-03-02-decision-making-philosophies/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -163,27 +163,28 @@
 <p>Preparing:</p>
 <p>Download and Install Required tools before.</p>
 <p>Create working directory</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir devstack</span><br><span class="line">cd devstack</span><br></pre></td></tr></table></figure>
-<p>Download devstack</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://raw.github.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile &gt; Vagrantfile</span><br></pre></td></tr></table></figure>
-<p>sets value of OPENEDX_RELEASE environment</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export OPENEDX_RELEASE=&quot;named-release/dogwood&quot;</span><br></pre></td></tr></table></figure>
-<p>Run instalation</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant up</span><br></pre></td></tr></table></figure>
-<h3 id="Play-with-Devstack"><a href="#Play-with-Devstack" class="headerlink" title="Play with Devstack"></a>Play with Devstack</h3><p>Login to devstack:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant ssh</span><br></pre></td></tr></table></figure>
-<p>To use devstack and perform any of the tasks described in this section, connect as the user edxapp.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo su edxapp</span><br></pre></td></tr></table></figure>
-<h3 id="Run-the-LMS-on-Devstack"><a href="#Run-the-LMS-on-Devstack" class="headerlink" title="Run the LMS on Devstack"></a>Run the LMS on Devstack</h3><p>To run the LMS on devstack, follow these steps.</p>
+<pre><code>mkdir devstack
+cd devstack
+</code></pre><p>Download devstack</p>
+<pre><code>curl -L https://raw.github.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile &gt; Vagrantfile
+</code></pre><p>sets value of OPENEDX_RELEASE environment</p>
+<pre><code>export OPENEDX_RELEASE=&quot;named-release/dogwood&quot;
+</code></pre><p>Run instalation</p>
+<pre><code>vagrant up
+</code></pre><h3 id="Play-with-Devstack"><a href="#Play-with-Devstack" class="headerlink" title="Play with Devstack"></a>Play with Devstack</h3><p>Login to devstack:</p>
+<pre><code>vagrant ssh
+</code></pre><p>To use devstack and perform any of the tasks described in this section, connect as the user edxapp.</p>
+<pre><code>sudo su edxapp
+</code></pre><h3 id="Run-the-LMS-on-Devstack"><a href="#Run-the-LMS-on-Devstack" class="headerlink" title="Run the LMS on Devstack"></a>Run the LMS on Devstack</h3><p>To run the LMS on devstack, follow these steps.</p>
 <ol>
 <li><p>Login to Devstack machine</p>
-<pre><code>vagrant ssh
-sudo su edxapp
+<pre><code> vagrant ssh
+ sudo su edxapp
 </code></pre></li>
 <li><p>Run the following command</p>
-<pre><code>paver devstack lms
+<pre><code> paver devstack lms
 </code></pre><p> Or, to start the LMS without updating requirements and compiling assets, use<br>the <code>fast</code> option.</p>
-<pre><code>paver devstack lms --fast
+<pre><code> paver devstack lms --fast
 </code></pre></li>
 </ol>
 <pre><code>The LMS starts.
@@ -195,13 +196,13 @@ sudo su edxapp
 <h3 id="Run-Studio-on-Devstack"><a href="#Run-Studio-on-Devstack" class="headerlink" title="Run Studio on Devstack"></a>Run Studio on Devstack</h3><p>To run Studio on devstack, follow these steps.</p>
 <ol>
 <li><p>Login to Devstack machine</p>
-<pre><code>vagrant ssh
-sudo su edxapp
+<pre><code> vagrant ssh
+ sudo su edxapp
 </code></pre></li>
 <li><p>Run the following command.</p>
-<pre><code>paver devstack studio
+<pre><code> paver devstack studio
 </code></pre><p> Or, to start Studio without updating requirements and compiling assets, use<br>the <code>fast</code> option.</p>
-<pre><code>paver devstack studio --fast
+<pre><code> paver devstack studio --fast
 </code></pre></li>
 </ol>
 <pre><code>Studio starts.
@@ -211,25 +212,25 @@ sudo su edxapp
 </li>
 </ol>
 <h3 id="View-Available-Studio-Commands"><a href="#View-Available-Studio-Commands" class="headerlink" title="View Available Studio Commands"></a>View Available Studio Commands</h3><p>To view all available commands for Studio, enter the following command.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./manage.py cms -h --settings=devstack</span><br></pre></td></tr></table></figure>
-<h3 id="Run-Discussion-Forums-on-Devstack"><a href="#Run-Discussion-Forums-on-Devstack" class="headerlink" title="Run Discussion Forums on Devstack"></a>Run Discussion Forums on Devstack</h3><p>To run discussion forums on devstack, follow these steps.</p>
+<pre><code>./manage.py cms -h --settings=devstack
+</code></pre><h3 id="Run-Discussion-Forums-on-Devstack"><a href="#Run-Discussion-Forums-on-Devstack" class="headerlink" title="Run Discussion Forums on Devstack"></a>Run Discussion Forums on Devstack</h3><p>To run discussion forums on devstack, follow these steps.</p>
 <ol>
 <li><p>Login to Devstack machine</p>
-<pre><code>vagrant ssh
-sudo su edxapp
+<pre><code> vagrant ssh
+ sudo su edxapp
 </code></pre></li>
 </ol>
 <ol start="2">
 <li><p>Switch to the discussion forum account by entering the following command.</p>
-<pre><code>sudo su forum
+<pre><code> sudo su forum
 </code></pre></li>
 </ol>
 <ol start="3">
 <li><p>Update Ruby requirements.</p>
-<pre><code>bundle install
+<pre><code> bundle install
 </code></pre></li>
 <li><p>Start the discussion forums server.</p>
-<pre><code>ruby app.rb -p 18080
+<pre><code> ruby app.rb -p 18080
 </code></pre></li>
 </ol>
 <pre><code>The discussions forum server starts. You can access the discussion forums API

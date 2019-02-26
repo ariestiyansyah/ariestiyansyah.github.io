@@ -157,7 +157,7 @@
     if (window.FileReader) {
         getAsText(files[0]);
     } else {
-        alert(&apos;Browser not supported&apos;)
+        alert(&#39;Browser not supported&#39;)
     }
 }
 
@@ -177,7 +177,7 @@ function loadHandler(event) {
 var allTextLines = csv.split(/\r\n|\n/);
 var lines = [];
 while (allTextLines.length) {
-    lines.push(allTextLines.shift().split(&apos;,&apos;));
+    lines.push(allTextLines.shift().split(&#39;,&#39;));
 }
 console.log(lines);
 drawOutput(lines);
@@ -185,7 +185,7 @@ drawOutput(lines);
 </code></pre><p>create errorHandler() to show an error when file can’t be read</p>
 <pre><code>function errorHandler(evt) {
     if(evt.target.error.name == &quot;NotReadableError&quot;) {
-        alert(&quot;Can&apos;t read file !&quot;);
+        alert(&quot;Can&#39;t read file !&quot;);
     }
 }
 </code></pre><p>To show the result in page create function drawOutpu() which generate .csv table and set getElementByID(“result”) so we can call using id in HTML</p>

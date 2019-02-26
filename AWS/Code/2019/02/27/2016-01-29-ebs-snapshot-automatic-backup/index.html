@@ -75,10 +75,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/edX/Code/2019/02/27/2016-02-20-open-edx-comprehensive-theming/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/AWS/Code/2019/02/27/2016-01-19-single-bucket-access-aws/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/AWS/Code/2019/02/27/2016-01-19-single-bucket-access-aws/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/edX/Code/2019/02/27/2015-10-21-solve-celery-error-saat-migrasi-open-edx/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -155,7 +155,53 @@
 
   <div class="content" itemprop="articleBody">
     <p>Remote EBS Snapshot Automatic Backup </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line">ACTION=$1</span><br><span class="line">AGE=$2</span><br><span class="line"></span><br><span class="line">if [ -z $ACTION ];</span><br><span class="line">then</span><br><span class="line">    echo &quot;Usage $1: Define ACTION of backup or delete&quot;</span><br><span class="line">    exit 1</span><br><span class="line">fi </span><br><span class="line"></span><br><span class="line">if [ &quot;$ACTION&quot; = &quot;delete&quot; ] &amp;&amp; [ -z $AGE ];</span><br><span class="line">then</span><br><span class="line">    echo &quot;Please enter the age of backups you would like to delete&quot;</span><br><span class="line">    exit 1</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line">function backup_ebs () &#123;</span><br><span class="line">   for volume in $(aws ec2 describe-volumes | jq .Volumes[].VolumeId | sed &apos;s/\&quot;//g&apos;)</span><br><span class="line">   do </span><br><span class="line">       echo Creating snapshot for $volume $(aws ec2 create-snapshot --volume-id $volume --description &quot;backup-script&quot;)</span><br><span class="line">   done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function delete_snapshots () &#123;</span><br><span class="line">    for snapshot in $(aws ec2 describe-snapshots --filters Name=description,Values=backup-script | jq .Snapshots[].SnapshotId | sed &apos;s/\&quot;//g&apos;)</span><br><span class="line">    do</span><br><span class="line">        SNAPSHOTDATE=$(aws ec2 describe-snapshots --filters Name=snapshot,Values=$snapshot | jq .Snapshots[].StartTime | cut -d T -f1 | sed &apos;s/\&quot;//g&apos;)</span><br><span class="line">        STARTDATE=$(date +%s)</span><br><span class="line">        ENDDATE=$(date -d $SNAPSHOTDATE +%s)</span><br><span class="line">        INTERVAL=$[ (STARTDATE - ENDDATE) / (60*60*24) ]</span><br><span class="line">        if (( $INTERVAL &gt;= $AGE ));</span><br><span class="line">        then</span><br><span class="line">            aws ec2 delete-snapshot --snapshot-id $snapshot</span><br><span class="line">        fi</span><br><span class="line">    done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">case $ACTION in </span><br><span class="line">    &quot;backup&quot;)</span><br><span class="line">        backup_ebs</span><br><span class="line">        ;;</span><br><span class="line">    &quot;delete&quot;)</span><br><span class="line">        delete_snapshots</span><br><span class="line">        ;;</span><br><span class="line">esac</span><br></pre></td></tr></table></figure>
+<pre><code>#!/bin/bash
+
+ACTION=$1
+AGE=$2
+
+if [ -z $ACTION ];
+then
+    echo &quot;Usage $1: Define ACTION of backup or delete&quot;
+    exit 1
+fi 
+
+if [ &quot;$ACTION&quot; = &quot;delete&quot; ] &amp;&amp; [ -z $AGE ];
+then
+    echo &quot;Please enter the age of backups you would like to delete&quot;
+    exit 1
+fi
+
+function backup_ebs () {
+   for volume in $(aws ec2 describe-volumes | jq .Volumes[].VolumeId | sed &#39;s/\&quot;//g&#39;)
+   do 
+       echo Creating snapshot for $volume $(aws ec2 create-snapshot --volume-id $volume --description &quot;backup-script&quot;)
+   done
+}
+
+function delete_snapshots () {
+    for snapshot in $(aws ec2 describe-snapshots --filters Name=description,Values=backup-script | jq .Snapshots[].SnapshotId | sed &#39;s/\&quot;//g&#39;)
+    do
+        SNAPSHOTDATE=$(aws ec2 describe-snapshots --filters Name=snapshot,Values=$snapshot | jq .Snapshots[].StartTime | cut -d T -f1 | sed &#39;s/\&quot;//g&#39;)
+        STARTDATE=$(date +%s)
+        ENDDATE=$(date -d $SNAPSHOTDATE +%s)
+        INTERVAL=$[ (STARTDATE - ENDDATE) / (60*60*24) ]
+        if (( $INTERVAL &gt;= $AGE ));
+        then
+            aws ec2 delete-snapshot --snapshot-id $snapshot
+        fi
+    done
+}
+
+case $ACTION in 
+    &quot;backup&quot;)
+        backup_ebs
+        ;;
+    &quot;delete&quot;)
+        delete_snapshots
+        ;;
+esac
+</code></pre>
   </div>
 </article>
 
