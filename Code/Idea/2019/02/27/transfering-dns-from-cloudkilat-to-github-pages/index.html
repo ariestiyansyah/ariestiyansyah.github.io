@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Transer DNS from Cloudkilat to Github Pages">
+<meta name="keywords" content="Cloudkilat,DNS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Transfering DNS from CloudKilat to Github Pages">
+<meta property="og:url" content="http://oonlab.com/Code/Idea/2019/02/27//transfering-dns-from-cloudkilat-to-github-pages/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="Transer DNS from Cloudkilat to Github Pages">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://oonlab.com/wp-content/uploads/images/cloudkilat-domain.png">
+<meta property="og:updated_time" content="2019-02-26T20:08:04.516Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Transfering DNS from CloudKilat to Github Pages">
+<meta name="twitter:description" content="Transer DNS from Cloudkilat to Github Pages">
+<meta name="twitter:image" content="http://oonlab.com/wp-content/uploads/images/cloudkilat-domain.png">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Transfering DNS from CloudKilat to Github Pages</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="/github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/Code/Fedora/2019/02/27/create-rpm-package-for-nitrogen/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/Code/Python/2019/02/27/fix-install-pycharm-fedora-21/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&text=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&is_video=false&description=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Transfering DNS from CloudKilat to Github Pages&body=Check out this article: http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&name=Transfering DNS from CloudKilat to Github Pages&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Transfering DNS from CloudKilat to Github Pages
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-02-26T20:08:04.516Z" itemprop="datePublished">2019-02-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/Code/">Code</a> › <a class="category-link" href="/categories/Code/Idea/">Idea</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/Cloudkilat/">Cloudkilat</a>, <a class="tag-link" href="/tags/DNS/">DNS</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Well, today I am totally move my hosting from CloudKilat to Github pages (Jekyll), when I use cloudkilat as my hosting provider the cms I used is wordpress. After do research I choose to use github pages. I’ll not share my research now maybe next time bro.</p>
+<p>If you want to know how to migrate from wordpress to jekyll there are good tutorial on google :P hahahaha, I am following <a href="http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/" target="_blank" rel="noopener">this step</a> from girliemac, simple and fast and hope you are cozy with her tutorial.</p>
+<p>Ok back to the topic, cloudkilat is not support for custom apex domain, it just support by adding subdomain in our DNS setting, the trick is simple… let me show you dude :P</p>
+<p><img src="http://oonlab.com/wp-content/uploads/images/cloudkilat-domain.png" alt="Cloudkilat domain"> </p>
+<ul>
+<li>Create two A record with hostname “@” and add address 192.30.252.154 and 192.30.252.153</li>
+<li>Create CNAME record and point the address to “yourusername.github.io”</li>
+<li>Create CNAME file on root directory of your github repo or web and add your domain address, for example “oonlab.com”</li>
+</ul>
+<p>Done,</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="/github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&text=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&is_video=false&description=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Transfering DNS from CloudKilat to Github Pages&body=Check out this article: http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&title=Transfering DNS from CloudKilat to Github Pages"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/Code/Idea/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/&name=Transfering DNS from CloudKilat to Github Pages&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Rizky Ariestiyansyah
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="/github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'oonlab';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
