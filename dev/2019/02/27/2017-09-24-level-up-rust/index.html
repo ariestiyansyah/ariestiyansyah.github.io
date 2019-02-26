@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="WORK IN PROGRESS Rust All primitive types will naturally always directly go on the stack  &amp;amp; itu reference Variable variable dalam rust secara default merupakan immutable yang artinya jika data sud">
+<meta name="keywords" content="rust,handout,level-up">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Handout: Level up your rust knowledge">
+<meta property="og:url" content="http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="WORK IN PROGRESS Rust All primitive types will naturally always directly go on the stack  &amp;amp; itu reference Variable variable dalam rust secara default merupakan immutable yang artinya jika data sud">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-26T20:08:04.558Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Handout: Level up your rust knowledge">
+<meta name="twitter:description" content="WORK IN PROGRESS Rust All primitive types will naturally always directly go on the stack  &amp;amp; itu reference Variable variable dalam rust secara default merupakan immutable yang artinya jika data sud">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Handout: Level up your rust knowledge</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/think/2019/02/27/2017-10-09-think-link-entrepreneur-act-like-ceo/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/dev/2019/02/27/2017-09-24-rust-indonesia-meetup/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&text=Handout: Level up your rust knowledge"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&is_video=false&description=Handout: Level up your rust knowledge"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Handout: Level up your rust knowledge&body=Check out this article: http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&name=Handout: Level up your rust knowledge&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Rust"><span class="toc-number">1.</span> <span class="toc-text">Rust</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Variable"><span class="toc-number">1.1.</span> <span class="toc-text">Variable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Struct"><span class="toc-number">1.2.</span> <span class="toc-text">Struct</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Struct-with-function"><span class="toc-number">1.2.1.</span> <span class="toc-text">Struct with function</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vector"><span class="toc-number">1.3.</span> <span class="toc-text">Vector</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Vector-of-Structs"><span class="toc-number">1.3.1.</span> <span class="toc-text">Vector of Structs</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Handout: Level up your rust knowledge
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-02-26T20:08:04.558Z" itemprop="datePublished">2019-02-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/dev/">dev</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/handout/">handout</a>, <a class="tag-link" href="/tags/level-up/">level-up</a>, <a class="tag-link" href="/tags/rust/">rust</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><code>WORK IN PROGRESS</code></p>
+<h2 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h2><ul>
+<li>All primitive types will naturally always directly go on the stack</li>
+</ul>
+<p>&amp; itu reference</p>
+<h3 id="Variable"><a href="#Variable" class="headerlink" title="Variable"></a>Variable</h3><ul>
+<li>variable dalam rust secara default merupakan immutable yang artinya jika data sudah di initiate maka object tersebut tidak dapat dirubah.</li>
+</ul>
+<p>Contoh variable<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let nama = &quot;Meetup Rust Indonesia&quot;;</span><br><span class="line">let tahun = 2017;</span><br><span class="line">let hello = format!(&quot;&#123;&#125; &#123;&#125;&quot;, nama, tahun);</span><br><span class="line">println!(&quot;&#123;:?&#125;, hello)</span><br></pre></td></tr></table></figure></p>
+<p>Value in rust immutable</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">let tahun = 2017;</span><br><span class="line">tahun = 2017 // error!</span><br><span class="line"></span><br><span class="line">let mut tahun = 2017;</span><br><span class="line">tahun = 2018 // work</span><br></pre></td></tr></table></figure>
+<p>Mutability is also part of the type of borrowed pointer </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">fn inc(i: &amp;int) &#123;</span><br><span class="line">    *i += 1; //error</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">fn inc(i: &amp;mut int) &#123;</span><br><span class="line">    *i += 1; // ok</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Fungsi di rust menggunakan <code>fn</code> diikuti dengan nama fungsi, argumen, tipe return dan block kode.</p>
+<p>Contohnya</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">fn namaFungsi(argumen: i32, argumen2: i32) -&gt; bool &#123;</span><br><span class="line">    // Fungsi</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Bisa kita lihat fungsi diatas bernama <code>namaFungsi</code> dengan dua argumen bertipe i32 dan returnnya adalah boolean. Perlu diketahui tipe return digunakan setelah operator <code>-&gt;</code></p>
+<p>Contoh fungsi berikutnya tanpa return value dan argumen:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">fn namaFungsiDua() &#123;</span><br><span class="line">    // </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Contoh menulis loop didalam sebuah fungsi</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">fn bagi_tiga(min: i32, max_exclusive: i32) &#123;</span><br><span class="line">    for x in min..max_exclusive &#123;</span><br><span class="line">        if x % 3 == 0 &#123;</span><br><span class="line">            println!(&quot;&#123;&#125; is divisible by 3&quot;, x);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Fungsi diatas melakaukan pengecekan dari <code>min</code> dan <code>max_exclusive</code> dengan dua 32 bit ineteger Lalu menggunakan for - in loop dengan dua input dan melakukan pengecekan dari range data yang dibuat apakah bisa dibagi tiga atau tidak lalu menggunakan statement <code>println</code></p>
+<h3 id="Struct"><a href="#Struct" class="headerlink" title="Struct"></a>Struct</h3><ul>
+<li>data structure memiliki key-value entities</li>
+<li>setiap key-value bisa menggunakan tipe data berbeda</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">struct Rust &#123;</span><br><span class="line">    nama: String</span><br><span class="line">    bulan: i32,</span><br><span class="line">    tahun: i32,</span><br><span class="line">&#125;</span><br><span class="line">let meetup = Rust &#123;name: &quot;Rust Indonesia&quot;.to_string(), bulan: 09, tahun: 2017 &#125;;</span><br></pre></td></tr></table></figure>
+<h4 id="Struct-with-function"><a href="#Struct-with-function" class="headerlink" title="Struct with function"></a>Struct with function</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">fn next_meetup(nama_: &amp;str, bulan_: i32, tahun_: i32) -&gt; Rust &#123;</span><br><span class="line">    let new_meetup = Rust &#123;name: nama_.to_string(), bulan: bulan_, tahun: tahun_&#125;;</span><br><span class="line">    new_meetup</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">let november = next_meetup(&quot;Rust Indonesia X&quot;, 11, 2017);</span><br></pre></td></tr></table></figure>
+<h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><ul>
+<li>resizable array</li>
+<li>Bisa memmuat integers, floats, Strings, hingga Structs </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let deret = vec![1,2,3];</span><br><span class="line">let mut himpunana = vec::new();</span><br><span class="line">himpunan.push(5);</span><br><span class="line">himpunan.push(6)</span><br></pre></td></tr></table></figure>
+<h4 id="Vector-of-Structs"><a href="#Vector-of-Structs" class="headerlink" title="Vector of Structs"></a>Vector of Structs</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">fn next_year() -&gt;Vec(Rust) &#123;</span><br><span class="line">    let january = new_meetup(&quot;Rust Indonesia January&quot;, 1, 2018);</span><br><span class="line">    let march = new_meetup(&quot;Rust Indonesia March&quot;, 3, 2018);</span><br><span class="line">    let may = new_meetup(&quot;Rust Indonesia May&quot;, 5, 2018);</span><br><span class="line">    let july = new_meetup(&quot;Rust Indonesia July&quot;, 7. 2018);</span><br><span class="line"></span><br><span class="line">    let mut featured_meetup = Vec::new();</span><br><span class="line">    featured_meetup.push(january);</span><br><span class="line">    featured_meetup.push(march);</span><br><span class="line">    featured_meetup.push(may);</span><br><span class="line">    featured_meetup.push(july);</span><br><span class="line"></span><br><span class="line">    featured_meetup</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">let awesome_meetup = next_year();</span><br></pre></td></tr></table></figure>
+<p>Ownership</p>
+<ul>
+<li>Saferty dan Concurrency Rust</li>
+</ul>
+<p>Cargo Doc - Documentation generator </p>
+<p>GC</p>
+<p>non determistic destyction</p>
+<p>Video GB</p>
+<p>GC membutuhkan memori yang banyak agar lebih efisien</p>
+<p>System Programming build libraries your application will use</p>
+<p>Can’t have two bindings to the same vector in rust</p>
+<p>Zero cost abstractions</p>
+<p>Ownership: C allocate memory on a heap you need to have free statement at the end right to clear the heap memoery</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Rust"><span class="toc-number">1.</span> <span class="toc-text">Rust</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Variable"><span class="toc-number">1.1.</span> <span class="toc-text">Variable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Struct"><span class="toc-number">1.2.</span> <span class="toc-text">Struct</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Struct-with-function"><span class="toc-number">1.2.1.</span> <span class="toc-text">Struct with function</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vector"><span class="toc-number">1.3.</span> <span class="toc-text">Vector</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Vector-of-Structs"><span class="toc-number">1.3.1.</span> <span class="toc-text">Vector of Structs</span></a></li></ol></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&text=Handout: Level up your rust knowledge"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&is_video=false&description=Handout: Level up your rust knowledge"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Handout: Level up your rust knowledge&body=Check out this article: http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&title=Handout: Level up your rust knowledge"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/dev/2019/02/27/2017-09-24-level-up-rust/&name=Handout: Level up your rust knowledge&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Rizky Ariestiyansyah
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
