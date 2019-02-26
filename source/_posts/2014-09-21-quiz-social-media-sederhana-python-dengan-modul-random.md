@@ -18,22 +18,22 @@ Hai hai, kebetulan lagi colak colek planpin &#8220;Planet Python di Indonesia&#8
 
 Modul random ini di python punya banyak fungsi (red:function) seperti randint, shuffle, randrange, random. Lalu apa? hmm kita buat quiz sederhana yuk! sebut saja namanya Quiz Social Media, kita cukup menggunaan randint saja yah, first cobain randint dulu dong pakai console
 
-{% highlight python %}
+<pre>
 >>> import random
 >>> print random.randint(0,9)
 5
-{% endhighlight %}
+</pre>
 
 It works! oke soal belajar randint belajar sendiri saja ya dirumah <img src="https://oonlab.com/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" /> ini modul paling gampang koq di python, langsung saja ke quiz social media kita, di header seperti biasa kita import modul python kita,
 
-{% highlight python %}
+<pre>
 import sys
 from random import randint
-{% endhighlight %}
+</pre>
 
 lalu kita buat lists untuk soal jawaban dan referensi link kita menggunakan lists (ituloh yang kayak array gitu), lists itu bisa mengandung beberapa variabel yah <img src="https://oonlab.com/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> 
 
-{% highlight python %}
+<pre>
 Soal = ["Social Media buatan Mark zuck...? ",
      "Social Media yang eksis dengan awake sleep? ",
      "Microblogging yang gambar burung apa hayo? ",
@@ -56,20 +56,20 @@ link = ["http://www.facebook.com",
             "http://Pinterest.com",
             "http://linkedin.com",
             "http://planet.python.or.id/"]
-{% endhighlight %}
+</pre>
 
 Ok kita sudah buat listnya, kalau orang-orang expert untuk quiz seperti ini biasanya database yang besar gitu kayak mongodb atau pakai json juga bisa, tapi ini masih simple ya, selanjutnya kita akan menggunakan loops statement buat menentukan jawaban benar atau salah, kita add code count = 0 dibawah header tadi jadi seperti ini
 
-{% highlight python %}
+<pre>
 import sys
 from random import randint
 
 count = 0
-{% endhighlight %}
+</pre>
 
 Setelah itu tentuka jawaban benar dan salah, dalam hal ini jawabannya sesuai dengan taa urutan pada list kita, dari &#8220;Soal&#8221;, &#8220;Jawab&#8221;, &#8220;link&#8221; ok codenya seperti ini
 
-{% highlight python %}
+<pre>
 i = randint(0, 7)
 answer = raw_input("Pertanyaan 1 : " + Soal[i])
 if answer.lower() == Jawab[i]: #jawaban dengan huruf kecil
@@ -78,22 +78,22 @@ if answer.lower() == Jawab[i]: #jawaban dengan huruf kecil
 else: #jawaban salah
     print "Salah \nJawaban Benar : " + Jawab[i]
     print "Pengen Coba? Kunjungi : " + link[i]
-{% endhighlight %}
+</pre>
 
 lihat code
 
-{% highlight python %}
+<pre>
 i = randint(0, 7)
-{% endhighlight %}
+</pre>
 
 ini adalah jumlah pertanyaan yang sudah kita siapkan tadi, jik pertanyaan anda ada 9 ganti menjadi (0, 9) begitu juga selanjutanya,
 
 Lalu untuk menentukan presentasi nilai, kita akan membuat nilai keseluruhan adalah 100, jika dibagi menjadi 7 pertanyaan itu berjadi 14,&#8230;. persen nilai untuk satu pertanyaan, jadi codenya
 
-{% highlight python %}
+<pre>
 print "\n %d jawaban benar" % (count)
 print "\nNilai : %d persen" % (count / float(7) * 100)
-{% endhighlight %}
+</pre>
 
 Oke sudah selesai, kita coba jalankan codenya, ini screenshot di laptop saya
 

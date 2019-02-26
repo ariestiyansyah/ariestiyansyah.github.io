@@ -33,8 +33,7 @@ Formspree.io yang akan kita gunakan tidak perlu registrasi hanya saja ketika kit
 5. isi pesan
 
 Kita akan mulai membuat form sederhana menggunakan HTML
-
-{% highlight html %}
+<pre>
 <form role="form">
     <div class="form-group">
     <label for="nama">Nama</label>
@@ -71,19 +70,19 @@ Kita akan mulai membuat form sederhana menggunakan HTML
     <input type="submit" class="btn btn-lg" value="Kirim Pesan Rahasia">
     </div>
 </form>
-{% endhighlight %}
+</pre>
 
 Membuat form sederhana sudah selesai, jika dilihat class yang saya gunakan seperti form-control, form-group, dan btn itu adalah class dari bootstrap, saya menggunakan bootstrap agar lebih minimalis dan responsive untuk form layoutnya. include bootstratp.form.css di codingan form kita,
 
-{% highlight html %}
+<pre>
 <link href="css/bootstrap.form.css" rel="stylesheet">
-{% endhighlight %}
+</pre>
  
 Kita dapat melihat formnya sudah terlihat bagus namun belum bisa digunakan, yang akan kita lakukan adalah menambahkan action dan method pada tag <form> seperti code berikut
 
-{% highlight html %}
+<pre>
 <form action="http://formspress.io/test@exlporecrew.org" role="form" method="POST">
-{% endhighlight %}
+</pre>
 
 Penjelasan dari kode diatas adalah pada action kita menggunakan layanan formspree sebagai third-party untuk mengirimkan input form ke email kita, dan untuk method yang dibutuhkan oleh formspree adalah POST agar dapat memproses hasil dari kontak form kita.
 

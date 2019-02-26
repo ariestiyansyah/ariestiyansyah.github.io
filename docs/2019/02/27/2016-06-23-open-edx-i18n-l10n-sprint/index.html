@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Open edX Sprint Plan">
+<meta name="keywords" content="Open edX,Ariestiyansyah,l10n,i18n">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Open edX i18n and l10n Sprint">
+<meta property="og:url" content="http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="Open edX Sprint Plan">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-26T20:08:04.541Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Open edX i18n and l10n Sprint">
+<meta name="twitter:description" content="Open edX Sprint Plan">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Open edX i18n and l10n Sprint</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2019/02/27/2016-04-09-generate-open-edx-certificate/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2019/02/27/2016-03-24-convert-periscope-ts-file-to-mp4/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&text=Open edX i18n and l10n Sprint"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&is_video=false&description=Open edX i18n and l10n Sprint"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Open edX i18n and l10n Sprint&body=Check out this article: http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&name=Open edX i18n and l10n Sprint&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#What-is-Open-edX-i18n-sprint"><span class="toc-number">1.</span> <span class="toc-text">What is Open edX i18n sprint?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Date-Time"><span class="toc-number">2.</span> <span class="toc-text">Date/Time:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Purpose-of-the-sprint"><span class="toc-number">3.</span> <span class="toc-text">Purpose of the sprint?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Goal"><span class="toc-number">4.</span> <span class="toc-text">Goal</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#What-is-in-it-for-you-as-Developer"><span class="toc-number">5.</span> <span class="toc-text">What is in it for you as Developer?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#If-you-are-interested-in-participating-here-is-what-we-need-from-you"><span class="toc-number">6.</span> <span class="toc-text">If you are interested in participating here is what we need from you :</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tasks-for-organizer"><span class="toc-number">7.</span> <span class="toc-text">Tasks for organizer:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Discussion-Channel"><span class="toc-number">8.</span> <span class="toc-text">Discussion Channel:</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Open edX i18n and l10n Sprint
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-02-26T20:08:04.541Z" itemprop="datePublished">2019-02-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/edX/">edX</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/Ariestiyansyah/">Ariestiyansyah</a>, <a class="tag-link" href="/tags/Open-edX/">Open edX</a>, <a class="tag-link" href="/tags/i18n/">i18n</a>, <a class="tag-link" href="/tags/l10n/">l10n</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h4 id="What-is-Open-edX-i18n-sprint"><a href="#What-is-Open-edX-i18n-sprint" class="headerlink" title="What is Open edX i18n sprint?"></a>What is Open edX i18n sprint?</h4><p>One day event which translators and developers work together to understand, translate and test Open edX i18n and L10n.</p>
+<p>Target is Open edX community can organize continuous sprint</p>
+<h4 id="Date-Time"><a href="#Date-Time" class="headerlink" title="Date/Time:"></a>Date/Time:</h4><p>DD/MM/YY - HH:MM (still planning)</p>
+<h4 id="Purpose-of-the-sprint"><a href="#Purpose-of-the-sprint" class="headerlink" title="Purpose of the sprint?"></a>Purpose of the sprint?</h4><ul>
+<li>Open edX in multiple language</li>
+<li>Increase contributor of l10n and i18n</li>
+<li>Developers can help build the tools for translators to facilitate their work. </li>
+<li>Tools is a webapp: search field → user fill it → the system will query from word list database which is from previous translation (it just an idea)</li>
+</ul>
+<h4 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h4><p>Sprint 101 (1st sprint):</p>
+<ul>
+<li>Translate 5000 words and review 2500 words</li>
+<li>Translators and Developers from Spanish, Arabic, Chinese, Russian and Portuguese fully completed the translation of open-edx/edx-platform into their language.</li>
+<li>Translator and Developer from country not mentioned above translate open-edx/edx-platform into their language.</li>
+<li>Increase contribution of open-edx/xblocks translation</li>
+<li>Translators and developers were inspired and motivated to complete and finish translation projects.</li>
+</ul>
+<h4 id="What-is-in-it-for-you-as-Developer"><a href="#What-is-in-it-for-you-as-Developer" class="headerlink" title="What is in it for you as Developer?"></a>What is in it for you as Developer?</h4><p>Gain insight into localization process from the perspective of translators</p>
+<h4 id="If-you-are-interested-in-participating-here-is-what-we-need-from-you"><a href="#If-you-are-interested-in-participating-here-is-what-we-need-from-you" class="headerlink" title="If you are interested in participating here is what we need from you :"></a>If you are interested in participating here is what we need from you :</h4><ul>
+<li>Transifex account with access to Open edX project</li>
+<li>Language interested?</li>
+<li>Name/ Contact information</li>
+</ul>
+<h4 id="Tasks-for-organizer"><a href="#Tasks-for-organizer" class="headerlink" title="Tasks for organizer:"></a>Tasks for organizer:</h4><ul>
+<li>Create registration to track participants (maybe eventbrite)</li>
+<li>Get statistics for how many word translated before the sprint start</li>
+<li>Compares the result before and after sprint.</li>
+<li>Spread the event to Open edX Community</li>
+<li>Contact inactive translator in transifex</li>
+</ul>
+<h4 id="Discussion-Channel"><a href="#Discussion-Channel" class="headerlink" title="Discussion Channel:"></a>Discussion Channel:</h4><ul>
+<li>Slack</li>
+<li>Mailing List</li>
+<li>Google Hangout</li>
+</ul>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#What-is-Open-edX-i18n-sprint"><span class="toc-number">1.</span> <span class="toc-text">What is Open edX i18n sprint?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Date-Time"><span class="toc-number">2.</span> <span class="toc-text">Date/Time:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Purpose-of-the-sprint"><span class="toc-number">3.</span> <span class="toc-text">Purpose of the sprint?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Goal"><span class="toc-number">4.</span> <span class="toc-text">Goal</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#What-is-in-it-for-you-as-Developer"><span class="toc-number">5.</span> <span class="toc-text">What is in it for you as Developer?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#If-you-are-interested-in-participating-here-is-what-we-need-from-you"><span class="toc-number">6.</span> <span class="toc-text">If you are interested in participating here is what we need from you :</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tasks-for-organizer"><span class="toc-number">7.</span> <span class="toc-text">Tasks for organizer:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Discussion-Channel"><span class="toc-number">8.</span> <span class="toc-text">Discussion Channel:</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&text=Open edX i18n and l10n Sprint"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&is_video=false&description=Open edX i18n and l10n Sprint"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Open edX i18n and l10n Sprint&body=Check out this article: http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&title=Open edX i18n and l10n Sprint"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/2019/02/27/2016-06-23-open-edx-i18n-l10n-sprint/&name=Open edX i18n and l10n Sprint&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 John Doe
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

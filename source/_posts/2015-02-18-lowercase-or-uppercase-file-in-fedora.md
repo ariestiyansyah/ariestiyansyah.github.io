@@ -17,7 +17,7 @@ layout: article
 This is the simple code using bash to change uppercase to lowercase easily in
 Fedora, simply add this function to .bashrc 
 
-{% highlight bash %}
+<pre>
 lower() {
   for file ; do
     filename=${file##*/}
@@ -35,13 +35,13 @@ lower() {
     fi
   done
 }
-{% endhighlight %}
+</pre>
 
 done, now try run command `lower $yourfilename` in console.
 
 for vice-versa (lower to uppercase) just change the value `A-Z a-z` to `a-z A-Z`
 
-{% highlight bash %}
+<pre>
 upper() {
   for file ; do
     filename=${file##*/}
@@ -59,6 +59,6 @@ upper() {
     fi
   done
 }
-{% endhighlight %}
+</pre>
 
 now we can use `upper $filename` command to change the file from lowercase to uppercase

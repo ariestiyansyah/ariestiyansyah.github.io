@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Creae RPM Package for Nitrogen">
+<meta name="keywords" content="nitrogen,rpms">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Create RPM Package for Nitrogen">
+<meta property="og:url" content="http://oonlab.com/2019/02/27//create-rpm-package-for-nitrogen/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="Creae RPM Package for Nitrogen">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-26T20:08:04.516Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Create RPM Package for Nitrogen">
+<meta name="twitter:description" content="Creae RPM Package for Nitrogen">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Create RPM Package for Nitrogen</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2019/02/27/create-simple-form-using-formspree/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2019/02/27/transfering-dns-from-cloudkilat-to-github-pages/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&text=Create RPM Package for Nitrogen"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&is_video=false&description=Create RPM Package for Nitrogen"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Create RPM Package for Nitrogen&body=Check out this article: http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&name=Create RPM Package for Nitrogen&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Create RPM Package for Nitrogen
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-02-26T20:08:04.516Z" itemprop="datePublished">2019-02-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/Code/">Code</a> › <a class="category-link" href="/categories/Code/Fedora/">Fedora</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/nitrogen/">nitrogen</a>, <a class="tag-link" href="/tags/rpms/">rpms</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>When I am off for work I love to read my weekly news email because there are more great tools I can find and explore. Today I got an email from go weekly news, inisde of the news there is tools make me interested, it’s called “nitrogen” you can check out the <a href="https://github.com/lucachr/nitrogen" target="_blank" rel="noopener">github project</a>  for this tools (it’s simple bash script).</p>
+<p>Here’s my simple stuff with this tools, I am <a href="https://fedoraproject.org/wiki/How_to_create_an_RPM_package#Spec_file_pieces_explained" target="_blank" rel="noopener">creating RPM package</a>  for nitrogen project :D hehehe cause i love RPM and I love fedora berrrrroooo.</p>
+<p>I’ll not tell you how to set the Fedora-Packager and development tools, google it :P. </p>
+<p>Download file from </p>
+<pre><code>https://github.com/lucachr/nitrogen/archive/v1.0.0.zip
+</code></pre><p>Extract the file and rename the folder to nitrogen-1.0.0 after that compress the file using tar by running this command.</p>
+<pre><code>$ tar -cvzf nitrogen-1.0.0.tar.gz nitrogen-1.0.0 
+</code></pre><p>move the file to rpmbuild/SOURCES directory.</p>
+<p>Create file called nitrogen.spec in rpmbuild/SPECS directory and insert the code below</p>
+<pre><code>%define __debug_package %{nil}
+Name:           nitrogen
+Version:        1.0.0
+Release:        1%{?dist}
+Summary:        Depedency manager for Go 
+Group:        Applications/Internet
+License:        MIT License
+URL:            https://github.com/lucachr/nitrogen
+Source0:        nitrogen-%{version}.tar.gz
+BuildArch:    noarch
+Requires:    bash
+BuildRoot:    %{tmppath}/%{name}-root
+
+
+%description
+A simple dependency manager for Go
+
+%prep
+%setup -q
+
+
+%build
+
+
+%install
+rm -rf ${RPM_BUILD_ROOT}
+mkdir -p ${RPM_BUILD_ROOT}/usr/bin
+install -m 755 nitrogen ${RPM_BUILD_ROOT}%{_bindir}
+
+%files
+%attr(755,root,root) %{_bindir}/nitrogen
+
+%clean
+rm -rf ${RPM_BUILD_ROOT}
+
+
+%changelog
+* Thu Feb  5 2015 Rizky Ariestiyansyah
+- 
+</code></pre><p>Save this spec on rpmbuild/SPECS folder and run this command </p>
+<pre><code>$ rpmbuild -ba nitrogen.spec
+</code></pre><p>Done, you’ll get your the RPMs on the rpmbuild/RPMS directory. Try install using this command </p>
+<pre><code>$ sudo rpm -Uvh &lt;RPM file location&gt;
+</code></pre><p>Terret, finsih :P</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&text=Create RPM Package for Nitrogen"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&is_video=false&description=Create RPM Package for Nitrogen"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Create RPM Package for Nitrogen&body=Check out this article: http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&title=Create RPM Package for Nitrogen"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/2019/02/27/create-rpm-package-for-nitrogen/&name=Create RPM Package for Nitrogen&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 John Doe
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
