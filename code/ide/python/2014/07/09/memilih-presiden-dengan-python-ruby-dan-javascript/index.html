@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="9 July 2014 sepertinya hari yang biasa saja bagi saya, tapi kebanyakan masyarakat di Indonesia akan merayakan pesta demokrasi, &amp;#8220;Entahlah&amp;#8221; demokrasi seperti apa itu. Pestanya adalah pemili">
+<meta name="keywords" content="Indonesia Memilih,Pilpres 2014,Presiden Javascript,Presiden Python,Presiden Ruby">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Memilih Presiden dengan Python, Ruby dan Javascript">
+<meta property="og:url" content="http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="9 July 2014 sepertinya hari yang biasa saja bagi saya, tapi kebanyakan masyarakat di Indonesia akan merayakan pesta demokrasi, &amp;#8220;Entahlah&amp;#8221; demokrasi seperti apa itu. Pestanya adalah pemili">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://oonlab.com/wp-content/uploads/2014/07/pemilu-2014.jpg">
+<meta property="og:image" content="https://oonlab.com/wp-includes/images/smilies/icon_biggrin.gif">
+<meta property="og:image" content="https://oonlab.com/wp-includes/images/smilies/icon_wink.gif">
+<meta property="og:updated_time" content="2019-02-27T03:14:13.214Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Memilih Presiden dengan Python, Ruby dan Javascript">
+<meta name="twitter:description" content="9 July 2014 sepertinya hari yang biasa saja bagi saya, tapi kebanyakan masyarakat di Indonesia akan merayakan pesta demokrasi, &amp;#8220;Entahlah&amp;#8221; demokrasi seperti apa itu. Pestanya adalah pemili">
+<meta name="twitter:image" content="http://oonlab.com/wp-content/uploads/2014/07/pemilu-2014.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Memilih Presiden dengan Python, Ruby dan Javascript</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/atom.xml" title="oonlab" type="application/atom+xml">
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/mozilla/2014/07/15/webmaker-party-starts-today-hai-indonesia/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/code/mozilla/2014/06/29/fixing-slow-touchpad-speed-on-fedora-20/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&text=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&is_video=false&description=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Memilih Presiden dengan Python, Ruby dan Javascript&body=Check out this article: http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&name=Memilih Presiden dengan Python, Ruby dan Javascript&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Python"><span class="toc-number">1.</span> <span class="toc-text">Python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ruby"><span class="toc-number">2.</span> <span class="toc-text">Ruby</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Javascript"><span class="toc-number">3.</span> <span class="toc-text">Javascript</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Memilih Presiden dengan Python, Ruby dan Javascript
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2014-07-09T02:09:09.000Z" itemprop="datePublished">2014-07-09</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/code/">Code</a> › <a class="category-link" href="/categories/code/ide/">Ide</a> › <a class="category-link" href="/categories/code/ide/python/">Python</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/indonesia-memilih/">Indonesia Memilih</a>, <a class="tag-link" href="/tags/pilpres-2014/">Pilpres 2014</a>, <a class="tag-link" href="/tags/presiden-javascript/">Presiden Javascript</a>, <a class="tag-link" href="/tags/presiden-python/">Presiden Python</a>, <a class="tag-link" href="/tags/presiden-ruby/">Presiden Ruby</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><a href="http://oonlab.com/wp-content/uploads/2014/07/pemilu-2014.jpg"><img class="aligncenter size-full wp-image-340" src="http://oonlab.com/wp-content/uploads/2014/07/pemilu-2014.jpg" alt="pemilu-2014" width="504" height="360"></a></p>
+<p><strong>9 July 2014</strong> sepertinya hari yang biasa saja bagi saya, tapi kebanyakan masyarakat di Indonesia akan merayakan pesta demokrasi, &#8220;Entahlah&#8221; demokrasi seperti apa itu. Pestanya adalah pemilihan presiden Indonesia untuk periode 2014-2019, kandidat kali ini ada 2 yaitu Prabowo-Hatta &#8220;1&#8243; dan Jokowi-JK &#8220;2&#8243;, lalu apa hubungannya dengan python, ruby, dan Javascript? buat para geeks computer atau Developer atau apalah itu yang kerjaannya mainan keyboard, kalungin flashdisk, pakai kacamata, jarang mandi dan pastinya jarang yang jomblo -__- .</p>
+<p>OK! Hubungannya simple, ini bukan soal hubungan antara pria-wanita, siang-malam, utara-selatan, jantan-betina atau apalah tapi soal kecenderungan para penggiat keyboard yang tiap hari hidupnya ditemani oleh keyboard dan siapa sangka dengan keyboard bisa memilih presiden pilihan kita? yeah sedikit aneh tapi biasa aja sih ;)) .</p>
+<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><p>Pertama Python, bahasa ular yang banyak sekali digunakan oleh developer nih, begini cara memilih presiden dengan bahasa pemrograman python</p>
+<pre class="lang:default decode:true ">onto@oonlab ~$ python
+Python 2.7.5 (default, Jun 19 2014, 12:16:39) 
+[GCC 4.8.2 20131212 (Red Hat 4.8.2-7)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; import random
+&gt;&gt;&gt; random.choice (['Prabowo-Hatta', 'Jokowi-JK'])
+'Prabowo-Hatta'
+&gt;&gt;&gt; random.choice (['Prabowo-Hatta', 'Jokowi-JK'])
+'Jokowi-JK'
+&gt;&gt;&gt; 
+</pre>
+
+<h3 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h3><p>Selanjutnya dengan menggunakan ruby (irb di console), kita bisa menggunakan command &#8220;irb&#8221; di console kita.</p>
+<pre class="lang:default decode:true ">onto@oonlab ~$ irb
+irb(main):001:0&gt; presiden = ["Prabowo-Hatta","Jokowi-Jk"]
+=&gt; ["Prabowo-Hatta", "Jokowi-Jk"]
+irb(main):002:0&gt; presiden.sample
+=&gt; "Prabowo-Hatta"
+irb(main):003:0&gt; presiden.sample
+=&gt; "Jokowi-Jk"
+irb(main):004:0&gt;</pre>
+
+<h3 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h3><p>Ini adalah bahasa bahasa yang banyak digunakan oleh pengembang web dan desktop (sekarang), saya akan memberikan contoh menggunakan nodejs bagaimana memilih presiden sesuai dengan javascript, ok run the node command</p>
+<pre class="lang:default decode:true ">onto@oonlab ~$ node
+&gt; var calonPresiden = ["Prabowo-Hatta", "Jokowi-JK"];
+undefined
+&gt; var pilihPresiden = function () {
+... var presiden = calonPresiden[Math.floor(Math.random() * 2)];
+... return presiden;
+... };
+undefined
+&gt; pilihPresiden();
+'Jokowi-JK'
+&gt; pilihPresiden();
+'Prabowo-Hatta'</pre>
+
+<p>Ok, cara diatas adalah cara yang simple menentukan pilihan presiden Anda untuk 5 tahun mendatang <img src="https://oonlab.com/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley"> , believe your keyboard hahahah karena doi selalu menemani kita<strong>  
+</strong></p>
+<div class="copy-paste-block"><br>  <span style="color: #ff0000;"><em><span class="bqQuoteLink">&#8220;We have to wonder whether digital technology, rather than making it easier to communicate, is actually doing the opposite. We now sit alone at a keyboard, firing off zeros and ones into the ether. Offices are silent</span></em>.&#8221;</span> &#8211; Tom Hodgkinson<br></div>
+
+<div class="copy-paste-block"><br></div>
+
+<div class="copy-paste-block"><br>  <strong>DISCLAIMER</strong> : Semoga pilihannya membuat negara kita maju ya <img src="https://oonlab.com/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley"><br></div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Python"><span class="toc-number">1.</span> <span class="toc-text">Python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ruby"><span class="toc-number">2.</span> <span class="toc-text">Ruby</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Javascript"><span class="toc-number">3.</span> <span class="toc-text">Javascript</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&text=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&is_video=false&description=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Memilih Presiden dengan Python, Ruby dan Javascript&body=Check out this article: http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&title=Memilih Presiden dengan Python, Ruby dan Javascript"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/code/ide/python/2014/07/09/memilih-presiden-dengan-python-ruby-dan-javascript/&name=Memilih Presiden dengan Python, Ruby dan Javascript&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Rizky Ariestiyansyah
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-48740529-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'oonlab';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
