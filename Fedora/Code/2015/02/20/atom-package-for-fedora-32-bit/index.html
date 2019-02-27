@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="This simple step to create atom package for fedora 32bit">
+<meta name="keywords" content="fedora,atom editor,32bit,code">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Atom Package for Fedora 32-bit">
+<meta property="og:url" content="http://oonlab.com/fedora/code/2015/02/20//atom-package-for-fedora-32-bit/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="This simple step to create atom package for fedora 32bit">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-27T03:17:49.151Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Atom Package for Fedora 32-bit">
+<meta name="twitter:description" content="This simple step to create atom package for fedora 32bit">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Atom Package for Fedora 32-bit</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/code/mozilla/2015/02/21/naringu-a-hacker-like-jekyll-theme/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/code/tax/2015/02/18/anakpajak-back-to-development/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&text=Atom Package for Fedora 32-bit"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&is_video=false&description=Atom Package for Fedora 32-bit"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Atom Package for Fedora 32-bit&body=Check out this article: http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&name=Atom Package for Fedora 32-bit&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-Development-tools-Fedora-Packager-and-compiler-requirement-for-development"><span class="toc-number">1.</span> <span class="toc-text">Install Development tools, Fedora Packager and compiler requirement for development</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-Node-and-Node-Package-Manager-NPM"><span class="toc-number">2.</span> <span class="toc-text">Install Node and Node Package Manager (NPM)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Clone-the-atom-repository-on-github"><span class="toc-number">3.</span> <span class="toc-text">Clone the atom  repository on github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Run-the-build"><span class="toc-number">4.</span> <span class="toc-text">Run the build</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Atom Package for Fedora 32-bit
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2015-02-20T02:09:09.000Z" itemprop="datePublished">2015-02-20</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/fedora/">fedora</a> › <a class="category-link" href="/categories/fedora/code/">code</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/32bit/">32bit</a>, <a class="tag-link" href="/tags/atom-editor/">atom editor</a>, <a class="tag-link" href="/tags/code/">code</a>, <a class="tag-link" href="/tags/fedora/">fedora</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Today I do some research about atom in Fedora 32-bit, as we know the atom editor<br>for linux is only available in 64-bit architecture, but the atom editor team provide step how to compile<br>the atom  editor in github (yeah sounds good).</p>
+<ul>
+<li><a href="https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md" target="_blank" rel="noopener">Atom build instructions in linux</a></li>
+<li><a href="https://gist.github.com/mojavelinux/225d01e621f467db1c75" target="_blank" rel="noopener">Another Way to install atom</a></li>
+</ul>
+<p>And Here is my way and what I’ve done when tried to create RPM for atom editor.</p>
+<h1 id="Install-Development-tools-Fedora-Packager-and-compiler-requirement-for-development"><a href="#Install-Development-tools-Fedora-Packager-and-compiler-requirement-for-development" class="headerlink" title="Install Development tools, Fedora Packager and compiler requirement for development"></a>Install Development tools, Fedora Packager and compiler requirement for development</h1><p>Run this command</p>
+<pre>
+$ sudo yum -y install @development-tools
+$ sudo yum -y install fedora-packager
+$ sudo yum -y install make gcc gcc-c++ glibc-devel libgnome-keyring-devel
+</pre>
+
+<p>don’t forget to add current user to group <code>mock</code> by running usermod command</p>
+<pre>
+$ sudo usermod -a -G mock yourusername
+</pre>
+
+<h1 id="Install-Node-and-Node-Package-Manager-NPM"><a href="#Install-Node-and-Node-Package-Manager-NPM" class="headerlink" title="Install Node and Node Package Manager (NPM)"></a>Install Node and Node Package Manager (NPM)</h1><p>Simply run the </p>
+<pre>
+$ sudo yum -y install nodejs npm
+</pre>
+
+<p><strong>UPDATE</strong> :<br>In my system I can’t run any npm package using sudo, so we need to create the<br>link, here is the command</p>
+<pre>
+$ sudo ln -s /usr/local/bin/node /usr/bin/node
+$ sudo ln -s /usr/local/lib/node /usr/lib/node
+$ sudo ln -s /usr/local/bin/npm /usr/bin/npm
+</pre>
+
+<h1 id="Clone-the-atom-repository-on-github"><a href="#Clone-the-atom-repository-on-github" class="headerlink" title="Clone the atom  repository on github"></a>Clone the atom  repository on github</h1><pre>
+$ git clone git@github.com:atom/atom.git
+$ cd atom
+</pre>
+
+<p>It will clone up to 100MB total file from github.</p>
+<p>After done the clone remove the gyp cause it’ll conflict with node-gyp , don’t<br>worry you can instal it later ;).</p>
+<h1 id="Run-the-build"><a href="#Run-the-build" class="headerlink" title="Run the build"></a>Run the build</h1><p>Now you can build the atom package by running <code>script/rpmbuild</code> command in atom<br>root directory, the process will create the directory <code>/tmp/atom-build</code> contain<br>folder called <code>Atom</code>,<code>icons</code> and <code>rpm</code> and also will create <code>atom.desktop</code> and<br><code>atom.spec</code> file.</p>
+<p>The installation done and RPM package has been creaed, it stored at<br><code>/tmp/atom-build/rpm</code> folder, you can install the package now.</p>
+<p>We have another step to install atom without creating the rpm package by runing this command from the root directory of atom</p>
+<pre>
+$ script/build
+$ script/grunt install
+</pre>
+
+<p>If you don’t neet waste your time to compile the app you can download the atom<br>rpm for fedora 21 (32-bit)<br><a href="https://github.com/ariestiyansyah/atom/raw/master/rpms/atom-0.182.0-0.1.fc21.i686.rpm" target="_blank" rel="noopener">here</a>.</p>
+<p>Happy coding :D</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-Development-tools-Fedora-Packager-and-compiler-requirement-for-development"><span class="toc-number">1.</span> <span class="toc-text">Install Development tools, Fedora Packager and compiler requirement for development</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-Node-and-Node-Package-Manager-NPM"><span class="toc-number">2.</span> <span class="toc-text">Install Node and Node Package Manager (NPM)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Clone-the-atom-repository-on-github"><span class="toc-number">3.</span> <span class="toc-text">Clone the atom  repository on github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Run-the-build"><span class="toc-number">4.</span> <span class="toc-text">Run the build</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&text=Atom Package for Fedora 32-bit"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&is_video=false&description=Atom Package for Fedora 32-bit"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Atom Package for Fedora 32-bit&body=Check out this article: http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&title=Atom Package for Fedora 32-bit"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/fedora/code/2015/02/20/atom-package-for-fedora-32-bit/&name=Atom Package for Fedora 32-bit&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Rizky Ariestiyansyah
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'oonlab';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>

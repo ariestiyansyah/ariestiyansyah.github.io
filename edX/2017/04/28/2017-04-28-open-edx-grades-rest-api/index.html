@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Open edX Grades API and Open edX Grading Policy API">
+<meta name="keywords" content="Open edX,REST API,Grades,OpenedX">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Open edX Grades REST API">
+<meta property="og:url" content="http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/index.html">
+<meta property="og:site_name" content="oonlab">
+<meta property="og:description" content="Open edX Grades API and Open edX Grading Policy API">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-27T03:25:47.043Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Open edX Grades REST API">
+<meta name="twitter:description" content="Open edX Grades API and Open edX Grading Policy API">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Open edX Grades REST API</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/life/2017/05/02/2017-05-02-dipuji-jangan-terbang-dicaci-jangan-tumbang/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/edX/2017/03/23/2017-03-23-open-edx-instructor-error/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&text=Open edX Grades REST API"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&is_video=false&description=Open edX Grades REST API"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Open edX Grades REST API&body=Check out this article: http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&name=Open edX Grades REST API&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#User-Grades-API-Resource"><span class="toc-number">1.</span> <span class="toc-text">User Grades API Resource</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Grades-Policy-API-Resource"><span class="toc-number">2.</span> <span class="toc-text">Grades Policy API Resource</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Open edX Grades REST API
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">ariestiyansyah</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-04-28T02:09:09.000Z" itemprop="datePublished">2017-04-28</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/edX/">edX</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/Grades/">Grades</a>, <a class="tag-link" href="/tags/Open-edX/">Open edX</a>, <a class="tag-link" href="/tags/OpenedX/">OpenedX</a>, <a class="tag-link" href="/tags/REST-API/">REST API</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Disclaimer: Open edX Grades API is under development, it&apos;s available only on Ficus release.</span><br></pre></td></tr></table></figure>
+<p>User Grades API support the following resources, tasks, methods, and endpoints</p>
+<h2 id="User-Grades-API-Resource"><a href="#User-Grades-API-Resource" class="headerlink" title="User Grades API Resource"></a>User Grades API Resource</h2><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Method</th>
+<th>Endpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Get user grade information</td>
+<td>GET</td>
+<td>/api/grades/v0/course_grade/{course_id}/users/?username={username}</td>
+</tr>
+</tbody>
+</table>
+<p>The endpoint to get the details for a course is<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">api/grades/v0/course_grade/&#123;course_id&#125;/users/?username=&#123;username&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>Use Case</strong></p>
+<ul>
+<li>Get the current course grades for users in a course.<br>Currently, getting the grade for only an individual user is supported.</li>
+</ul>
+<p><strong>Example Request</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/grades/v0/course_grade/&#123;course_id&#125;/users/?username=&#123;username&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>GET Parameters</strong></p>
+<p>A GET request must include the following parameters.</p>
+<ul>
+<li>course_id: A string representation of a Course ID.</li>
+<li>username: A string representation of a user’s username.</li>
+</ul>
+<p><strong>GET Response Values</strong></p>
+<p>If the request for information about the course grade is successful, an HTTP 200 “OK” response is returned.<br>The HTTP 200 response has the following values.</p>
+<ul>
+<li>username: A string representation of a user’s username passed in the request.</li>
+<li>course_id: A string representation of a Course ID.</li>
+<li>passed: Boolean representing whether the course has been passed according the course’s grading policy.</li>
+<li>percent: A float representing the overall grade for the course</li>
+<li>letter_grade: A letter grade as defined in grading_policy (e.g. ‘A’ ‘B’ ‘C’ for 6.002x) or None</li>
+</ul>
+<p><strong>Example GET Response</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    &quot;username&quot;: &quot;bob&quot;,</span><br><span class="line">    &quot;course_key&quot;: &quot;edX/DemoX/Demo_Course&quot;,</span><br><span class="line">    &quot;passed&quot;: false,</span><br><span class="line">    &quot;percent&quot;: 0.03,</span><br><span class="line">    &quot;letter_grade&quot;: None,</span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+<h2 id="Grades-Policy-API-Resource"><a href="#Grades-Policy-API-Resource" class="headerlink" title="Grades Policy API Resource"></a>Grades Policy API Resource</h2><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Method</th>
+<th>Endoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Get course grading policy</td>
+<td>GET</td>
+<td>/api/grades/v0/policy/{course_id}/</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Use Case</strong></p>
+<ul>
+<li>Get the course grading policy.</li>
+</ul>
+<p><strong>Example requests</strong>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/grades/v0/policy/&#123;course_id&#125;/</span><br></pre></td></tr></table></figure>
+<p><strong>Response Values</strong></p>
+<ul>
+<li>assignment_type: The type of the assignment, as configured by course<br>staff. For example, course staff might make the assignment types Homework, Quiz, and Exam.</li>
+<li>count: The number of assignments of the type.</li>
+<li>dropped: Number of assignments of the type that are dropped.</li>
+<li>weight: The weight, or effect, of the assignment type on the learner’s final grade.</li>
+</ul>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#User-Grades-API-Resource"><span class="toc-number">1.</span> <span class="toc-text">User Grades API Resource</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Grades-Policy-API-Resource"><span class="toc-number">2.</span> <span class="toc-text">Grades Policy API Resource</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&text=Open edX Grades REST API"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&is_video=false&description=Open edX Grades REST API"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Open edX Grades REST API&body=Check out this article: http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&title=Open edX Grades REST API"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://oonlab.com/edX/2017/04/28/2017-04-28-open-edx-grades-rest-api/&name=Open edX Grades REST API&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Rizky Ariestiyansyah
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">archives</a></li>
+         
+          <li><a href="https://github.com/ariestiyansyah">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'oonlab';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
